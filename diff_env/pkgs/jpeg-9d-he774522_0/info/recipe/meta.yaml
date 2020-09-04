@@ -1,0 +1,55 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Mon Jun  1 14:22:12 2020
+# ------------------------------------------------
+
+package:
+    name: jpeg
+    version: 9d
+source:
+    patches:
+        - CMakeLists.txt.patch
+    sha256: 99cb50e48a4556bc571dadd27931955ff458aae32f68c4d9c39d624693f69c32
+    url: http://www.ijg.org/files/jpegsrc.v9d.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - jpeg >=9d,<10a
+    string: he774522_0
+requirements:
+    build:
+        - cmake 3.17.0 he025d50_0
+        - m2w64-gcc-libgfortran 5.3.0 6
+        - m2w64-gcc-libs 5.3.0 7
+        - m2w64-gcc-libs-core 5.3.0 7
+        - m2w64-gmp 6.1.0 2
+        - m2w64-libwinpthread-git 5.0.0.4634.697f757 2
+        - make 4.3 h301d43c_0
+        - msys2-conda-epoch 20160418 1
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+        - vs2017_win-64 19.16.27038 h2e3bad8_2
+        - vswhere 2.7.1 h21ff451_0
+    host:
+        - vc 14.1 h869be7e_1
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+    run:
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012
+test:
+    commands:
+        - djpeg -dct int -ppm -outfile testout.ppm testorig.jpg
+    files:
+        - testorig.jpg
+about:
+    home: http://www.ijg.org/
+    license: IJG
+    license_file: D:\a\1\s\recipe/LICENSE.txt
+    summary: read/write jpeg COM, EXIF, IPTC medata
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - gillins
+        - jakirkham
+        - msarahan
+        - ocefpaf

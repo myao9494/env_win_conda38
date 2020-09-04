@@ -1,0 +1,8 @@
+{
+  "c_compiler": "vs2015",
+  "cxx_compiler": "vs2015",
+  "vtk": "8.2.0",
+  "zlib": "1.2",
+  "boost_cpp": "1.72",
+  "occt": "7.4"
+}

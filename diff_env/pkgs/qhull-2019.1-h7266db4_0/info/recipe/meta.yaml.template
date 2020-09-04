@@ -1,0 +1,55 @@
+{% set name = "qhull" %}
+{% set version = "2019.1" %}
+{% set sha256 = "cf7235b76244595a86b9407b906e3259502b744528318f2178155e5899d6cf9f" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ version }}.tar.gz
+  url: https://github.com/qhull/{{ name }}/archive/{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+  patches:
+    - modified_output_path.patch  # [osx]
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - {{ compiler('cxx') }}
+    - cmake
+    - ninja
+  host:
+  run:
+
+test:
+  commands:
+    # Verify libraries.
+    {% set qhull_libs = ["qhullcpp", "qhullstatic", "qhullstatic_r"] %}
+    {% for each_qhull_lib in qhull_libs %}
+    - test -f $PREFIX/lib/lib{{ each_qhull_lib }}.a                           # [unix]
+    - if not exist %PREFIX%\\Library\\lib\\{{ each_qhull_lib }}.lib exit 1    # [win]
+    {% endfor %}
+    {% set qhull_dynlibs = ["qhull", "qhull_r", "qhull_p"] %}
+    {% for each_qhull_lib in qhull_dynlibs %}
+    - test -f $PREFIX/lib/lib{{ each_qhull_lib }}${SHLIB_EXT}                 # [unix]
+    - if not exist %PREFIX%\\Library\\lib\\{{ each_qhull_lib }}.lib exit 1    # [win]
+    - if not exist %PREFIX%\\Library\\bin\\{{ each_qhull_lib }}.dll exit 1    # [win]
+    {% endfor %}
+    - rbox c P0 D2 | qvoronoi s o
+    - rbox c | qconvex FQ FV n | qhalf Fp
+    - rbox 1000 D3 | qhull C-1e-4 FO Ts
+
+about:
+  home: http://www.qhull.org/
+  license: Qhull
+  license_file: COPYING.txt
+  summary: 'Qhull computes the convex hull'
+  doc_url: http://www.qhull.org/html
+  dev_url: https://github.com/qhull/qhull
+
+extra:
+  recipe-maintainers:
+    - sirokujira

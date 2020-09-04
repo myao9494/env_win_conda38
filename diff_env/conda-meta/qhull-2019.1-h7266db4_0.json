@@ -1,0 +1,1079 @@
+{
+  "build": "h7266db4_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "extracted_package_dir": "C:\\Users\\mineo\\Anaconda38\\pkgs\\qhull-2019.1-h7266db4_0",
+  "features": "",
+  "files": [
+    "Library/bin/qconvex.exe",
+    "Library/bin/qdelaunay.exe",
+    "Library/bin/qhalf.exe",
+    "Library/bin/qhull.dll",
+    "Library/bin/qhull.exe",
+    "Library/bin/qhull_p.dll",
+    "Library/bin/qhull_r.dll",
+    "Library/bin/qvoronoi.exe",
+    "Library/bin/rbox.exe",
+    "Library/doc/Announce.txt",
+    "Library/doc/COPYING.txt",
+    "Library/doc/README.txt",
+    "Library/doc/REGISTER.txt",
+    "Library/doc/index.htm",
+    "Library/doc/normal_voronoi_knauss_oesterle.jpg",
+    "Library/doc/qconvex.htm",
+    "Library/doc/qdelau_f.htm",
+    "Library/doc/qdelaun.htm",
+    "Library/doc/qh--4d.gif",
+    "Library/doc/qh--cone.gif",
+    "Library/doc/qh--dt.gif",
+    "Library/doc/qh--geom.gif",
+    "Library/doc/qh--half.gif",
+    "Library/doc/qh--rand.gif",
+    "Library/doc/qh-code.htm",
+    "Library/doc/qh-eg.htm",
+    "Library/doc/qh-faq.htm",
+    "Library/doc/qh-get.htm",
+    "Library/doc/qh-impre.htm",
+    "Library/doc/qh-optc.htm",
+    "Library/doc/qh-optf.htm",
+    "Library/doc/qh-optg.htm",
+    "Library/doc/qh-opto.htm",
+    "Library/doc/qh-optp.htm",
+    "Library/doc/qh-optq.htm",
+    "Library/doc/qh-optt.htm",
+    "Library/doc/qh-quick.htm",
+    "Library/doc/qh_findbestfacet-drielsma.pdf",
+    "Library/doc/qhalf.htm",
+    "Library/doc/qhull-cpp.xml",
+    "Library/doc/qhull.htm",
+    "Library/doc/qhull.man",
+    "Library/doc/qhull.txt",
+    "Library/doc/qvoron_f.htm",
+    "Library/doc/qvoronoi.htm",
+    "Library/doc/rbox.htm",
+    "Library/doc/rbox.man",
+    "Library/doc/rbox.txt",
+    "Library/include/libqhull/DEPRECATED.txt",
+    "Library/include/libqhull/geom.h",
+    "Library/include/libqhull/index.htm",
+    "Library/include/libqhull/io.h",
+    "Library/include/libqhull/libqhull.h",
+    "Library/include/libqhull/mem.h",
+    "Library/include/libqhull/merge.h",
+    "Library/include/libqhull/poly.h",
+    "Library/include/libqhull/qh-geom.htm",
+    "Library/include/libqhull/qh-globa.htm",
+    "Library/include/libqhull/qh-io.htm",
+    "Library/include/libqhull/qh-mem.htm",
+    "Library/include/libqhull/qh-merge.htm",
+    "Library/include/libqhull/qh-poly.htm",
+    "Library/include/libqhull/qh-qhull.htm",
+    "Library/include/libqhull/qh-set.htm",
+    "Library/include/libqhull/qh-stat.htm",
+    "Library/include/libqhull/qh-user.htm",
+    "Library/include/libqhull/qhull_a.h",
+    "Library/include/libqhull/qset.h",
+    "Library/include/libqhull/random.h",
+    "Library/include/libqhull/stat.h",
+    "Library/include/libqhull/user.h",
+    "Library/include/libqhull_r/geom_r.h",
+    "Library/include/libqhull_r/index.htm",
+    "Library/include/libqhull_r/io_r.h",
+    "Library/include/libqhull_r/libqhull_r.h",
+    "Library/include/libqhull_r/mem_r.h",
+    "Library/include/libqhull_r/merge_r.h",
+    "Library/include/libqhull_r/poly_r.h",
+    "Library/include/libqhull_r/qh-geom_r.htm",
+    "Library/include/libqhull_r/qh-globa_r.htm",
+    "Library/include/libqhull_r/qh-io_r.htm",
+    "Library/include/libqhull_r/qh-mem_r.htm",
+    "Library/include/libqhull_r/qh-merge_r.htm",
+    "Library/include/libqhull_r/qh-poly_r.htm",
+    "Library/include/libqhull_r/qh-qhull_r.htm",
+    "Library/include/libqhull_r/qh-set_r.htm",
+    "Library/include/libqhull_r/qh-stat_r.htm",
+    "Library/include/libqhull_r/qh-user_r.htm",
+    "Library/include/libqhull_r/qhull_ra.h",
+    "Library/include/libqhull_r/qset_r.h",
+    "Library/include/libqhull_r/random_r.h",
+    "Library/include/libqhull_r/stat_r.h",
+    "Library/include/libqhull_r/user_r.h",
+    "Library/include/libqhullcpp/Coordinates.h",
+    "Library/include/libqhullcpp/PointCoordinates.h",
+    "Library/include/libqhullcpp/Qhull.h",
+    "Library/include/libqhullcpp/QhullError.h",
+    "Library/include/libqhullcpp/QhullFacet.h",
+    "Library/include/libqhullcpp/QhullFacetList.h",
+    "Library/include/libqhullcpp/QhullFacetSet.h",
+    "Library/include/libqhullcpp/QhullHyperplane.h",
+    "Library/include/libqhullcpp/QhullIterator.h",
+    "Library/include/libqhullcpp/QhullLinkedList.h",
+    "Library/include/libqhullcpp/QhullPoint.h",
+    "Library/include/libqhullcpp/QhullPointSet.h",
+    "Library/include/libqhullcpp/QhullPoints.h",
+    "Library/include/libqhullcpp/QhullQh.h",
+    "Library/include/libqhullcpp/QhullRidge.h",
+    "Library/include/libqhullcpp/QhullSet.h",
+    "Library/include/libqhullcpp/QhullSets.h",
+    "Library/include/libqhullcpp/QhullStat.h",
+    "Library/include/libqhullcpp/QhullVertex.h",
+    "Library/include/libqhullcpp/QhullVertexSet.h",
+    "Library/include/libqhullcpp/RboxPoints.h",
+    "Library/include/libqhullcpp/RoadError.h",
+    "Library/include/libqhullcpp/RoadLogEvent.h",
+    "Library/include/libqhullcpp/RoadTest.h",
+    "Library/include/libqhullcpp/functionObjects.h",
+    "Library/lib/cmake/Qhull/QhullConfig.cmake",
+    "Library/lib/cmake/Qhull/QhullConfigVersion.cmake",
+    "Library/lib/cmake/Qhull/QhullTargets-release.cmake",
+    "Library/lib/cmake/Qhull/QhullTargets.cmake",
+    "Library/lib/qhull.lib",
+    "Library/lib/qhull_p.lib",
+    "Library/lib/qhull_r.lib",
+    "Library/lib/qhullcpp.lib",
+    "Library/lib/qhullstatic.lib",
+    "Library/lib/qhullstatic_r.lib",
+    "Library/man/man1/qhull.1",
+    "Library/man/man1/rbox.1",
+    ".nonadmin"
+  ],
+  "fn": "qhull-2019.1-h7266db4_0.tar.bz2",
+  "license": "Qhull",
+  "link": {
+    "source": "C:\\Users\\mineo\\Anaconda38\\pkgs\\qhull-2019.1-h7266db4_0",
+    "type": 1
+  },
+  "md5": "2c7e2d6187e4066207d48375c44827c4",
+  "name": "qhull",
+  "package_tarball_full_path": "C:\\Users\\mineo\\Anaconda38\\pkgs\\qhull-2019.1-h7266db4_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/qconvex.exe",
+        "path_type": "hardlink",
+        "sha256": "658a09aec27fdfa9ab89a7d03f64f356d2d05b6affc52161792f146283bb6c15",
+        "sha256_in_prefix": "658a09aec27fdfa9ab89a7d03f64f356d2d05b6affc52161792f146283bb6c15",
+        "size_in_bytes": 384000
+      },
+      {
+        "_path": "Library/bin/qdelaunay.exe",
+        "path_type": "hardlink",
+        "sha256": "fb35fae61170b6da70acc4e7159dcce3cc05f684b612ed07944252ed091a2060",
+        "sha256_in_prefix": "fb35fae61170b6da70acc4e7159dcce3cc05f684b612ed07944252ed091a2060",
+        "size_in_bytes": 383488
+      },
+      {
+        "_path": "Library/bin/qhalf.exe",
+        "path_type": "hardlink",
+        "sha256": "b49537899e9a88c2aae2a28d8833dee07a3db6bb1154b432420aa53d0c48ebfa",
+        "sha256_in_prefix": "b49537899e9a88c2aae2a28d8833dee07a3db6bb1154b432420aa53d0c48ebfa",
+        "size_in_bytes": 383488
+      },
+      {
+        "_path": "Library/bin/qhull.dll",
+        "path_type": "hardlink",
+        "sha256": "321a51ff479331b7df920aae55b1b2dfb097000ee4ac62e575daf0971c67fab3",
+        "sha256_in_prefix": "321a51ff479331b7df920aae55b1b2dfb097000ee4ac62e575daf0971c67fab3",
+        "size_in_bytes": 424448
+      },
+      {
+        "_path": "Library/bin/qhull.exe",
+        "path_type": "hardlink",
+        "sha256": "9ada9304003a81a518c6a7b5f944dfae62ad79308e211a66e15f651f011a8ce0",
+        "sha256_in_prefix": "9ada9304003a81a518c6a7b5f944dfae62ad79308e211a66e15f651f011a8ce0",
+        "size_in_bytes": 400384
+      },
+      {
+        "_path": "Library/bin/qhull_p.dll",
+        "path_type": "hardlink",
+        "sha256": "b1a8bf0d4d5bed6b5169783778cf4b7f1eafeb77fd7921556c8799c1f75c7c9c",
+        "sha256_in_prefix": "b1a8bf0d4d5bed6b5169783778cf4b7f1eafeb77fd7921556c8799c1f75c7c9c",
+        "size_in_bytes": 457216
+      },
+      {
+        "_path": "Library/bin/qhull_r.dll",
+        "path_type": "hardlink",
+        "sha256": "a1397ba719bc53f56408758c6a6544ab2fdf73f773869e5c539b01def519b88c",
+        "sha256_in_prefix": "a1397ba719bc53f56408758c6a6544ab2fdf73f773869e5c539b01def519b88c",
+        "size_in_bytes": 438272
+      },
+      {
+        "_path": "Library/bin/qvoronoi.exe",
+        "path_type": "hardlink",
+        "sha256": "92515a1765722b2e60bb89d541ccc05cd273fdf56893152f4ce633c227519885",
+        "sha256_in_prefix": "92515a1765722b2e60bb89d541ccc05cd273fdf56893152f4ce633c227519885",
+        "size_in_bytes": 382976
+      },
+      {
+        "_path": "Library/bin/rbox.exe",
+        "path_type": "hardlink",
+        "sha256": "bb4229b2f2b3b4ad9aee3ca8e6e87b273312a34a963d63ae770d4df52d69300f",
+        "sha256_in_prefix": "bb4229b2f2b3b4ad9aee3ca8e6e87b273312a34a963d63ae770d4df52d69300f",
+        "size_in_bytes": 32768
+      },
+      {
+        "_path": "Library/doc/Announce.txt",
+        "path_type": "hardlink",
+        "sha256": "ab50b27da622737aa542f24bc84772623e32bede8f1c8a89d3e301ae41f0d024",
+        "sha256_in_prefix": "ab50b27da622737aa542f24bc84772623e32bede8f1c8a89d3e301ae41f0d024",
+        "size_in_bytes": 2226
+      },
+      {
+        "_path": "Library/doc/COPYING.txt",
+        "path_type": "hardlink",
+        "sha256": "34db0c0c4f931861d720555c9cd7a2e228d1290ba29af0f2ee80c41bb2038afb",
+        "sha256_in_prefix": "34db0c0c4f931861d720555c9cd7a2e228d1290ba29af0f2ee80c41bb2038afb",
+        "size_in_bytes": 1635
+      },
+      {
+        "_path": "Library/doc/README.txt",
+        "path_type": "hardlink",
+        "sha256": "9dc3a8c7c4a9d93f59e416474cc5262d3fb8a3b3431661a80bb87a870f265b48",
+        "sha256_in_prefix": "9dc3a8c7c4a9d93f59e416474cc5262d3fb8a3b3431661a80bb87a870f265b48",
+        "size_in_bytes": 24557
+      },
+      {
+        "_path": "Library/doc/REGISTER.txt",
+        "path_type": "hardlink",
+        "sha256": "1e33fa52e6acc47fe5480faab9e6669dbf582472dccb38c4316af977d5d72109",
+        "sha256_in_prefix": "1e33fa52e6acc47fe5480faab9e6669dbf582472dccb38c4316af977d5d72109",
+        "size_in_bytes": 958
+      },
+      {
+        "_path": "Library/doc/index.htm",
+        "path_type": "hardlink",
+        "sha256": "2fd9589e34a79afb1547c93978f108ee5ebf6cecfef4a680c7bcdb9dba2891c9",
+        "sha256_in_prefix": "2fd9589e34a79afb1547c93978f108ee5ebf6cecfef4a680c7bcdb9dba2891c9",
+        "size_in_bytes": 14761
+      },
+      {
+        "_path": "Library/doc/normal_voronoi_knauss_oesterle.jpg",
+        "path_type": "hardlink",
+        "sha256": "471ceca427d3cd46a123c3308de88ce44e5ad765451197676b403620bc96fdc0",
+        "sha256_in_prefix": "471ceca427d3cd46a123c3308de88ce44e5ad765451197676b403620bc96fdc0",
+        "size_in_bytes": 23924
+      },
+      {
+        "_path": "Library/doc/qconvex.htm",
+        "path_type": "hardlink",
+        "sha256": "b45ab7fa3aa1c0b750230118d2e7f27cca9b506e408f1379a8fd2e31e753988f",
+        "sha256_in_prefix": "b45ab7fa3aa1c0b750230118d2e7f27cca9b506e408f1379a8fd2e31e753988f",
+        "size_in_bytes": 27551
+      },
+      {
+        "_path": "Library/doc/qdelau_f.htm",
+        "path_type": "hardlink",
+        "sha256": "e322558b1685c45650636723481ff00a414403880ca8bae8ec55acb5b835b62e",
+        "sha256_in_prefix": "e322558b1685c45650636723481ff00a414403880ca8bae8ec55acb5b835b62e",
+        "size_in_bytes": 18522
+      },
+      {
+        "_path": "Library/doc/qdelaun.htm",
+        "path_type": "hardlink",
+        "sha256": "e478e1d183972c79f7eb22bc2bee225b353df4811f4f685c490fe3105a551440",
+        "sha256_in_prefix": "e478e1d183972c79f7eb22bc2bee225b353df4811f4f685c490fe3105a551440",
+        "size_in_bytes": 28240
+      },
+      {
+        "_path": "Library/doc/qh--4d.gif",
+        "path_type": "hardlink",
+        "sha256": "db0897ee6fd2e14875c8a37cf8e942baacb4e8f8985c810af59d3c63f1fa9a11",
+        "sha256_in_prefix": "db0897ee6fd2e14875c8a37cf8e942baacb4e8f8985c810af59d3c63f1fa9a11",
+        "size_in_bytes": 4372
+      },
+      {
+        "_path": "Library/doc/qh--cone.gif",
+        "path_type": "hardlink",
+        "sha256": "f4f6d2b669f7a296ce5f1e8b5ec0923105b6b8148fedecbdc059f9da263b3f3d",
+        "sha256_in_prefix": "f4f6d2b669f7a296ce5f1e8b5ec0923105b6b8148fedecbdc059f9da263b3f3d",
+        "size_in_bytes": 2946
+      },
+      {
+        "_path": "Library/doc/qh--dt.gif",
+        "path_type": "hardlink",
+        "sha256": "9465ab94c86f14bcf17ffabeb8dea4730c4ea8f7aa03f23b001d2626610c8919",
+        "sha256_in_prefix": "9465ab94c86f14bcf17ffabeb8dea4730c4ea8f7aa03f23b001d2626610c8919",
+        "size_in_bytes": 3772
+      },
+      {
+        "_path": "Library/doc/qh--geom.gif",
+        "path_type": "hardlink",
+        "sha256": "0b893b7ece9f9c298c2768bbab58e5d231b352f8669542dab68d2406266527ec",
+        "sha256_in_prefix": "0b893b7ece9f9c298c2768bbab58e5d231b352f8669542dab68d2406266527ec",
+        "size_in_bytes": 318
+      },
+      {
+        "_path": "Library/doc/qh--half.gif",
+        "path_type": "hardlink",
+        "sha256": "ba2657fa458a6864234a20fd419f4975c96ac09ef71a76950b132ae6d15238be",
+        "sha256_in_prefix": "ba2657fa458a6864234a20fd419f4975c96ac09ef71a76950b132ae6d15238be",
+        "size_in_bytes": 2537
+      },
+      {
+        "_path": "Library/doc/qh--rand.gif",
+        "path_type": "hardlink",
+        "sha256": "2a356cef8d98f3906a57f9117549369adc9d4b31fe6fc2c0f4dce6f2dce5d820",
+        "sha256_in_prefix": "2a356cef8d98f3906a57f9117549369adc9d4b31fe6fc2c0f4dce6f2dce5d820",
+        "size_in_bytes": 3875
+      },
+      {
+        "_path": "Library/doc/qh-code.htm",
+        "path_type": "hardlink",
+        "sha256": "9bfa2aa7d83d9e5cb34596368a42e5e358c6473ae05b5dc4f8709300be7b81f3",
+        "sha256_in_prefix": "9bfa2aa7d83d9e5cb34596368a42e5e358c6473ae05b5dc4f8709300be7b81f3",
+        "size_in_bytes": 76795
+      },
+      {
+        "_path": "Library/doc/qh-eg.htm",
+        "path_type": "hardlink",
+        "sha256": "4a82376bb5f648c8e478445765525da55a29b1ae50a336b48a7e49a538c8123e",
+        "sha256_in_prefix": "4a82376bb5f648c8e478445765525da55a29b1ae50a336b48a7e49a538c8123e",
+        "size_in_bytes": 31255
+      },
+      {
+        "_path": "Library/doc/qh-faq.htm",
+        "path_type": "hardlink",
+        "sha256": "a688d48149528226a1cb5663be08fb621c6eb2493ccf6e2d70f448fbd7f04255",
+        "sha256_in_prefix": "a688d48149528226a1cb5663be08fb621c6eb2493ccf6e2d70f448fbd7f04255",
+        "size_in_bytes": 56679
+      },
+      {
+        "_path": "Library/doc/qh-get.htm",
+        "path_type": "hardlink",
+        "sha256": "25beae09bfb5bc54c73ecb4d9b768dfe8292f0369b5c2b4d43fdc6ab4424eaa0",
+        "sha256_in_prefix": "25beae09bfb5bc54c73ecb4d9b768dfe8292f0369b5c2b4d43fdc6ab4424eaa0",
+        "size_in_bytes": 5978
+      },
+      {
+        "_path": "Library/doc/qh-impre.htm",
+        "path_type": "hardlink",
+        "sha256": "6de79a0ab1664e3b3387f8a8049edee2d0be230184d4df834b60dd3dff595452",
+        "sha256_in_prefix": "6de79a0ab1664e3b3387f8a8049edee2d0be230184d4df834b60dd3dff595452",
+        "size_in_bytes": 39834
+      },
+      {
+        "_path": "Library/doc/qh-optc.htm",
+        "path_type": "hardlink",
+        "sha256": "5d30b3627ace914f4830f8339bd63d38b57ee5d4558c792880214c3f403415ec",
+        "sha256_in_prefix": "5d30b3627ace914f4830f8339bd63d38b57ee5d4558c792880214c3f403415ec",
+        "size_in_bytes": 12201
+      },
+      {
+        "_path": "Library/doc/qh-optf.htm",
+        "path_type": "hardlink",
+        "sha256": "3fb391df1bb18aa668737d621e1378743a8d3a1bb9c5e3b7245b34d3ab65fc1a",
+        "sha256_in_prefix": "3fb391df1bb18aa668737d621e1378743a8d3a1bb9c5e3b7245b34d3ab65fc1a",
+        "size_in_bytes": 31876
+      },
+      {
+        "_path": "Library/doc/qh-optg.htm",
+        "path_type": "hardlink",
+        "sha256": "2975e82bd8a8d576de07b7de5af6cf9972919791bcce47860038462fab60ea32",
+        "sha256_in_prefix": "2975e82bd8a8d576de07b7de5af6cf9972919791bcce47860038462fab60ea32",
+        "size_in_bytes": 11303
+      },
+      {
+        "_path": "Library/doc/qh-opto.htm",
+        "path_type": "hardlink",
+        "sha256": "c6f5fa261a65cb7db0a65b4396c26b95f7c17a0d23cad8523e6972a3216199a7",
+        "sha256_in_prefix": "c6f5fa261a65cb7db0a65b4396c26b95f7c17a0d23cad8523e6972a3216199a7",
+        "size_in_bytes": 15477
+      },
+      {
+        "_path": "Library/doc/qh-optp.htm",
+        "path_type": "hardlink",
+        "sha256": "2e131c87a031cc7415b353b3277157a43d05a621df4e0af0809faef5ab7d18a4",
+        "sha256_in_prefix": "2e131c87a031cc7415b353b3277157a43d05a621df4e0af0809faef5ab7d18a4",
+        "size_in_bytes": 10194
+      },
+      {
+        "_path": "Library/doc/qh-optq.htm",
+        "path_type": "hardlink",
+        "sha256": "346e786127fbea34937c5670a43630be0d92806a798748c27a13f4a550647790",
+        "sha256_in_prefix": "346e786127fbea34937c5670a43630be0d92806a798748c27a13f4a550647790",
+        "size_in_bytes": 37746
+      },
+      {
+        "_path": "Library/doc/qh-optt.htm",
+        "path_type": "hardlink",
+        "sha256": "b2251a15efbde7f462ed2a7db35af59f6e17d76dd22585e980444fc4ce9db002",
+        "sha256_in_prefix": "b2251a15efbde7f462ed2a7db35af59f6e17d76dd22585e980444fc4ce9db002",
+        "size_in_bytes": 13203
+      },
+      {
+        "_path": "Library/doc/qh-quick.htm",
+        "path_type": "hardlink",
+        "sha256": "3bf815c16bf574782678d1d85a8293273f91e91abce3a1bde26b6568bb7b0c64",
+        "sha256_in_prefix": "3bf815c16bf574782678d1d85a8293273f91e91abce3a1bde26b6568bb7b0c64",
+        "size_in_bytes": 18743
+      },
+      {
+        "_path": "Library/doc/qh_findbestfacet-drielsma.pdf",
+        "path_type": "hardlink",
+        "sha256": "29b49bb6c6c775917a7e65801495372f15581e78b5cd9b3740d782f510b01b1e",
+        "sha256_in_prefix": "29b49bb6c6c775917a7e65801495372f15581e78b5cd9b3740d782f510b01b1e",
+        "size_in_bytes": 50192
+      },
+      {
+        "_path": "Library/doc/qhalf.htm",
+        "path_type": "hardlink",
+        "sha256": "02179ef20d3714b6bcfbde61d927e6afa590219f30bafbe084fda15726cd1402",
+        "sha256_in_prefix": "02179ef20d3714b6bcfbde61d927e6afa590219f30bafbe084fda15726cd1402",
+        "size_in_bytes": 29360
+      },
+      {
+        "_path": "Library/doc/qhull-cpp.xml",
+        "path_type": "hardlink",
+        "sha256": "99ff6d6cc88d585e01b337f5ed5f64107d3ce7ab2ef8a54442b386289730d0e0",
+        "sha256_in_prefix": "99ff6d6cc88d585e01b337f5ed5f64107d3ce7ab2ef8a54442b386289730d0e0",
+        "size_in_bytes": 11954
+      },
+      {
+        "_path": "Library/doc/qhull.htm",
+        "path_type": "hardlink",
+        "sha256": "1b589762f1d06717a35a6bdec747cb400458af7006562bae1bd523cebe371fb2",
+        "sha256_in_prefix": "1b589762f1d06717a35a6bdec747cb400458af7006562bae1bd523cebe371fb2",
+        "size_in_bytes": 19282
+      },
+      {
+        "_path": "Library/doc/qhull.man",
+        "path_type": "hardlink",
+        "sha256": "214f1ef241bdd4bdce2a838070ba9217efc78cb5b07800b2a46037e8fcbe1830",
+        "sha256_in_prefix": "214f1ef241bdd4bdce2a838070ba9217efc78cb5b07800b2a46037e8fcbe1830",
+        "size_in_bytes": 39219
+      },
+      {
+        "_path": "Library/doc/qhull.txt",
+        "path_type": "hardlink",
+        "sha256": "ee0d4b4e680f8ed34a15366c427069a8b275149e6dbba8b33d129aa96db3c6aa",
+        "sha256_in_prefix": "ee0d4b4e680f8ed34a15366c427069a8b275149e6dbba8b33d129aa96db3c6aa",
+        "size_in_bytes": 50953
+      },
+      {
+        "_path": "Library/doc/qvoron_f.htm",
+        "path_type": "hardlink",
+        "sha256": "5f4d0e282774dc70d17b70c0d75fd8f9060ca9aaaf256cf64f4d70179b7e3c98",
+        "sha256_in_prefix": "5f4d0e282774dc70d17b70c0d75fd8f9060ca9aaaf256cf64f4d70179b7e3c98",
+        "size_in_bytes": 17663
+      },
+      {
+        "_path": "Library/doc/qvoronoi.htm",
+        "path_type": "hardlink",
+        "sha256": "133de34fc3d7cf7a6fd3e3860f30a3c71a460dfd16ccc5954f1f65d5f97c544a",
+        "sha256_in_prefix": "133de34fc3d7cf7a6fd3e3860f30a3c71a460dfd16ccc5954f1f65d5f97c544a",
+        "size_in_bytes": 28865
+      },
+      {
+        "_path": "Library/doc/rbox.htm",
+        "path_type": "hardlink",
+        "sha256": "b18a69b19deed755dd2c2f39b2173d850759290032dea5e68f9318a3169f33cb",
+        "sha256_in_prefix": "b18a69b19deed755dd2c2f39b2173d850759290032dea5e68f9318a3169f33cb",
+        "size_in_bytes": 9741
+      },
+      {
+        "_path": "Library/doc/rbox.man",
+        "path_type": "hardlink",
+        "sha256": "9d9a4422c91c8ede78eecc11cb386f0657375aa0ab3121e5fc8aa593d98f6e1c",
+        "sha256_in_prefix": "9d9a4422c91c8ede78eecc11cb386f0657375aa0ab3121e5fc8aa593d98f6e1c",
+        "size_in_bytes": 4389
+      },
+      {
+        "_path": "Library/doc/rbox.txt",
+        "path_type": "hardlink",
+        "sha256": "72222910569d7058689d48b3a726df54ff3f1eb8f622c04d75ca7c41e4e31568",
+        "sha256_in_prefix": "72222910569d7058689d48b3a726df54ff3f1eb8f622c04d75ca7c41e4e31568",
+        "size_in_bytes": 5218
+      },
+      {
+        "_path": "Library/include/libqhull/DEPRECATED.txt",
+        "path_type": "hardlink",
+        "sha256": "5adf1d5863fd482c833fc53d17d8b235dac0577ff61bfb3fabb8e336f0e35df4",
+        "sha256_in_prefix": "5adf1d5863fd482c833fc53d17d8b235dac0577ff61bfb3fabb8e336f0e35df4",
+        "size_in_bytes": 1379
+      },
+      {
+        "_path": "Library/include/libqhull/geom.h",
+        "path_type": "hardlink",
+        "sha256": "bea0eb587d5d40edf8e3524384fc8b3016fbfd9495731b6c48aa3c17a5334718",
+        "sha256_in_prefix": "bea0eb587d5d40edf8e3524384fc8b3016fbfd9495731b6c48aa3c17a5334718",
+        "size_in_bytes": 7559
+      },
+      {
+        "_path": "Library/include/libqhull/index.htm",
+        "path_type": "hardlink",
+        "sha256": "98af84299a70775b87d5e6b0a6875ca3309be512674a7f014fa327094fd791b8",
+        "sha256_in_prefix": "98af84299a70775b87d5e6b0a6875ca3309be512674a7f014fa327094fd791b8",
+        "size_in_bytes": 11300
+      },
+      {
+        "_path": "Library/include/libqhull/io.h",
+        "path_type": "hardlink",
+        "sha256": "1425478a5895a20c9514229aa8e20712fda4cd603a9d942d1e55fbf63b68eb94",
+        "sha256_in_prefix": "1425478a5895a20c9514229aa8e20712fda4cd603a9d942d1e55fbf63b68eb94",
+        "size_in_bytes": 7853
+      },
+      {
+        "_path": "Library/include/libqhull/libqhull.h",
+        "path_type": "hardlink",
+        "sha256": "6a13f24f41d59aac1490784e8e5d4aa89dde1593cff84e18910a9f27006bbba4",
+        "sha256_in_prefix": "6a13f24f41d59aac1490784e8e5d4aa89dde1593cff84e18910a9f27006bbba4",
+        "size_in_bytes": 59880
+      },
+      {
+        "_path": "Library/include/libqhull/mem.h",
+        "path_type": "hardlink",
+        "sha256": "3040a5c8ca2e2db28ac02c9c4d2faecc8e8594fb741ac8b6d288c215554c8c6f",
+        "sha256_in_prefix": "3040a5c8ca2e2db28ac02c9c4d2faecc8e8594fb741ac8b6d288c215554c8c6f",
+        "size_in_bytes": 8772
+      },
+      {
+        "_path": "Library/include/libqhull/merge.h",
+        "path_type": "hardlink",
+        "sha256": "03f7f985435b3aabd01e5c8175dc7775583a9cfb2e0510ed8009ba50d148afeb",
+        "sha256_in_prefix": "03f7f985435b3aabd01e5c8175dc7775583a9cfb2e0510ed8009ba50d148afeb",
+        "size_in_bytes": 11362
+      },
+      {
+        "_path": "Library/include/libqhull/poly.h",
+        "path_type": "hardlink",
+        "sha256": "dbd6ccfe6fc5e13c942e74e0497f280d9a39656e56100b34f8fbe731b197594b",
+        "sha256_in_prefix": "dbd6ccfe6fc5e13c942e74e0497f280d9a39656e56100b34f8fbe731b197594b",
+        "size_in_bytes": 11540
+      },
+      {
+        "_path": "Library/include/libqhull/qh-geom.htm",
+        "path_type": "hardlink",
+        "sha256": "fcbfcb6832295313795ea19128e2f3ca6a3a5f384aa9494201832849e69e392d",
+        "sha256_in_prefix": "fcbfcb6832295313795ea19128e2f3ca6a3a5f384aa9494201832849e69e392d",
+        "size_in_bytes": 13743
+      },
+      {
+        "_path": "Library/include/libqhull/qh-globa.htm",
+        "path_type": "hardlink",
+        "sha256": "998901ef45e8e04bdb6b3859d3499cbb1d9b9f9eb513ca2b520efca3a53f18b6",
+        "sha256_in_prefix": "998901ef45e8e04bdb6b3859d3499cbb1d9b9f9eb513ca2b520efca3a53f18b6",
+        "size_in_bytes": 8071
+      },
+      {
+        "_path": "Library/include/libqhull/qh-io.htm",
+        "path_type": "hardlink",
+        "sha256": "0983e22b48ff6a97f70a77a70f4095b438ff7c171009a5239b62dd0d8a5aa3cb",
+        "sha256_in_prefix": "0983e22b48ff6a97f70a77a70f4095b438ff7c171009a5239b62dd0d8a5aa3cb",
+        "size_in_bytes": 14237
+      },
+      {
+        "_path": "Library/include/libqhull/qh-mem.htm",
+        "path_type": "hardlink",
+        "sha256": "24c62f913c383a06eeaf5db70d5d6a816cdaf45c82dab48ae12246ef9a9fcc5a",
+        "sha256_in_prefix": "24c62f913c383a06eeaf5db70d5d6a816cdaf45c82dab48ae12246ef9a9fcc5a",
+        "size_in_bytes": 6308
+      },
+      {
+        "_path": "Library/include/libqhull/qh-merge.htm",
+        "path_type": "hardlink",
+        "sha256": "46a1ce3be7aeea218ce1f159b7379680a6c5a79aea0a1fd7827ebfddbebef40e",
+        "sha256_in_prefix": "46a1ce3be7aeea218ce1f159b7379680a6c5a79aea0a1fd7827ebfddbebef40e",
+        "size_in_bytes": 19956
+      },
+      {
+        "_path": "Library/include/libqhull/qh-poly.htm",
+        "path_type": "hardlink",
+        "sha256": "0b1022d5060cfcaa6f936712e7e3cf9026d216c88e1dd58267cb2ac5f00f48cd",
+        "sha256_in_prefix": "0b1022d5060cfcaa6f936712e7e3cf9026d216c88e1dd58267cb2ac5f00f48cd",
+        "size_in_bytes": 22126
+      },
+      {
+        "_path": "Library/include/libqhull/qh-qhull.htm",
+        "path_type": "hardlink",
+        "sha256": "09c24dd1cef5c3b5ceffbc2d2e61329a3f5335be1ad7a7bfd761cfccf61e8281",
+        "sha256_in_prefix": "09c24dd1cef5c3b5ceffbc2d2e61329a3f5335be1ad7a7bfd761cfccf61e8281",
+        "size_in_bytes": 12878
+      },
+      {
+        "_path": "Library/include/libqhull/qh-set.htm",
+        "path_type": "hardlink",
+        "sha256": "f25972ccc005ff09cf4d9c9484e22cd2150676bf0bb7b23855d3286b07bd65c9",
+        "sha256_in_prefix": "f25972ccc005ff09cf4d9c9484e22cd2150676bf0bb7b23855d3286b07bd65c9",
+        "size_in_bytes": 13267
+      },
+      {
+        "_path": "Library/include/libqhull/qh-stat.htm",
+        "path_type": "hardlink",
+        "sha256": "ae30c1df122cc7c0632ad14bee74cec4567be9589374dcf6b0b4435e3d83a662",
+        "sha256_in_prefix": "ae30c1df122cc7c0632ad14bee74cec4567be9589374dcf6b0b4435e3d83a662",
+        "size_in_bytes": 7143
+      },
+      {
+        "_path": "Library/include/libqhull/qh-user.htm",
+        "path_type": "hardlink",
+        "sha256": "28a9b3c22982d2f745a372e40f8b1e72adef9b0edb0f5c6804ac454d83b0918e",
+        "sha256_in_prefix": "28a9b3c22982d2f745a372e40f8b1e72adef9b0edb0f5c6804ac454d83b0918e",
+        "size_in_bytes": 15158
+      },
+      {
+        "_path": "Library/include/libqhull/qhull_a.h",
+        "path_type": "hardlink",
+        "sha256": "4be49164a8631affe24692d386bbfda828361ff8f2abc5172f99b3607a07a148",
+        "sha256_in_prefix": "4be49164a8631affe24692d386bbfda828361ff8f2abc5172f99b3607a07a148",
+        "size_in_bytes": 5064
+      },
+      {
+        "_path": "Library/include/libqhull/qset.h",
+        "path_type": "hardlink",
+        "sha256": "6398896b6401e4fd0990d17283d8decd73f08a62c2c3551dbfcbabe79ea4cd1d",
+        "sha256_in_prefix": "6398896b6401e4fd0990d17283d8decd73f08a62c2c3551dbfcbabe79ea4cd1d",
+        "size_in_bytes": 15121
+      },
+      {
+        "_path": "Library/include/libqhull/random.h",
+        "path_type": "hardlink",
+        "sha256": "53c2ba925c43f24de8d5e1b65a7477fdbd5065201cf7fa8c5698ecabfac41f12",
+        "sha256_in_prefix": "53c2ba925c43f24de8d5e1b65a7477fdbd5065201cf7fa8c5698ecabfac41f12",
+        "size_in_bytes": 944
+      },
+      {
+        "_path": "Library/include/libqhull/stat.h",
+        "path_type": "hardlink",
+        "sha256": "9e4612b1604a4e4ed43eca6cda1dfcc25d9b2bfb8ba2476034e98b1c4baf98f8",
+        "sha256_in_prefix": "9e4612b1604a4e4ed43eca6cda1dfcc25d9b2bfb8ba2476034e98b1c4baf98f8",
+        "size_in_bytes": 13683
+      },
+      {
+        "_path": "Library/include/libqhull/user.h",
+        "path_type": "hardlink",
+        "sha256": "51b96588d152339871a691a25913dbecb061236852c5f3d40ed45ba81be3a0e0",
+        "sha256_in_prefix": "51b96588d152339871a691a25913dbecb061236852c5f3d40ed45ba81be3a0e0",
+        "size_in_bytes": 38119
+      },
+      {
+        "_path": "Library/include/libqhull_r/geom_r.h",
+        "path_type": "hardlink",
+        "sha256": "6904db3afa0f1e4caf565784d2a7bab9de981838a81225b4366e32f8b8b7aa3b",
+        "sha256_in_prefix": "6904db3afa0f1e4caf565784d2a7bab9de981838a81225b4366e32f8b8b7aa3b",
+        "size_in_bytes": 8111
+      },
+      {
+        "_path": "Library/include/libqhull_r/index.htm",
+        "path_type": "hardlink",
+        "sha256": "6628b30a7abaaa9b57c9ce32aa7ea5aab91b103185ff07daa794adb17c3025e9",
+        "sha256_in_prefix": "6628b30a7abaaa9b57c9ce32aa7ea5aab91b103185ff07daa794adb17c3025e9",
+        "size_in_bytes": 11802
+      },
+      {
+        "_path": "Library/include/libqhull_r/io_r.h",
+        "path_type": "hardlink",
+        "sha256": "02064e64be1b633a03b7f9b47b186e1ccbb65abaf560679c5b330fd0e386f9ab",
+        "sha256_in_prefix": "02064e64be1b633a03b7f9b47b186e1ccbb65abaf560679c5b330fd0e386f9ab",
+        "size_in_bytes": 8579
+      },
+      {
+        "_path": "Library/include/libqhull_r/libqhull_r.h",
+        "path_type": "hardlink",
+        "sha256": "1569e487962e6a50edbcef9904a772831cb44c932919e4728340808e6cd0efd0",
+        "sha256_in_prefix": "1569e487962e6a50edbcef9904a772831cb44c932919e4728340808e6cd0efd0",
+        "size_in_bytes": 60538
+      },
+      {
+        "_path": "Library/include/libqhull_r/mem_r.h",
+        "path_type": "hardlink",
+        "sha256": "52b5c42d5f898673ed7aa47ec30ac270b4dea8f98b090d0f488a3b293cad33f8",
+        "sha256_in_prefix": "52b5c42d5f898673ed7aa47ec30ac270b4dea8f98b090d0f488a3b293cad33f8",
+        "size_in_bytes": 9142
+      },
+      {
+        "_path": "Library/include/libqhull_r/merge_r.h",
+        "path_type": "hardlink",
+        "sha256": "34aa7138893b40bae0b6d34286bf20b6e862cb79e6ed89d2594c881d269e467a",
+        "sha256_in_prefix": "34aa7138893b40bae0b6d34286bf20b6e862cb79e6ed89d2594c881d269e467a",
+        "size_in_bytes": 12155
+      },
+      {
+        "_path": "Library/include/libqhull_r/poly_r.h",
+        "path_type": "hardlink",
+        "sha256": "fa251d4f47eded0cc4c3c52b62fa35899ac0f6666decee8bda2c55ef2ea66947",
+        "sha256_in_prefix": "fa251d4f47eded0cc4c3c52b62fa35899ac0f6666decee8bda2c55ef2ea66947",
+        "size_in_bytes": 12253
+      },
+      {
+        "_path": "Library/include/libqhull_r/qh-geom_r.htm",
+        "path_type": "hardlink",
+        "sha256": "2ef3eddcfabb12162c36fa9d7b08a1c0d26487d3c01ca2f9fc9e4b4902b40b44",
+        "sha256_in_prefix": "2ef3eddcfabb12162c36fa9d7b08a1c0d26487d3c01ca2f9fc9e4b4902b40b44",
+        "size_in_bytes": 14003
+      },
+      {
+        "_path": "Library/include/libqhull_r/qh-globa_r.htm",
+        "path_type": "hardlink",
+        "sha256": "4c1bb4ed86afa38a9b54aea42989e6e395e5c2f304c0a5855bd87eea99e0e6ea",
+        "sha256_in_prefix": "4c1bb4ed86afa38a9b54aea42989e6e395e5c2f304c0a5855bd87eea99e0e6ea",
+        "size_in_bytes": 8140
+      },
+      {
+        "_path": "Library/include/libqhull_r/qh-io_r.htm",
+        "path_type": "hardlink",
+        "sha256": "2db327023a36546671dc0d6f10e99920a05ef2b940003f512d52a23c33d13c2c",
+        "sha256_in_prefix": "2db327023a36546671dc0d6f10e99920a05ef2b940003f512d52a23c33d13c2c",
+        "size_in_bytes": 14489
+      },
+      {
+        "_path": "Library/include/libqhull_r/qh-mem_r.htm",
+        "path_type": "hardlink",
+        "sha256": "4a7a69bb849fb8ceec9a4235506201fe8debe779c09c6737865ca966687f14e5",
+        "sha256_in_prefix": "4a7a69bb849fb8ceec9a4235506201fe8debe779c09c6737865ca966687f14e5",
+        "size_in_bytes": 6438
+      },
+      {
+        "_path": "Library/include/libqhull_r/qh-merge_r.htm",
+        "path_type": "hardlink",
+        "sha256": "5f407f1537ba551bc3798fd15f39dce49886c95215bc5c24ab15975bdc74c2e3",
+        "sha256_in_prefix": "5f407f1537ba551bc3798fd15f39dce49886c95215bc5c24ab15975bdc74c2e3",
+        "size_in_bytes": 20250
+      },
+      {
+        "_path": "Library/include/libqhull_r/qh-poly_r.htm",
+        "path_type": "hardlink",
+        "sha256": "2c5caf5205aa45cdc29205c99cca3a8673a1491b1c527e2be9c0f70eb55f2c70",
+        "sha256_in_prefix": "2c5caf5205aa45cdc29205c99cca3a8673a1491b1c527e2be9c0f70eb55f2c70",
+        "size_in_bytes": 22478
+      },
+      {
+        "_path": "Library/include/libqhull_r/qh-qhull_r.htm",
+        "path_type": "hardlink",
+        "sha256": "cc7a68873e8b54254e0d20ff1823ff910b0320246c1bb7b95960c5a4e83ce462",
+        "sha256_in_prefix": "cc7a68873e8b54254e0d20ff1823ff910b0320246c1bb7b95960c5a4e83ce462",
+        "size_in_bytes": 13122
+      },
+      {
+        "_path": "Library/include/libqhull_r/qh-set_r.htm",
+        "path_type": "hardlink",
+        "sha256": "344c0cea3f8bf025f59104ebbb5c04d7af2a39a730b62604a742b5515f769be4",
+        "sha256_in_prefix": "344c0cea3f8bf025f59104ebbb5c04d7af2a39a730b62604a742b5515f769be4",
+        "size_in_bytes": 13499
+      },
+      {
+        "_path": "Library/include/libqhull_r/qh-stat_r.htm",
+        "path_type": "hardlink",
+        "sha256": "18436d249752fcdb4a0abc5b5e8c084d54409a9c9f8b5434c89414385e0ee157",
+        "sha256_in_prefix": "18436d249752fcdb4a0abc5b5e8c084d54409a9c9f8b5434c89414385e0ee157",
+        "size_in_bytes": 7195
+      },
+      {
+        "_path": "Library/include/libqhull_r/qh-user_r.htm",
+        "path_type": "hardlink",
+        "sha256": "76dd621591c1842334581899d25b611ce9999a30e42f76d8c0490b3dfa2a53b5",
+        "sha256_in_prefix": "76dd621591c1842334581899d25b611ce9999a30e42f76d8c0490b3dfa2a53b5",
+        "size_in_bytes": 15448
+      },
+      {
+        "_path": "Library/include/libqhull_r/qhull_ra.h",
+        "path_type": "hardlink",
+        "sha256": "eafa55f803283e61c660df2f8cc9b469c71eee345b6ec6ad43315aab802395f3",
+        "sha256_in_prefix": "eafa55f803283e61c660df2f8cc9b469c71eee345b6ec6ad43315aab802395f3",
+        "size_in_bytes": 5471
+      },
+      {
+        "_path": "Library/include/libqhull_r/qset_r.h",
+        "path_type": "hardlink",
+        "sha256": "d80d0ce5b55c8884594d1376011704c41a0d0a4947f1f14119fffde682f66ad3",
+        "sha256_in_prefix": "d80d0ce5b55c8884594d1376011704c41a0d0a4947f1f14119fffde682f66ad3",
+        "size_in_bytes": 15675
+      },
+      {
+        "_path": "Library/include/libqhull_r/random_r.h",
+        "path_type": "hardlink",
+        "sha256": "6691dc3e72b8b1349c97796540f25f1c99e29b88b3550c8bf3b83c5d680c8e32",
+        "sha256_in_prefix": "6691dc3e72b8b1349c97796540f25f1c99e29b88b3550c8bf3b83c5d680c8e32",
+        "size_in_bytes": 1074
+      },
+      {
+        "_path": "Library/include/libqhull_r/stat_r.h",
+        "path_type": "hardlink",
+        "sha256": "fff494905bff94f198736e776826151acf1f7df85965966b228fc9330e8955dd",
+        "sha256_in_prefix": "fff494905bff94f198736e776826151acf1f7df85965966b228fc9330e8955dd",
+        "size_in_bytes": 13237
+      },
+      {
+        "_path": "Library/include/libqhull_r/user_r.h",
+        "path_type": "hardlink",
+        "sha256": "b344445827aaed4646c72f1dd88ac69cf129f8679e62f1fc76c5725c4e29f3da",
+        "sha256_in_prefix": "b344445827aaed4646c72f1dd88ac69cf129f8679e62f1fc76c5725c4e29f3da",
+        "size_in_bytes": 36442
+      },
+      {
+        "_path": "Library/include/libqhullcpp/Coordinates.h",
+        "path_type": "hardlink",
+        "sha256": "45412a7684f0c9bd8b2a6bc1194ada7c5ba6bc9f4f6d695e4efd4faf70ec2194",
+        "sha256_in_prefix": "45412a7684f0c9bd8b2a6bc1194ada7c5ba6bc9f4f6d695e4efd4faf70ec2194",
+        "size_in_bytes": 15975
+      },
+      {
+        "_path": "Library/include/libqhullcpp/PointCoordinates.h",
+        "path_type": "hardlink",
+        "sha256": "627f2e06dc98fa455258dd13ed201ffef27901b130de6802bebdd1191d5eb24f",
+        "sha256_in_prefix": "627f2e06dc98fa455258dd13ed201ffef27901b130de6802bebdd1191d5eb24f",
+        "size_in_bytes": 8053
+      },
+      {
+        "_path": "Library/include/libqhullcpp/Qhull.h",
+        "path_type": "hardlink",
+        "sha256": "b5fef191ccac63414b2a855ed5a81324bbc66641cb88dce37de2d769b16e7db6",
+        "sha256_in_prefix": "b5fef191ccac63414b2a855ed5a81324bbc66641cb88dce37de2d769b16e7db6",
+        "size_in_bytes": 6539
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullError.h",
+        "path_type": "hardlink",
+        "sha256": "de86687457ddc62a41f690587986766277bc793075b8e60ac270dd340c04a8c3",
+        "sha256_in_prefix": "de86687457ddc62a41f690587986766277bc793075b8e60ac270dd340c04a8c3",
+        "size_in_bytes": 2373
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullFacet.h",
+        "path_type": "hardlink",
+        "sha256": "4f032ec9b053466ac3498c412c45562801d4002471b769105e41bd99d70cc831",
+        "sha256_in_prefix": "4f032ec9b053466ac3498c412c45562801d4002471b769105e41bd99d70cc831",
+        "size_in_bytes": 7371
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullFacetList.h",
+        "path_type": "hardlink",
+        "sha256": "80fe1c99d35d26c59837916e8737e5ceaf08ec6856f08139d2f282e7036f4b87",
+        "sha256_in_prefix": "80fe1c99d35d26c59837916e8737e5ceaf08ec6856f08139d2f282e7036f4b87",
+        "size_in_bytes": 4332
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullFacetSet.h",
+        "path_type": "hardlink",
+        "sha256": "3b3d4d475203c5379dab7ceaf07ce82bf0e78a79560795cd6fc000039eae20df",
+        "sha256_in_prefix": "3b3d4d475203c5379dab7ceaf07ce82bf0e78a79560795cd6fc000039eae20df",
+        "size_in_bytes": 3991
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullHyperplane.h",
+        "path_type": "hardlink",
+        "sha256": "9d3b857fc9a9237477a481ff0c90c994827f3e4fc82d560550b54785cdf16f79",
+        "sha256_in_prefix": "9d3b857fc9a9237477a481ff0c90c994827f3e4fc82d560550b54785cdf16f79",
+        "size_in_bytes": 6866
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullIterator.h",
+        "path_type": "hardlink",
+        "sha256": "a6c9e1764df56dd934a3e3edf0addc2e81e31c24beb2bdde417615c25a20dd2f",
+        "sha256_in_prefix": "a6c9e1764df56dd934a3e3edf0addc2e81e31c24beb2bdde417615c25a20dd2f",
+        "size_in_bytes": 8004
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullLinkedList.h",
+        "path_type": "hardlink",
+        "sha256": "cab71b1b262ced1a88b8b185af80e42f71cc878b1409eba80c4cc5a05aad23a3",
+        "sha256_in_prefix": "cab71b1b262ced1a88b8b185af80e42f71cc878b1409eba80c4cc5a05aad23a3",
+        "size_in_bytes": 12636
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullPoint.h",
+        "path_type": "hardlink",
+        "sha256": "9afed07fd717133d284352520aea68e01ebae1ef6ab5f1978ae8764f3e271717",
+        "sha256_in_prefix": "9afed07fd717133d284352520aea68e01ebae1ef6ab5f1978ae8764f3e271717",
+        "size_in_bytes": 7717
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullPointSet.h",
+        "path_type": "hardlink",
+        "sha256": "b4c95e1667319e377cf72e0124704bcae318adbf7632a60f4e9401bdf7b4e60e",
+        "sha256_in_prefix": "b4c95e1667319e377cf72e0124704bcae318adbf7632a60f4e9401bdf7b4e60e",
+        "size_in_bytes": 2860
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullPoints.h",
+        "path_type": "hardlink",
+        "sha256": "1692b9336373b1515c73906d1431a359ed4e7b05b862d43ed6bd7d2d33318605",
+        "sha256_in_prefix": "1692b9336373b1515c73906d1431a359ed4e7b05b862d43ed6bd7d2d33318605",
+        "size_in_bytes": 18883
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullQh.h",
+        "path_type": "hardlink",
+        "sha256": "2602e4b010a792bbba2ba121b94c82724d734f7b64386a6957dfd66f78202808",
+        "sha256_in_prefix": "2602e4b010a792bbba2ba121b94c82724d734f7b64386a6957dfd66f78202808",
+        "size_in_bytes": 4255
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullRidge.h",
+        "path_type": "hardlink",
+        "sha256": "496a097f0981d75529df379fd917e081d35893cfb7bf8f849d6e15bf39f67297",
+        "sha256_in_prefix": "496a097f0981d75529df379fd917e081d35893cfb7bf8f849d6e15bf39f67297",
+        "size_in_bytes": 4805
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullSet.h",
+        "path_type": "hardlink",
+        "sha256": "4ba2f2461d0d6a3dc2bc51e3576d6b16f8ccbb119d5efae7dbc04201a89770b4",
+        "sha256_in_prefix": "4ba2f2461d0d6a3dc2bc51e3576d6b16f8ccbb119d5efae7dbc04201a89770b4",
+        "size_in_bytes": 19208
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullSets.h",
+        "path_type": "hardlink",
+        "sha256": "3e533b75f49270aeccc848162ef9893c3b73f688dbf7545903bf70c5b9f27495",
+        "sha256_in_prefix": "3e533b75f49270aeccc848162ef9893c3b73f688dbf7545903bf70c5b9f27495",
+        "size_in_bytes": 795
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullStat.h",
+        "path_type": "hardlink",
+        "sha256": "80a31188c9c4b1f583e53fd63367310f9ac0b263ab0f0edee304ff751c50b522",
+        "sha256_in_prefix": "80a31188c9c4b1f583e53fd63367310f9ac0b263ab0f0edee304ff751c50b522",
+        "size_in_bytes": 1292
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullVertex.h",
+        "path_type": "hardlink",
+        "sha256": "909308162d8331ef80118791ed1509dd485d4ba51c0ed68c9ab6ccfa2a3d3ffc",
+        "sha256_in_prefix": "909308162d8331ef80118791ed1509dd485d4ba51c0ed68c9ab6ccfa2a3d3ffc",
+        "size_in_bytes": 4652
+      },
+      {
+        "_path": "Library/include/libqhullcpp/QhullVertexSet.h",
+        "path_type": "hardlink",
+        "sha256": "b61a100830f1ecd0357336cdab914c8953b3de03c63063e82ddc92c284dd8ca2",
+        "sha256_in_prefix": "b61a100830f1ecd0357336cdab914c8953b3de03c63063e82ddc92c284dd8ca2",
+        "size_in_bytes": 3473
+      },
+      {
+        "_path": "Library/include/libqhullcpp/RboxPoints.h",
+        "path_type": "hardlink",
+        "sha256": "4438015a4523db90da84edbccd18431da39fae09275be61306ca536aa767d689",
+        "sha256_in_prefix": "4438015a4523db90da84edbccd18431da39fae09275be61306ca536aa767d689",
+        "size_in_bytes": 2426
+      },
+      {
+        "_path": "Library/include/libqhullcpp/RoadError.h",
+        "path_type": "hardlink",
+        "sha256": "6d51a22a585cfd56d93fdd060e32ba6e1ed17a906bee6226c8b3519645cbe409",
+        "sha256_in_prefix": "6d51a22a585cfd56d93fdd060e32ba6e1ed17a906bee6226c8b3519645cbe409",
+        "size_in_bytes": 3376
+      },
+      {
+        "_path": "Library/include/libqhullcpp/RoadLogEvent.h",
+        "path_type": "hardlink",
+        "sha256": "b92e39095ca4e9fd46f0ee35624bf1fcf23d414fe007cd199db7960714072192",
+        "sha256_in_prefix": "b92e39095ca4e9fd46f0ee35624bf1fcf23d414fe007cd199db7960714072192",
+        "size_in_bytes": 3577
+      },
+      {
+        "_path": "Library/include/libqhullcpp/RoadTest.h",
+        "path_type": "hardlink",
+        "sha256": "09f651aec631019070738a18a295254f501b7facadb2dd37b0c3aed1c813ba75",
+        "sha256_in_prefix": "09f651aec631019070738a18a295254f501b7facadb2dd37b0c3aed1c813ba75",
+        "size_in_bytes": 2197
+      },
+      {
+        "_path": "Library/include/libqhullcpp/functionObjects.h",
+        "path_type": "hardlink",
+        "sha256": "8a66243a9d2e695205225b85a110c1d3da72e4336bc75b6875c9880103b00ccb",
+        "sha256_in_prefix": "8a66243a9d2e695205225b85a110c1d3da72e4336bc75b6875c9880103b00ccb",
+        "size_in_bytes": 1539
+      },
+      {
+        "_path": "Library/lib/cmake/Qhull/QhullConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "fec08d66afda65e6a71ea1f0e9f1ea798a25146fabc4b037dba6081317277742",
+        "sha256_in_prefix": "fec08d66afda65e6a71ea1f0e9f1ea798a25146fabc4b037dba6081317277742",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "Library/lib/cmake/Qhull/QhullConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "afd41107a85510542fb92825db05ffc9c22e4a2ac665d6923bc5fd55b3bf4fb7",
+        "sha256_in_prefix": "afd41107a85510542fb92825db05ffc9c22e4a2ac665d6923bc5fd55b3bf4fb7",
+        "size_in_bytes": 1419
+      },
+      {
+        "_path": "Library/lib/cmake/Qhull/QhullTargets-release.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/qhull_1598494839144/_h_env",
+        "sha256": "f759d9b8f195dba0a2a03366dbda8fe3b78cd0cbb63e01da7a34915e550d7040",
+        "sha256_in_prefix": "dd538e302c118b5557a7362d372142d20d5acebda1776ca9cdd4adc2a600c3d3",
+        "size_in_bytes": 6543
+      },
+      {
+        "_path": "Library/lib/cmake/Qhull/QhullTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "18b126b6a47f1edbb113a6c73a66759f14a48dd768f119d303cec635c9519cea",
+        "sha256_in_prefix": "18b126b6a47f1edbb113a6c73a66759f14a48dd768f119d303cec635c9519cea",
+        "size_in_bytes": 5757
+      },
+      {
+        "_path": "Library/lib/qhull.lib",
+        "path_type": "hardlink",
+        "sha256": "483f172f16219fc5de4babe6525769cc797767868a5239e69968947f6740433b",
+        "sha256_in_prefix": "483f172f16219fc5de4babe6525769cc797767868a5239e69968947f6740433b",
+        "size_in_bytes": 82154
+      },
+      {
+        "_path": "Library/lib/qhull_p.lib",
+        "path_type": "hardlink",
+        "sha256": "2556d8a81201c0bc9002727a10a6458d8b2b239ac0fc01c1ed27c0d8978a4c2c",
+        "sha256_in_prefix": "2556d8a81201c0bc9002727a10a6458d8b2b239ac0fc01c1ed27c0d8978a4c2c",
+        "size_in_bytes": 83384
+      },
+      {
+        "_path": "Library/lib/qhull_r.lib",
+        "path_type": "hardlink",
+        "sha256": "8b3ac18b6e905b7b417b98b9540924e36aacc94b346a2784fb29b93ba0273ae6",
+        "sha256_in_prefix": "8b3ac18b6e905b7b417b98b9540924e36aacc94b346a2784fb29b93ba0273ae6",
+        "size_in_bytes": 81900
+      },
+      {
+        "_path": "Library/lib/qhullcpp.lib",
+        "path_type": "hardlink",
+        "sha256": "333343c8e3dc333f363015b2117c63524acd3c90ae71995102779d5c30e6910c",
+        "sha256_in_prefix": "333343c8e3dc333f363015b2117c63524acd3c90ae71995102779d5c30e6910c",
+        "size_in_bytes": 1660728
+      },
+      {
+        "_path": "Library/lib/qhullstatic.lib",
+        "path_type": "hardlink",
+        "sha256": "68dc680349691876cc2a60a52e7766afc38924480cb51a9504c570c017bd7468",
+        "sha256_in_prefix": "68dc680349691876cc2a60a52e7766afc38924480cb51a9504c570c017bd7468",
+        "size_in_bytes": 1430538
+      },
+      {
+        "_path": "Library/lib/qhullstatic_r.lib",
+        "path_type": "hardlink",
+        "sha256": "49da052a759e409fc09a64cd1992bb7723fe251488efaed6ba5ab94e401566e0",
+        "sha256_in_prefix": "49da052a759e409fc09a64cd1992bb7723fe251488efaed6ba5ab94e401566e0",
+        "size_in_bytes": 1360840
+      },
+      {
+        "_path": "Library/man/man1/qhull.1",
+        "path_type": "hardlink",
+        "sha256": "214f1ef241bdd4bdce2a838070ba9217efc78cb5b07800b2a46037e8fcbe1830",
+        "sha256_in_prefix": "214f1ef241bdd4bdce2a838070ba9217efc78cb5b07800b2a46037e8fcbe1830",
+        "size_in_bytes": 39219
+      },
+      {
+        "_path": "Library/man/man1/rbox.1",
+        "path_type": "hardlink",
+        "sha256": "9d9a4422c91c8ede78eecc11cb386f0657375aa0ab3121e5fc8aa593d98f6e1c",
+        "sha256_in_prefix": "9d9a4422c91c8ede78eecc11cb386f0657375aa0ab3121e5fc8aa593d98f6e1c",
+        "size_in_bytes": 4389
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a0deff14ec4e68b6571b9f82308708d55ea890b0c4eec69ecd3978217c06e668",
+  "size": 2658817,
+  "subdir": "win-64",
+  "timestamp": 1598495285689,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/qhull-2019.1-h7266db4_0.tar.bz2",
+  "version": "2019.1"
+}

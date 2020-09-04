@@ -1,0 +1,1449 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/netgen/NgOCC.py",
+      "path_type": "hardlink",
+      "sha256": "6776540ec2d5347a69c12258ea80e74ebbd8c1cd24db4196a560220938832ed0",
+      "size_in_bytes": 179
+    },
+    {
+      "_path": "Lib/site-packages/netgen/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "f4eb5f80496414f786444046ae78e84764bbff6964c0ef3cd7cefd706d1dd8c4",
+      "size_in_bytes": 728
+    },
+    {
+      "_path": "Lib/site-packages/netgen/__pycache__/NgOCC.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "ee6162d9d7cafdc624801c50622e661312a637eaa222b480ad71e3bdae428ef9",
+      "size_in_bytes": 318
+    },
+    {
+      "_path": "Lib/site-packages/netgen/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "162defab5d74d70e4182e67bdda6e7c46bda92fdf3159602d891286de6f0a370",
+      "size_in_bytes": 822
+    },
+    {
+      "_path": "Lib/site-packages/netgen/__pycache__/csg.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "dee0f2bbd735149a8dee51f3123ef6b282a6cc19f1d539360483858915f06af1",
+      "size_in_bytes": 883
+    },
+    {
+      "_path": "Lib/site-packages/netgen/__pycache__/geom2d.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "e91abf1c2b2c152624c3a2db9e801d987e22e0fc96bd54d65980156c39f87479",
+      "size_in_bytes": 5077
+    },
+    {
+      "_path": "Lib/site-packages/netgen/__pycache__/gui.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "34b4c3c0d734366faef2cff4a3a855ffe305a762224b6b90baa073afd2e3931f",
+      "size_in_bytes": 1149
+    },
+    {
+      "_path": "Lib/site-packages/netgen/__pycache__/meshing.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "649c30ef0a7872f872efdef44b2cd059ad461ec182b9c6b2ab41e8dd7b707696",
+      "size_in_bytes": 1601
+    },
+    {
+      "_path": "Lib/site-packages/netgen/__pycache__/occ.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "a8fd3b27c90af8c3b678c8c9946059ef34e6daddfdbd4552e4bc2f7ea120dfcf",
+      "size_in_bytes": 193
+    },
+    {
+      "_path": "Lib/site-packages/netgen/__pycache__/read_gmsh.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "356d1303c29354b2f52b811d1a8db1c7e0ae513c5e9c6d8f02bbbaa77d7b2177",
+      "size_in_bytes": 4475
+    },
+    {
+      "_path": "Lib/site-packages/netgen/__pycache__/stl.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "39c8aae1bc9976af469471cc88c7b2e1092cec4e33357343caa4e72fc061561d",
+      "size_in_bytes": 203
+    },
+    {
+      "_path": "Lib/site-packages/netgen/csg.py",
+      "path_type": "hardlink",
+      "sha256": "b8f25b784e7efadcf9b5e6b4c7ab921c3d14d0021a9a8adf3a73a911f2a721f1",
+      "size_in_bytes": 675
+    },
+    {
+      "_path": "Lib/site-packages/netgen/geom2d.py",
+      "path_type": "hardlink",
+      "sha256": "2b49229f29837ab5b0d6ed7a002b91ee6a8c434a468573b50febe7bb51d03c35",
+      "size_in_bytes": 6282
+    },
+    {
+      "_path": "Lib/site-packages/netgen/gui.py",
+      "path_type": "hardlink",
+      "sha256": "2734ef76c0974c9f90148c1b8bbb91f515cfbe304f9bf5807c40f377ab621d88",
+      "size_in_bytes": 1109
+    },
+    {
+      "_path": "Lib/site-packages/netgen/libngpy.lib",
+      "path_type": "hardlink",
+      "sha256": "09f1c1faadbaec982b8d826d44222928f9ba25cacf2d54dfea0b58bb2f541bf8",
+      "size_in_bytes": 1732
+    },
+    {
+      "_path": "Lib/site-packages/netgen/libngpy.pyd",
+      "path_type": "hardlink",
+      "sha256": "43f8be34c5d68d2cd10cef2a455534864fc8ab78498f1f33dfe408585b9bbc38",
+      "size_in_bytes": 95232
+    },
+    {
+      "_path": "Lib/site-packages/netgen/meshing.py",
+      "path_type": "hardlink",
+      "sha256": "d02e5bf373fe5dc06e9eb69017794fec0aab0218b8e3ba6009069be48f8b7a91",
+      "size_in_bytes": 2544
+    },
+    {
+      "_path": "Lib/site-packages/netgen/occ.py",
+      "path_type": "hardlink",
+      "sha256": "195a4f91f65e95c483b1f59771d1bd7f201fa2ed02a38e5790ebdad0c1366f90",
+      "size_in_bytes": 60
+    },
+    {
+      "_path": "Lib/site-packages/netgen/read_gmsh.py",
+      "path_type": "hardlink",
+      "sha256": "96aabfe0b8114a0a98e0e0d158d48e65a772bbbec9b768cc7801e44c001bbc58",
+      "size_in_bytes": 8473
+    },
+    {
+      "_path": "Lib/site-packages/netgen/stl.py",
+      "path_type": "hardlink",
+      "sha256": "b38d1948614bb01f7a781f9ca27eda53a024f1a4988f0884dac570cfca1e1eb5",
+      "size_in_bytes": 64
+    },
+    {
+      "_path": "Lib/site-packages/pyngcore.cp38-win_amd64.pyd",
+      "path_type": "hardlink",
+      "sha256": "b74caa42bc03b3926a0270252252fd54abb7e165378f2632facb1c3ee4e6035c",
+      "size_in_bytes": 347136
+    },
+    {
+      "_path": "Lib/site-packages/pyngcore.lib",
+      "path_type": "hardlink",
+      "sha256": "c58590ce726112410f7e3c22f5e8b34308fa0f6b84c07d3b0e31b4e625328755",
+      "size_in_bytes": 9940
+    },
+    {
+      "_path": "Library/bin/ngcore.dll",
+      "path_type": "hardlink",
+      "sha256": "aaec18b1bb03e9ce54291f6ca75f5f614bb0513a9d8524aa1695b24c0b29a7a1",
+      "size_in_bytes": 408576
+    },
+    {
+      "_path": "Library/bin/nglib.dll",
+      "path_type": "hardlink",
+      "sha256": "e52b2513b4b48d4eb391ce84876e17b679dab0cf19b8b23a8840ed5b7f0961c4",
+      "size_in_bytes": 4441600
+    },
+    {
+      "_path": "Library/cmake/NetgenConfig.cmake",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "D:/bld/netgen_1597135225350/_h_env",
+      "sha256": "5a1fb10a7a544f6e1b9f32f51ea7f7eb99d78d2321c8aa6cfac1eb4ecb91df96",
+      "size_in_bytes": 4929
+    },
+    {
+      "_path": "Library/cmake/netgen-targets-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "0c031e7715afbd76152c7565a27c9ccfbdf522857b1bb3dd8084c2410de11017",
+      "size_in_bytes": 1312
+    },
+    {
+      "_path": "Library/cmake/netgen-targets.cmake",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "D:/bld/netgen_1597135225350/_h_env",
+      "sha256": "18e4144a2902f0d8cc3b51a174ba29a5136a92dc36ccf14c5bc164003843288a",
+      "size_in_bytes": 4293
+    },
+    {
+      "_path": "Library/include/netgen/core/archive.hpp",
+      "path_type": "hardlink",
+      "sha256": "fa29d38fd97bec86ee9deea00bc1f1276767bff41f07bc1f149ccaf2e097b12a",
+      "size_in_bytes": 33892
+    },
+    {
+      "_path": "Library/include/netgen/core/array.hpp",
+      "path_type": "hardlink",
+      "sha256": "67f28c858fa24e54eed3ad2a9fdd4a4e17f0addfb8ccda10004bc6e463e2911d",
+      "size_in_bytes": 39632
+    },
+    {
+      "_path": "Library/include/netgen/core/bitarray.hpp",
+      "path_type": "hardlink",
+      "sha256": "289014079619633e26c95360b095e0280416c16d925b699c78ae98b333481c59",
+      "size_in_bytes": 4125
+    },
+    {
+      "_path": "Library/include/netgen/core/concurrentqueue.h",
+      "path_type": "hardlink",
+      "sha256": "cc8dc5c0d9c3ca1b37d4051bff9de96ceeccb53b77472b78c453da324ba0909e",
+      "size_in_bytes": 146859
+    },
+    {
+      "_path": "Library/include/netgen/core/exception.hpp",
+      "path_type": "hardlink",
+      "sha256": "0f7eb57e9d303fbfbcb3806c6c3f2cd509022b000a85a042280e9b773f538cee",
+      "size_in_bytes": 3307
+    },
+    {
+      "_path": "Library/include/netgen/core/flags.hpp",
+      "path_type": "hardlink",
+      "sha256": "e3d4bbbd7343c20d11a8242b2e23d7a456a351e6e7002828c7c61c09e0b0f9f0",
+      "size_in_bytes": 7528
+    },
+    {
+      "_path": "Library/include/netgen/core/hashtable.hpp",
+      "path_type": "hardlink",
+      "sha256": "0606f969880ec54defb6c96b025c2a3216730180346a23644d881b8a4e3fcf91",
+      "size_in_bytes": 25041
+    },
+    {
+      "_path": "Library/include/netgen/core/localheap.hpp",
+      "path_type": "hardlink",
+      "sha256": "888270e7d46ebc3058a8c353ac146e63e3ca2b8b2e0e82e8f4382f47e9ea8c77",
+      "size_in_bytes": 6784
+    },
+    {
+      "_path": "Library/include/netgen/core/logging.hpp",
+      "path_type": "hardlink",
+      "sha256": "99fc81e08b67738e342371fb171196aad285c507995d4916b2ff9f1169167380",
+      "size_in_bytes": 3823
+    },
+    {
+      "_path": "Library/include/netgen/core/mpi_wrapper.hpp",
+      "path_type": "hardlink",
+      "sha256": "fa35a9b42a960513df7f290e5030852bd19d2d1f97e47d14f71a4682004985cf",
+      "size_in_bytes": 9103
+    },
+    {
+      "_path": "Library/include/netgen/core/ngcore.hpp",
+      "path_type": "hardlink",
+      "sha256": "e528bfd672ef34c956038f34713f45c04c4ab95035043013b636a081243d586b",
+      "size_in_bytes": 476
+    },
+    {
+      "_path": "Library/include/netgen/core/ngcore_api.hpp",
+      "path_type": "hardlink",
+      "sha256": "00408b1ccf7822a73df9ce6a2eba0e7338db032548072bc3a3395f4d86982de4",
+      "size_in_bytes": 3552
+    },
+    {
+      "_path": "Library/include/netgen/core/paje_trace.hpp",
+      "path_type": "hardlink",
+      "sha256": "1c0106af9d8531e89de97e06478b64c95978a0cb01cc46b25c29b80619e00723",
+      "size_in_bytes": 5447
+    },
+    {
+      "_path": "Library/include/netgen/core/profiler.hpp",
+      "path_type": "hardlink",
+      "sha256": "bc6c4f87416d0fde065c85cf2171e9c4965eb90eb3dc3dfb8ca5b27081ee9663",
+      "size_in_bytes": 8029
+    },
+    {
+      "_path": "Library/include/netgen/core/python_ngcore.hpp",
+      "path_type": "hardlink",
+      "sha256": "235276ec756c30aa75b96d9f239ab626dc2953841ad5ca7d7b2c23f562068ba7",
+      "size_in_bytes": 11440
+    },
+    {
+      "_path": "Library/include/netgen/core/signal.hpp",
+      "path_type": "hardlink",
+      "sha256": "89c322cf17c33bf3528252dfda80ea4f0c8c3d624b08c0269228fe6d1d1a6d6f",
+      "size_in_bytes": 1056
+    },
+    {
+      "_path": "Library/include/netgen/core/symboltable.hpp",
+      "path_type": "hardlink",
+      "sha256": "72f474d9ae2b2ca44a7236160fa3d03b419fc72c1ca8b443d098dfb2005af783",
+      "size_in_bytes": 3643
+    },
+    {
+      "_path": "Library/include/netgen/core/table.hpp",
+      "path_type": "hardlink",
+      "sha256": "8345e501021b20aaba691f9bd8ad98748d489335e26e1c200c1708a7b7214f0f",
+      "size_in_bytes": 12561
+    },
+    {
+      "_path": "Library/include/netgen/core/taskmanager.hpp",
+      "path_type": "hardlink",
+      "sha256": "587eb5cbca5c98e3be35ed89fe0036b983d5684ee4b21f41294de52cff4e784d",
+      "size_in_bytes": 28213
+    },
+    {
+      "_path": "Library/include/netgen/core/type_traits.hpp",
+      "path_type": "hardlink",
+      "sha256": "d188f67e4f6fe8fee497179dcc88d851041499815dcda06616b6442676a8c936",
+      "size_in_bytes": 1552
+    },
+    {
+      "_path": "Library/include/netgen/core/utils.hpp",
+      "path_type": "hardlink",
+      "sha256": "df96961a46f015d167898d39c53047f032a13361ee06e281f9809f4527ebaa57",
+      "size_in_bytes": 4536
+    },
+    {
+      "_path": "Library/include/netgen/core/version.hpp",
+      "path_type": "hardlink",
+      "sha256": "c1b0224d7a503df9ae42567a0ae619b111204539d7d3b7b1d6b8399d43a8deb5",
+      "size_in_bytes": 3131
+    },
+    {
+      "_path": "Library/include/netgen/core/xbool.hpp",
+      "path_type": "hardlink",
+      "sha256": "58d84787cc47c10474dce5d823abc1a55fd35b6dca3e28d6e96d70f43d12ef04",
+      "size_in_bytes": 1280
+    },
+    {
+      "_path": "Library/include/netgen/csg/algprim.hpp",
+      "path_type": "hardlink",
+      "sha256": "e833aa08bee0f17d8f8f777ab44345cab9439e2b3123b40cdb281b0596bfe2fc",
+      "size_in_bytes": 14273
+    },
+    {
+      "_path": "Library/include/netgen/csg/brick.hpp",
+      "path_type": "hardlink",
+      "sha256": "62f47caa0f152f45a3447a184cd38c943dc313c5657cd44aceae9761670521df",
+      "size_in_bytes": 3869
+    },
+    {
+      "_path": "Library/include/netgen/csg/csg.hpp",
+      "path_type": "hardlink",
+      "sha256": "50a68139596e6343f67c6fde8b877b70934c0bf93f7c0f5aa962d209fc04e9ef",
+      "size_in_bytes": 1115
+    },
+    {
+      "_path": "Library/include/netgen/csg/csgeom.hpp",
+      "path_type": "hardlink",
+      "sha256": "4c10d8343e44b3e4eae1b5c2ea9b084fcd3f14a96d64c323d8942554b76acbf5",
+      "size_in_bytes": 11554
+    },
+    {
+      "_path": "Library/include/netgen/csg/csgparser.hpp",
+      "path_type": "hardlink",
+      "sha256": "bba18cf8419e9952dcdab55be02645322eb859965f032d32179b3132b08f4721",
+      "size_in_bytes": 2237
+    },
+    {
+      "_path": "Library/include/netgen/csg/curve2d.hpp",
+      "path_type": "hardlink",
+      "sha256": "21249fec803bdad49e0f8157805c589c7098cb030519f1c550d7eb0067ff50fd",
+      "size_in_bytes": 1342
+    },
+    {
+      "_path": "Library/include/netgen/csg/edgeflw.hpp",
+      "path_type": "hardlink",
+      "sha256": "28abf58a542d45e995dfc15e11ea6c5ea34f0c4927c965ded8a05a7e359378b5",
+      "size_in_bytes": 2732
+    },
+    {
+      "_path": "Library/include/netgen/csg/explicitcurve2d.hpp",
+      "path_type": "hardlink",
+      "sha256": "092ddd8264428e1cd01befdd33a2387264368e0ce35a813733a56381f695751c",
+      "size_in_bytes": 2635
+    },
+    {
+      "_path": "Library/include/netgen/csg/extrusion.hpp",
+      "path_type": "hardlink",
+      "sha256": "7a151cba6504b63911163be939b8253eea3fc7aeb5eab392616581151f41e2b6",
+      "size_in_bytes": 4884
+    },
+    {
+      "_path": "Library/include/netgen/csg/gencyl.hpp",
+      "path_type": "hardlink",
+      "sha256": "28d88ab182ce64d515e7e5765db8c5672ff25fde70ca62938d40af569bf5c1c4",
+      "size_in_bytes": 1626
+    },
+    {
+      "_path": "Library/include/netgen/csg/geoml.hpp",
+      "path_type": "hardlink",
+      "sha256": "893ec6cc37967f348606f272ce4f2e09fe678a3fb685fae33b46cf942239ad02",
+      "size_in_bytes": 566
+    },
+    {
+      "_path": "Library/include/netgen/csg/identify.hpp",
+      "path_type": "hardlink",
+      "sha256": "3cafddb66b90c7610ba41fcbe7a5557307cb7aabbf5812c77d42db16ccdbcb41",
+      "size_in_bytes": 7346
+    },
+    {
+      "_path": "Library/include/netgen/csg/manifold.hpp",
+      "path_type": "hardlink",
+      "sha256": "5834421f085a219c5a3de3179c2ffae4c7e5e1d68dd8343303a73cb38756ed89",
+      "size_in_bytes": 614
+    },
+    {
+      "_path": "Library/include/netgen/csg/meshsurf.hpp",
+      "path_type": "hardlink",
+      "sha256": "c2457141446ae2357fbb64e454c0c06c33622ea84dd290a5286989d8ce3bdd7b",
+      "size_in_bytes": 1282
+    },
+    {
+      "_path": "Library/include/netgen/csg/polyhedra.hpp",
+      "path_type": "hardlink",
+      "sha256": "1e1d3373a330452bea446d8c060aeb31ee50af425803f623eeef3c05caf2e376",
+      "size_in_bytes": 2959
+    },
+    {
+      "_path": "Library/include/netgen/csg/revolution.hpp",
+      "path_type": "hardlink",
+      "sha256": "d214e7139a6d658443ed6b58d03e7f99561d2e50842e8d836cca8b8ec20e45b7",
+      "size_in_bytes": 4379
+    },
+    {
+      "_path": "Library/include/netgen/csg/singularref.hpp",
+      "path_type": "hardlink",
+      "sha256": "c049263926348e4e68fa72e97aa99d2ebb84bc348855c4ceabeecc22fe168b8f",
+      "size_in_bytes": 2020
+    },
+    {
+      "_path": "Library/include/netgen/csg/solid.hpp",
+      "path_type": "hardlink",
+      "sha256": "4edbadc1eef4500bdefe7a73e85eb951103e821c45ce6ba34986cb287bf4b461",
+      "size_in_bytes": 7780
+    },
+    {
+      "_path": "Library/include/netgen/csg/specpoin.hpp",
+      "path_type": "hardlink",
+      "sha256": "be2cba4912da300b27af234ec08c6048e2a512a722478c1b945f71f07db54a14",
+      "size_in_bytes": 4656
+    },
+    {
+      "_path": "Library/include/netgen/csg/spline3d.hpp",
+      "path_type": "hardlink",
+      "sha256": "233e0222c323670ed7e389acb5575af54d2253592bed24a03354cca320961dae",
+      "size_in_bytes": 2434
+    },
+    {
+      "_path": "Library/include/netgen/csg/splinesurface.hpp",
+      "path_type": "hardlink",
+      "sha256": "166b2a59222e19e10ac75e000f1a31aa241b1413172d89113e63a36359a039dd",
+      "size_in_bytes": 3308
+    },
+    {
+      "_path": "Library/include/netgen/csg/surface.hpp",
+      "path_type": "hardlink",
+      "sha256": "d554fae420f0a993d1acb5c66f5b1e0bd7e608aafe0041d3560b52a2470d3bd0",
+      "size_in_bytes": 10553
+    },
+    {
+      "_path": "Library/include/netgen/csg/triapprox.hpp",
+      "path_type": "hardlink",
+      "sha256": "ae82ab364d14b731e4739a2f8d4e17aa81f066c220484189a15a43dd189034dc",
+      "size_in_bytes": 1706
+    },
+    {
+      "_path": "Library/include/netgen/csg/vscsg.hpp",
+      "path_type": "hardlink",
+      "sha256": "568e24f8072d6a1061b2a9923a3c8b64f3393cf64dd6f78ea3bca6a419536ae0",
+      "size_in_bytes": 885
+    },
+    {
+      "_path": "Library/include/netgen/general/autodiff.hpp",
+      "path_type": "hardlink",
+      "sha256": "104c50c204b93000cde92b0fdfdb4990c6f935cd58e630c39a7dd6393b196f91",
+      "size_in_bytes": 7776
+    },
+    {
+      "_path": "Library/include/netgen/general/autoptr.hpp",
+      "path_type": "hardlink",
+      "sha256": "0825aa40d953b9939583ed455683ec135ff4777274c3b88c4c48d8194b6296bd",
+      "size_in_bytes": 961
+    },
+    {
+      "_path": "Library/include/netgen/general/dynamicmem.hpp",
+      "path_type": "hardlink",
+      "sha256": "324b35b40c6d8637902d0f8b96702c4db6562b0a395cf6aafd6e22ec4909a924",
+      "size_in_bytes": 1927
+    },
+    {
+      "_path": "Library/include/netgen/general/gzstream.h",
+      "path_type": "hardlink",
+      "sha256": "2a60282f13663d0c9cd9c87a54b2d6eb40acaf5db2c9c727ca0ede24f6411436",
+      "size_in_bytes": 4647
+    },
+    {
+      "_path": "Library/include/netgen/general/hashtabl.hpp",
+      "path_type": "hardlink",
+      "sha256": "6456ed3d7872df6090cc0e6f50f33789817269585a3d96a20af1d60074ba1e45",
+      "size_in_bytes": 30518
+    },
+    {
+      "_path": "Library/include/netgen/general/mpi_interface.hpp",
+      "path_type": "hardlink",
+      "sha256": "7f6cc88fc8e77d3ec5c99d64df3d39265c50c1759f106dc03306a2c3a6108815",
+      "size_in_bytes": 10994
+    },
+    {
+      "_path": "Library/include/netgen/general/myadt.hpp",
+      "path_type": "hardlink",
+      "sha256": "8cb6975d22cc346a480c40643c140df0911204ae779a267d8bb0a0e9ebab0672",
+      "size_in_bytes": 1116
+    },
+    {
+      "_path": "Library/include/netgen/general/mystring.hpp",
+      "path_type": "hardlink",
+      "sha256": "e18517ec5f533c483762d31a2ad103ed4f588f36eda1af382aa6e69878f802bd",
+      "size_in_bytes": 4802
+    },
+    {
+      "_path": "Library/include/netgen/general/netgenout.hpp",
+      "path_type": "hardlink",
+      "sha256": "4ca564fde3296cc59d31b7c91cc137d9de4170be3b2f151aa37595e856035773",
+      "size_in_bytes": 3288
+    },
+    {
+      "_path": "Library/include/netgen/general/ngarray.hpp",
+      "path_type": "hardlink",
+      "sha256": "214c005f9f5c856028df0fd096ad1e9e4e9a4ce58db82c88e62850f85f2d995b",
+      "size_in_bytes": 18195
+    },
+    {
+      "_path": "Library/include/netgen/general/ngbitarray.hpp",
+      "path_type": "hardlink",
+      "sha256": "42390a4b480b83ab15426aa02912f9664021dad566d23e7bb77c3fe6b43a1ff8",
+      "size_in_bytes": 2465
+    },
+    {
+      "_path": "Library/include/netgen/general/ngpython.hpp",
+      "path_type": "hardlink",
+      "sha256": "5b9019ddb935873403477710fbaf0839eb95c503469f0e091ab98c43ade12bf7",
+      "size_in_bytes": 1673
+    },
+    {
+      "_path": "Library/include/netgen/general/ngsimd.hpp",
+      "path_type": "hardlink",
+      "sha256": "00022f95740764835dc8b74556a90035a24bdcea3c6f6171f90eff009cdccd1b",
+      "size_in_bytes": 27551
+    },
+    {
+      "_path": "Library/include/netgen/general/optmem.hpp",
+      "path_type": "hardlink",
+      "sha256": "8b57ce9cf1a7a96058ab3f7a16ce1e0741c478284498e634d4c5cd81c4ef76d8",
+      "size_in_bytes": 862
+    },
+    {
+      "_path": "Library/include/netgen/general/parthreads.hpp",
+      "path_type": "hardlink",
+      "sha256": "ea95d157abc41e3edbde33a95a37c45d1ea348575cd66f7f6e39f47aef715202",
+      "size_in_bytes": 2669
+    },
+    {
+      "_path": "Library/include/netgen/general/seti.hpp",
+      "path_type": "hardlink",
+      "sha256": "d44f861d5157f17b08e275571befc5f4ddf9ace68ff6e5bbeb950e5adc4d303e",
+      "size_in_bytes": 927
+    },
+    {
+      "_path": "Library/include/netgen/general/sort.hpp",
+      "path_type": "hardlink",
+      "sha256": "fc2cb1030ebf5e30b35450c634b0978ca207b2807d0a66e7e71b4e98848180f4",
+      "size_in_bytes": 1102
+    },
+    {
+      "_path": "Library/include/netgen/general/spbita2d.hpp",
+      "path_type": "hardlink",
+      "sha256": "f10c170388177200e7157026535ad00245b2b44da18df8bfccaa7fc4c596fa87",
+      "size_in_bytes": 1243
+    },
+    {
+      "_path": "Library/include/netgen/general/stack.hpp",
+      "path_type": "hardlink",
+      "sha256": "5c106c4104c01fb134287fc77fadd4e35ea4c944a24bbcac875bc75f42a492e5",
+      "size_in_bytes": 1662
+    },
+    {
+      "_path": "Library/include/netgen/general/table.hpp",
+      "path_type": "hardlink",
+      "sha256": "e8a8e2d42fb4ee23375e420f0acbaaa3971ce51f5b6d05b1a834de11281de928",
+      "size_in_bytes": 5977
+    },
+    {
+      "_path": "Library/include/netgen/general/template.hpp",
+      "path_type": "hardlink",
+      "sha256": "6398e3514f72254e9cb352bf593d37e15ce0e41aeee092b53f647795ec130730",
+      "size_in_bytes": 8167
+    },
+    {
+      "_path": "Library/include/netgen/geom2d/geometry2d.hpp",
+      "path_type": "hardlink",
+      "sha256": "46e46190b3de17c77b9ff21891560c6ddc65a627ccf00d33ce3477b984e339f0",
+      "size_in_bytes": 6514
+    },
+    {
+      "_path": "Library/include/netgen/geom2d/spline2d.hpp",
+      "path_type": "hardlink",
+      "sha256": "87ecb323b8d3c5a204bd8531bb1490e942fa19433cd0b851efb5efaeae34a41d",
+      "size_in_bytes": 5868
+    },
+    {
+      "_path": "Library/include/netgen/geom2d/vsgeom2d.hpp",
+      "path_type": "hardlink",
+      "sha256": "7ab1113bb620e45a746030e9bc6cc6c951c4a4a1d68df21bc9d244d179dc6725",
+      "size_in_bytes": 835
+    },
+    {
+      "_path": "Library/include/netgen/gprim/adtree.hpp",
+      "path_type": "hardlink",
+      "sha256": "870fb5f62702226dab71ad6e8cf56d3e48c98c818f4f5ca6c5f98616921d3329",
+      "size_in_bytes": 23612
+    },
+    {
+      "_path": "Library/include/netgen/gprim/geom2d.hpp",
+      "path_type": "hardlink",
+      "sha256": "179de84069e2292db4121a3af392f99bdf95116edf9533529f3ea2b593139fc8",
+      "size_in_bytes": 21657
+    },
+    {
+      "_path": "Library/include/netgen/gprim/geom3d.hpp",
+      "path_type": "hardlink",
+      "sha256": "5b96d4266d82780f2ef0246849a0385b384171830ea1d8c94c4195657717e728",
+      "size_in_bytes": 18893
+    },
+    {
+      "_path": "Library/include/netgen/gprim/geomfuncs.hpp",
+      "path_type": "hardlink",
+      "sha256": "75380b4e0071efb830f1f6ffdfe7cf7f538f0466bd3d2f9a1e4f66e4cf2956d0",
+      "size_in_bytes": 3835
+    },
+    {
+      "_path": "Library/include/netgen/gprim/geomobjects.hpp",
+      "path_type": "hardlink",
+      "sha256": "a3c2a01ad7cefb7bb94a0b4cd8d366d21dea66f6f9ad497ad6ce028fd800a906",
+      "size_in_bytes": 10405
+    },
+    {
+      "_path": "Library/include/netgen/gprim/geomops.hpp",
+      "path_type": "hardlink",
+      "sha256": "e8cd862b69885637137d9fcad8679cce0551b0d055ed8e8eca093b127504de35",
+      "size_in_bytes": 7145
+    },
+    {
+      "_path": "Library/include/netgen/gprim/geomops2.hpp",
+      "path_type": "hardlink",
+      "sha256": "7f4a23c28d44248263ba87cfce8a73b456d143820157dc82052bf9038208e4a9",
+      "size_in_bytes": 7187
+    },
+    {
+      "_path": "Library/include/netgen/gprim/geomtest3d.hpp",
+      "path_type": "hardlink",
+      "sha256": "fdae91e5dcef504a26843edea307ed66e366b0d117698021fda9172e71fcd6b6",
+      "size_in_bytes": 2984
+    },
+    {
+      "_path": "Library/include/netgen/gprim/gprim.hpp",
+      "path_type": "hardlink",
+      "sha256": "fa9866c7e77c2549fd93434be263025e9713061a09156a7d77429c96b61a4e76",
+      "size_in_bytes": 738
+    },
+    {
+      "_path": "Library/include/netgen/gprim/spline.hpp",
+      "path_type": "hardlink",
+      "sha256": "f85bc5b046c12615dc35539771f1afdfcebd08dc9e68e9cc79dc9af5df67223f",
+      "size_in_bytes": 17860
+    },
+    {
+      "_path": "Library/include/netgen/gprim/splinegeometry.hpp",
+      "path_type": "hardlink",
+      "sha256": "df77ecf88815df057e5544cc386a53a59b2b554522776c013a6baa8b88069be7",
+      "size_in_bytes": 1692
+    },
+    {
+      "_path": "Library/include/netgen/gprim/transform3d.hpp",
+      "path_type": "hardlink",
+      "sha256": "87984d2977b1472806e2465d2939cb0e3ef6dcea7c9005fb2f6e8e458ea4bab9",
+      "size_in_bytes": 4569
+    },
+    {
+      "_path": "Library/include/netgen/include/acisgeom.hpp",
+      "path_type": "hardlink",
+      "sha256": "cc0c1fa8b0f94cb2a304db5c5f29b2ccdb5d372baddf4149f4da9cc8e4868a88",
+      "size_in_bytes": 55
+    },
+    {
+      "_path": "Library/include/netgen/include/csg.hpp",
+      "path_type": "hardlink",
+      "sha256": "be02c819bd320050be63a5042009ba3b9ac9c98b8804e2b25045a8d3db11aa28",
+      "size_in_bytes": 26
+    },
+    {
+      "_path": "Library/include/netgen/include/geometry2d.hpp",
+      "path_type": "hardlink",
+      "sha256": "973edd99c7e4778f35e52087319dcb6c0fe299ee9a6e17e8d78d3b478722e501",
+      "size_in_bytes": 36
+    },
+    {
+      "_path": "Library/include/netgen/include/gprim.hpp",
+      "path_type": "hardlink",
+      "sha256": "1ddbad711c89cabebc707f2042f676a3bac7219f5d4a6035115ddd981ddd9d3f",
+      "size_in_bytes": 30
+    },
+    {
+      "_path": "Library/include/netgen/include/incopengl.hpp",
+      "path_type": "hardlink",
+      "sha256": "6a27f16920e261bca8fb2479c45b86d7cef80eb0a8709625271b291d4a9a4741",
+      "size_in_bytes": 2262
+    },
+    {
+      "_path": "Library/include/netgen/include/inctcl.hpp",
+      "path_type": "hardlink",
+      "sha256": "33236854c568ae7ea33ccb28a01aec7d4cbe132a089d17353e55fb66b5719a3d",
+      "size_in_bytes": 136
+    },
+    {
+      "_path": "Library/include/netgen/include/incvis.hpp",
+      "path_type": "hardlink",
+      "sha256": "75f747a525e749bb37b0c537953b02918c0b3318a134a8e56810acfb40a96538",
+      "size_in_bytes": 103
+    },
+    {
+      "_path": "Library/include/netgen/include/linalg.hpp",
+      "path_type": "hardlink",
+      "sha256": "90ab79ea783ab88965411c2f303c586580d8d713a491a855b01d6a5687456ed4",
+      "size_in_bytes": 32
+    },
+    {
+      "_path": "Library/include/netgen/include/meshing.hpp",
+      "path_type": "hardlink",
+      "sha256": "5094b41a1e5712312deb6309a2c29fa51c181465705837b4dabfff0e9c6bd31f",
+      "size_in_bytes": 34
+    },
+    {
+      "_path": "Library/include/netgen/include/myadt.hpp",
+      "path_type": "hardlink",
+      "sha256": "0b5fad4ca416a809fabedadbde44858f1a7ad13d6cf1bb4e4b1328086a4b002e",
+      "size_in_bytes": 32
+    },
+    {
+      "_path": "Library/include/netgen/include/mydefs.hpp",
+      "path_type": "hardlink",
+      "sha256": "71c8fc22e2249f88b9311648a16904651e81dc5835691d3a725db1163590639c",
+      "size_in_bytes": 1506
+    },
+    {
+      "_path": "Library/include/netgen/include/mystdlib.h",
+      "path_type": "hardlink",
+      "sha256": "041b8033734e0c6130746e9e2e51076336489856a020ad7d4d9eee1793c15d13",
+      "size_in_bytes": 1061
+    },
+    {
+      "_path": "Library/include/netgen/include/nginterface_v2_impl.hpp",
+      "path_type": "hardlink",
+      "sha256": "e82d2ed46918773a1e951663b4463259b81e6a1f061a7a5f662d763465776c57",
+      "size_in_bytes": 8583
+    },
+    {
+      "_path": "Library/include/netgen/include/ngsimd.hpp",
+      "path_type": "hardlink",
+      "sha256": "bf451cfbbcb6acd1c66a256deb5c9640fe13839130223dca854c9a24bb91a30a",
+      "size_in_bytes": 33
+    },
+    {
+      "_path": "Library/include/netgen/include/occgeom.hpp",
+      "path_type": "hardlink",
+      "sha256": "06f7f17f2cca8c438b27f8bdfc9b6dbb493953be477a43bf96b4d08444c8f296",
+      "size_in_bytes": 30
+    },
+    {
+      "_path": "Library/include/netgen/include/opti.hpp",
+      "path_type": "hardlink",
+      "sha256": "1c108ecbe23bc4e7c1a99aacfdd77544659e3dbfd12d77149f2e521ceaffa8c0",
+      "size_in_bytes": 30
+    },
+    {
+      "_path": "Library/include/netgen/include/parallel.hpp",
+      "path_type": "hardlink",
+      "sha256": "8e5b41c702bc5e451302115115e3425f9835e5d21b3d37577380986096c14f18",
+      "size_in_bytes": 36
+    },
+    {
+      "_path": "Library/include/netgen/include/stlgeom.hpp",
+      "path_type": "hardlink",
+      "sha256": "d11d6692823225885d587d576094a20187a18b3f80cdde7301f23389c9639413",
+      "size_in_bytes": 34
+    },
+    {
+      "_path": "Library/include/netgen/include/visual.hpp",
+      "path_type": "hardlink",
+      "sha256": "dc0a910a984b817fa8887339ff8c61b2a152e44872e3a4de9bf4f23d0bced8c2",
+      "size_in_bytes": 39
+    },
+    {
+      "_path": "Library/include/netgen/interface/writeuser.hpp",
+      "path_type": "hardlink",
+      "sha256": "de9ac7d55f1960301cfd0ebad28c69127244958e74f8fd9a3d9e421b78112872",
+      "size_in_bytes": 4893
+    },
+    {
+      "_path": "Library/include/netgen/linalg/densemat.hpp",
+      "path_type": "hardlink",
+      "sha256": "5d38260dc2c46b9d83bd4bb420e9dc04f347d87d8683fd9610b619a3752ceebd",
+      "size_in_bytes": 8444
+    },
+    {
+      "_path": "Library/include/netgen/linalg/linalg.hpp",
+      "path_type": "hardlink",
+      "sha256": "7c1d81923483a19105f4ae6ea95e05a163b0753bda9d297c2ec9b45526f631df",
+      "size_in_bytes": 712
+    },
+    {
+      "_path": "Library/include/netgen/linalg/opti.hpp",
+      "path_type": "hardlink",
+      "sha256": "135bc178e5db52f3b056b395d62a085dd4b7dc4a3b97898920c045ae76bf6f5f",
+      "size_in_bytes": 4030
+    },
+    {
+      "_path": "Library/include/netgen/linalg/polynomial.hpp",
+      "path_type": "hardlink",
+      "sha256": "02f152a37e9d9701e04da42e8db0aa74b3250d9b1ab9bd8c25b3c12ca67eb3d6",
+      "size_in_bytes": 1226
+    },
+    {
+      "_path": "Library/include/netgen/linalg/vector.hpp",
+      "path_type": "hardlink",
+      "sha256": "e1f062c872d60ddc3151aea1b5cd0dfa947442d5cc8cf007cf5f384664d16ed9",
+      "size_in_bytes": 4687
+    },
+    {
+      "_path": "Library/include/netgen/meshing/adfront2.hpp",
+      "path_type": "hardlink",
+      "sha256": "1780658d529290c7c1cfbcec17c81b99f15517fed380cb956a092c73a962fb08",
+      "size_in_bytes": 5633
+    },
+    {
+      "_path": "Library/include/netgen/meshing/adfront3.hpp",
+      "path_type": "hardlink",
+      "sha256": "9c7180e4ecab18c4fe40cb20a9e726dcda4a0c5f7f6725dca848db51e86bfb38",
+      "size_in_bytes": 6345
+    },
+    {
+      "_path": "Library/include/netgen/meshing/basegeom.hpp",
+      "path_type": "hardlink",
+      "sha256": "a3e988d3252004a57b748f4c82dfb8b86e30e5dcbeda6ee2b36c1ea70fdf5208",
+      "size_in_bytes": 8538
+    },
+    {
+      "_path": "Library/include/netgen/meshing/bcfunctions.hpp",
+      "path_type": "hardlink",
+      "sha256": "58899dc6fbe49b3e82a60ddeeb5f7304d3ef164de246b16d9095370eeb19cf13",
+      "size_in_bytes": 2207
+    },
+    {
+      "_path": "Library/include/netgen/meshing/bisect.hpp",
+      "path_type": "hardlink",
+      "sha256": "31dd6769b7ab7d82f042b41216e7a340566dc3f68f3d7b45fbd526667d5ce08e",
+      "size_in_bytes": 1279
+    },
+    {
+      "_path": "Library/include/netgen/meshing/boundarylayer.hpp",
+      "path_type": "hardlink",
+      "sha256": "48669e2002bbeda9c90c0e843de82bc3cda50e8ac52dd1d3a3a0a0357e411821",
+      "size_in_bytes": 601
+    },
+    {
+      "_path": "Library/include/netgen/meshing/classifyhpel.hpp",
+      "path_type": "hardlink",
+      "sha256": "5db9b01cf9dd9f54bd2a8e5fe4aab75ba7c37b86e1e5f1d676e85441c3fb6942",
+      "size_in_bytes": 51164
+    },
+    {
+      "_path": "Library/include/netgen/meshing/clusters.hpp",
+      "path_type": "hardlink",
+      "sha256": "4cc6a8a7cc0203600225f20a6a64f8776ab48f008770d3fe7165d931735a6031",
+      "size_in_bytes": 1164
+    },
+    {
+      "_path": "Library/include/netgen/meshing/curvedelems.hpp",
+      "path_type": "hardlink",
+      "sha256": "31bda6f70fb36e7b86494043fccd7b79ea17a5abeddc7320aa24245de71498dc",
+      "size_in_bytes": 7964
+    },
+    {
+      "_path": "Library/include/netgen/meshing/findip.hpp",
+      "path_type": "hardlink",
+      "sha256": "1501dbcd92af050ea06e7ba9a8e2fe443843360b00a7056fb87627a6239d79bd",
+      "size_in_bytes": 4051
+    },
+    {
+      "_path": "Library/include/netgen/meshing/findip2.hpp",
+      "path_type": "hardlink",
+      "sha256": "b19f9e7544677831bc6a4e32778c812ad5396ed47d5fcf3d36d0bdbed7c7e9c5",
+      "size_in_bytes": 2182
+    },
+    {
+      "_path": "Library/include/netgen/meshing/geomsearch.hpp",
+      "path_type": "hardlink",
+      "sha256": "e05a608329a4f73158e24bd6f42d21b249391d861bfb57780b2064fbfeba5f12",
+      "size_in_bytes": 1958
+    },
+    {
+      "_path": "Library/include/netgen/meshing/global.hpp",
+      "path_type": "hardlink",
+      "sha256": "9a42940fa02964e34e8df2b3ee20a6d81eaa0092b6c93a8b573ab5fa2ff672b1",
+      "size_in_bytes": 1540
+    },
+    {
+      "_path": "Library/include/netgen/meshing/hpref_hex.hpp",
+      "path_type": "hardlink",
+      "sha256": "41f34bbf82b530aaa546e496ebed5d36e1b7ede5d3e2ad6475aa15aeff3535a0",
+      "size_in_bytes": 4285
+    },
+    {
+      "_path": "Library/include/netgen/meshing/hpref_prism.hpp",
+      "path_type": "hardlink",
+      "sha256": "a9d5804d83e8e487a36a29b57e2d39e642db24f5c1c32b1487369ec65b0ce31c",
+      "size_in_bytes": 74218
+    },
+    {
+      "_path": "Library/include/netgen/meshing/hpref_pyramid.hpp",
+      "path_type": "hardlink",
+      "sha256": "b95585a26bf198073bfcf22f6a6c4c70b071ab9a2c0bc25393e54d90ce857967",
+      "size_in_bytes": 2222
+    },
+    {
+      "_path": "Library/include/netgen/meshing/hpref_quad.hpp",
+      "path_type": "hardlink",
+      "sha256": "fcfbff51e0db6d6e07b682ad9d6bf7778541817c7718b73857b59ce1a0ecec0e",
+      "size_in_bytes": 31589
+    },
+    {
+      "_path": "Library/include/netgen/meshing/hpref_segm.hpp",
+      "path_type": "hardlink",
+      "sha256": "fc2d3da624362a41f1251f6d2430edf8b6e3d8f0ad164393e14fcdf495b5cfd4",
+      "size_in_bytes": 1900
+    },
+    {
+      "_path": "Library/include/netgen/meshing/hpref_tet.hpp",
+      "path_type": "hardlink",
+      "sha256": "e744fd2f74969e68434499942d76f2e6b7ca6abda5664b627d6ebb3805f61ca4",
+      "size_in_bytes": 50085
+    },
+    {
+      "_path": "Library/include/netgen/meshing/hpref_trig.hpp",
+      "path_type": "hardlink",
+      "sha256": "48949f176c3b0e10481cfd0faeac83bac056ba2a6a669c4c5c6ea2bab97debee",
+      "size_in_bytes": 12472
+    },
+    {
+      "_path": "Library/include/netgen/meshing/hprefinement.hpp",
+      "path_type": "hardlink",
+      "sha256": "a1b284eb12fd8f77438dc03f55d3d103cfe73bc0583d5c954feca2f01d6ed93f",
+      "size_in_bytes": 8348
+    },
+    {
+      "_path": "Library/include/netgen/meshing/improve2.hpp",
+      "path_type": "hardlink",
+      "sha256": "a2545075181c7a41da9c191084315dbc78fb5d8c64283c074cbbfbf5b1ae4f48",
+      "size_in_bytes": 4815
+    },
+    {
+      "_path": "Library/include/netgen/meshing/improve3.hpp",
+      "path_type": "hardlink",
+      "sha256": "318c9036f8c8b0c5ec1db61880ac2ef2bce4d7f34bc14908983a56b43966fd3a",
+      "size_in_bytes": 4885
+    },
+    {
+      "_path": "Library/include/netgen/meshing/localh.hpp",
+      "path_type": "hardlink",
+      "sha256": "d549f5a85395d0dc846b09fc4ddf506ea5bca56211516a4fab5016df7571e7bf",
+      "size_in_bytes": 4580
+    },
+    {
+      "_path": "Library/include/netgen/meshing/meshclass.hpp",
+      "path_type": "hardlink",
+      "sha256": "a8217e01abf2bccf8e899f8c86ac58a10b34ea9e7460bfca106e01e010ba6c4c",
+      "size_in_bytes": 28787
+    },
+    {
+      "_path": "Library/include/netgen/meshing/meshfunc.hpp",
+      "path_type": "hardlink",
+      "sha256": "4485da9eb18f22b903ead3cd1c81c275bce8b41ec61f34bf49f2bcdcdab68f66",
+      "size_in_bytes": 1140
+    },
+    {
+      "_path": "Library/include/netgen/meshing/meshing.hpp",
+      "path_type": "hardlink",
+      "sha256": "e52e19902bd5f402473004662241e7509497eb86870f8340a1df1f59247905ce",
+      "size_in_bytes": 1058
+    },
+    {
+      "_path": "Library/include/netgen/meshing/meshing2.hpp",
+      "path_type": "hardlink",
+      "sha256": "412b2222fc5a0910a7a0cbe5b30e315c05b27093e243c28111694aa89186f692",
+      "size_in_bytes": 4058
+    },
+    {
+      "_path": "Library/include/netgen/meshing/meshing3.hpp",
+      "path_type": "hardlink",
+      "sha256": "5d25dcfdf3082acb1c3dcc1cdc9c06b76bda3341ec0a3a74f955c44b02cbba45",
+      "size_in_bytes": 2285
+    },
+    {
+      "_path": "Library/include/netgen/meshing/meshtool.hpp",
+      "path_type": "hardlink",
+      "sha256": "6932c3b9aa49cfb55f5c370b03431eaa6bd30c05bef8fde5a8fd35f50fac3622",
+      "size_in_bytes": 1956
+    },
+    {
+      "_path": "Library/include/netgen/meshing/meshtype.hpp",
+      "path_type": "hardlink",
+      "sha256": "1bed3bf57aa1811029d5be06c0b1bbcd892037f1cfa073f072eaf9f82a4a2d07",
+      "size_in_bytes": 40813
+    },
+    {
+      "_path": "Library/include/netgen/meshing/msghandler.hpp",
+      "path_type": "hardlink",
+      "sha256": "4a766161494dfe126060cf87a3504263563be1e4be9502d81dff1568e0d230c2",
+      "size_in_bytes": 3100
+    },
+    {
+      "_path": "Library/include/netgen/meshing/paralleltop.hpp",
+      "path_type": "hardlink",
+      "sha256": "f3968fdbf5ee39641596232700e8b1306bfdd1a3bb530cb9c2b7349aa95d6d99",
+      "size_in_bytes": 3610
+    },
+    {
+      "_path": "Library/include/netgen/meshing/python_mesh.hpp",
+      "path_type": "hardlink",
+      "sha256": "8c9c49c1dafc3d60a5c3d2c516af051bfaec080743252d3b5b2b5d979e444216",
+      "size_in_bytes": 7496
+    },
+    {
+      "_path": "Library/include/netgen/meshing/ruler2.hpp",
+      "path_type": "hardlink",
+      "sha256": "0c46840a6ab3d3a85a82cab436da5307599eacc8efd80ac7b3c176191004d266",
+      "size_in_bytes": 3815
+    },
+    {
+      "_path": "Library/include/netgen/meshing/ruler3.hpp",
+      "path_type": "hardlink",
+      "sha256": "ca516c96737170f6418eac161a0cb7c47d568b354192d058eeecbc2dad6e24a5",
+      "size_in_bytes": 5639
+    },
+    {
+      "_path": "Library/include/netgen/meshing/specials.hpp",
+      "path_type": "hardlink",
+      "sha256": "6c806e77422670546408cb6fc2e227b91e961fc4f7c06c1de694734e3a6059a8",
+      "size_in_bytes": 236
+    },
+    {
+      "_path": "Library/include/netgen/meshing/topology.hpp",
+      "path_type": "hardlink",
+      "sha256": "e25fe4a5eb30c5a3b9add53d8678368ef7f239e5d2bb7a48bac326018a033437",
+      "size_in_bytes": 15347
+    },
+    {
+      "_path": "Library/include/netgen/meshing/validate.hpp",
+      "path_type": "hardlink",
+      "sha256": "6545a632c6d19456939d6ae4d6076c409ad1d638a5700910814a61f3f0f54511",
+      "size_in_bytes": 740
+    },
+    {
+      "_path": "Library/include/netgen/mydefs.hpp",
+      "path_type": "hardlink",
+      "sha256": "71c8fc22e2249f88b9311648a16904651e81dc5835691d3a725db1163590639c",
+      "size_in_bytes": 1506
+    },
+    {
+      "_path": "Library/include/netgen/nginterface.h",
+      "path_type": "hardlink",
+      "sha256": "b66c415a50d2fe24594337e51feae62bb29d072653877e6d821b5b474f6bc8ac",
+      "size_in_bytes": 15788
+    },
+    {
+      "_path": "Library/include/netgen/nginterface_v2.hpp",
+      "path_type": "hardlink",
+      "sha256": "38cadaa87ba82c5f7351191cfd96f5236313f2eed6b93727ab5e883e19d7a985",
+      "size_in_bytes": 10046
+    },
+    {
+      "_path": "Library/include/netgen/nglib.h",
+      "path_type": "hardlink",
+      "sha256": "249391e356b99d8416623232116957bf54cec66e9c1d3be1cda43f2dc8ab5e28",
+      "size_in_bytes": 26938
+    },
+    {
+      "_path": "Library/include/netgen/occ/occgeom.hpp",
+      "path_type": "hardlink",
+      "sha256": "ffc4c3f232df38c83127525c55385dc039ccdeb351b1cbacab5b9b8960a12aa1",
+      "size_in_bytes": 14339
+    },
+    {
+      "_path": "Library/include/netgen/occ/occmeshsurf.hpp",
+      "path_type": "hardlink",
+      "sha256": "5934171094b284c549745252a80c1e00a0016c7a83d1ec73ce45082712a7f771",
+      "size_in_bytes": 3437
+    },
+    {
+      "_path": "Library/include/netgen/occ/vsocc.hpp",
+      "path_type": "hardlink",
+      "sha256": "820336baa772129668d6b9627a5779816abe39f15c5c4dd3dc8aded890435b7c",
+      "size_in_bytes": 911
+    },
+    {
+      "_path": "Library/include/netgen/soldata.hpp",
+      "path_type": "hardlink",
+      "sha256": "50844549deb947095b94af9d69830771d86a7fc8712f5b96152f4ffa6ca0b817",
+      "size_in_bytes": 3798
+    },
+    {
+      "_path": "Library/include/netgen/stlgeom/meshstlsurface.hpp",
+      "path_type": "hardlink",
+      "sha256": "45304ee9c97d6e6406f846962d51823c9240a7f2690e2a54a9b6e03090f695cd",
+      "size_in_bytes": 2103
+    },
+    {
+      "_path": "Library/include/netgen/stlgeom/stlgeom.hpp",
+      "path_type": "hardlink",
+      "sha256": "5c3d312f5f9a04e54f3a007d49218001cf8002e8d455b89f4e8e125a98c3f3f2",
+      "size_in_bytes": 16427
+    },
+    {
+      "_path": "Library/include/netgen/stlgeom/stlline.hpp",
+      "path_type": "hardlink",
+      "sha256": "63de586f989bc9ac2887430f9dec9d02d16457acdf1ddf8ffe74b9551cff8bb5",
+      "size_in_bytes": 5004
+    },
+    {
+      "_path": "Library/include/netgen/stlgeom/stltool.hpp",
+      "path_type": "hardlink",
+      "sha256": "6090cf7e5397eceb76360afd89032a737c6ee1885602d5798f844bad316fa802",
+      "size_in_bytes": 9457
+    },
+    {
+      "_path": "Library/include/netgen/stlgeom/stltopology.hpp",
+      "path_type": "hardlink",
+      "sha256": "dfba06d6a3c6a3192da948e1b53cbd977568f188af0b318e1f1e0685d4bf6732",
+      "size_in_bytes": 11917
+    },
+    {
+      "_path": "Library/include/netgen/stlgeom/vsstl.hpp",
+      "path_type": "hardlink",
+      "sha256": "eddf849fe76b993d090ebded86dd9c245088d6cbacf09681591f6111b06baff9",
+      "size_in_bytes": 1360
+    },
+    {
+      "_path": "Library/include/netgen/visualization/meshdoc.hpp",
+      "path_type": "hardlink",
+      "sha256": "6907eb2fb0e4c99628b4f740e7123fe90c4692b6d94d21fa2be5df8a8a55c93b",
+      "size_in_bytes": 792
+    },
+    {
+      "_path": "Library/include/netgen/visualization/mvdraw.hpp",
+      "path_type": "hardlink",
+      "sha256": "351732e727f5e19759a75582649ce0a1fa72aef59a464d2bdf25424fe7352717",
+      "size_in_bytes": 6300
+    },
+    {
+      "_path": "Library/include/netgen/visualization/vispar.hpp",
+      "path_type": "hardlink",
+      "sha256": "fa723ee6b1ff2889cac5e7d26a99dbda64716a6541c8d8c495c375e0724bc809",
+      "size_in_bytes": 2128
+    },
+    {
+      "_path": "Library/include/netgen/visualization/visual.hpp",
+      "path_type": "hardlink",
+      "sha256": "5b8292af8c295d4a9295f531461b3fab25cb5f2d25c1f668283a4d9379336b5f",
+      "size_in_bytes": 690
+    },
+    {
+      "_path": "Library/include/netgen/visualization/vssolution.hpp",
+      "path_type": "hardlink",
+      "sha256": "cd6fcb27a32c324e9c9619984912b9bcf767d52c07f877b279e4afb33946bd0f",
+      "size_in_bytes": 11449
+    },
+    {
+      "_path": "Library/lib/ngcore.lib",
+      "path_type": "hardlink",
+      "sha256": "9d7ae342e0d8063bba6177b976752bd283ae3d048189d5e9bcd3cc9242f290b3",
+      "size_in_bytes": 142824
+    },
+    {
+      "_path": "Library/lib/nglib.lib",
+      "path_type": "hardlink",
+      "sha256": "d3f13a1528f64bd7c81e01340d6ccf3a5627ae67fe2639ab3444761f5967dd7a",
+      "size_in_bytes": 379248
+    },
+    {
+      "_path": "Library/share/netgen/boundarycondition.geo",
+      "path_type": "hardlink",
+      "sha256": "5ed4bca6790109e14da2eecfac93fc64211b92f0dfedd48cec5a7d512f7b2f62",
+      "size_in_bytes": 388
+    },
+    {
+      "_path": "Library/share/netgen/boxcyl.geo",
+      "path_type": "hardlink",
+      "sha256": "c24745bbe6204bb64341dcb292af21e0b085df1157354a4e16bdfe654ecd56da",
+      "size_in_bytes": 558
+    },
+    {
+      "_path": "Library/share/netgen/circle_on_cube.geo",
+      "path_type": "hardlink",
+      "sha256": "0d4497dbde61d65184e3709243f4ecd7100f865910cb1fa89326e07258c5e690",
+      "size_in_bytes": 506
+    },
+    {
+      "_path": "Library/share/netgen/cone.geo",
+      "path_type": "hardlink",
+      "sha256": "21e22fb9e8c6fdf166601c1fdc39da9c546529649667961b173642b140606cd7",
+      "size_in_bytes": 220
+    },
+    {
+      "_path": "Library/share/netgen/cube.geo",
+      "path_type": "hardlink",
+      "sha256": "8f83ea5acb1775b5f7fba434530ff6096cd5e5d96bbd6c981d72395819b81115",
+      "size_in_bytes": 304
+    },
+    {
+      "_path": "Library/share/netgen/cubeandring.geo",
+      "path_type": "hardlink",
+      "sha256": "de426e8dde4fd03d1f76044fbd2f992cd615357b39de0e493ecc4bdca1a98de0",
+      "size_in_bytes": 648
+    },
+    {
+      "_path": "Library/share/netgen/cubeandspheres.geo",
+      "path_type": "hardlink",
+      "sha256": "5cdfb573c033c426180e88cea7532354560cd26cb02939c4264360f3b7f2bbef",
+      "size_in_bytes": 471
+    },
+    {
+      "_path": "Library/share/netgen/cubemcyl.geo",
+      "path_type": "hardlink",
+      "sha256": "0a7f22cc64eea627950bf97f267e48d787394ad331458ec193296a0033af32a9",
+      "size_in_bytes": 407
+    },
+    {
+      "_path": "Library/share/netgen/cubemsphere.geo",
+      "path_type": "hardlink",
+      "sha256": "44398613e7c3f6b5737b405a321ec242fbc9082dbf161852ba4943717681c115",
+      "size_in_bytes": 380
+    },
+    {
+      "_path": "Library/share/netgen/cylinder.geo",
+      "path_type": "hardlink",
+      "sha256": "b1720d51048c0caa155126b1b76ff538a78e3561d36194df99a56b88c556dc0c",
+      "size_in_bytes": 184
+    },
+    {
+      "_path": "Library/share/netgen/cylsphere.geo",
+      "path_type": "hardlink",
+      "sha256": "8de51c20f42bfb5186516a2751240b3148b3ce5476e5f36fa946cbdaccb970f6",
+      "size_in_bytes": 218
+    },
+    {
+      "_path": "Library/share/netgen/doc/ng4.pdf",
+      "path_type": "hardlink",
+      "sha256": "665956f0110eb6a407aa0884f2f125ab1b36e80b17f417643c2f5b0ad1265b92",
+      "size_in_bytes": 520268
+    },
+    {
+      "_path": "Library/share/netgen/ellipsoid.geo",
+      "path_type": "hardlink",
+      "sha256": "b3596cbfe7e3c2db05d2499f8c7ec371eb6677be169055ecde2453c6d2c4e185",
+      "size_in_bytes": 123
+    },
+    {
+      "_path": "Library/share/netgen/ellipticcyl.geo",
+      "path_type": "hardlink",
+      "sha256": "554e015feabdd71ac0f60d8e02e2ea0425413e9e1a8344006e71db6e49155d4e",
+      "size_in_bytes": 181
+    },
+    {
+      "_path": "Library/share/netgen/extrusion.geo",
+      "path_type": "hardlink",
+      "sha256": "380a7e28e3ebb334af65a1d622d3c22c366a8a79c840d65ce7b1195e337b8d26",
+      "size_in_bytes": 1177
+    },
+    {
+      "_path": "Library/share/netgen/fichera.geo",
+      "path_type": "hardlink",
+      "sha256": "e257a2b4cd9e38f73cbed443b7ce4dc4f1ec20c75894d6596dc118cf0fff793a",
+      "size_in_bytes": 613
+    },
+    {
+      "_path": "Library/share/netgen/frame.step",
+      "path_type": "hardlink",
+      "sha256": "9b227cbdc5b922aaedba6e2c2a482a8f0799bdf8e55b0e82fefc35350ad12d45",
+      "size_in_bytes": 495592
+    },
+    {
+      "_path": "Library/share/netgen/hinge.stl",
+      "path_type": "hardlink",
+      "sha256": "6a3dad078e4a2e438f4bf99c876eee7e0a6af1db738945ad4e63a40eaec4958d",
+      "size_in_bytes": 318065
+    },
+    {
+      "_path": "Library/share/netgen/lshape3d.geo",
+      "path_type": "hardlink",
+      "sha256": "9b8d9b377db5b46e2f31259aa9f41040c1595ef608daa1e4d10da1dca5aade07",
+      "size_in_bytes": 408
+    },
+    {
+      "_path": "Library/share/netgen/manyholes.geo",
+      "path_type": "hardlink",
+      "sha256": "f63424f01881531501100bee8d41fa0101f3462bc04b2eede7e022ff03451f08",
+      "size_in_bytes": 448
+    },
+    {
+      "_path": "Library/share/netgen/manyholes2.geo",
+      "path_type": "hardlink",
+      "sha256": "d5ed673384ad2f5a569b191bbd671325d12eede4f7ef2c76bb3b65fb6d69de45",
+      "size_in_bytes": 450
+    },
+    {
+      "_path": "Library/share/netgen/matrix.geo",
+      "path_type": "hardlink",
+      "sha256": "967a2307c8feed69bd869aa90c31a5966aac49062aa4b425714945c1219eec6f",
+      "size_in_bytes": 729
+    },
+    {
+      "_path": "Library/share/netgen/ortho.geo",
+      "path_type": "hardlink",
+      "sha256": "cec166b21240eeb7cba859df95af8ab2c64315c87e033a3dc2490ee827cc8509",
+      "size_in_bytes": 115
+    },
+    {
+      "_path": "Library/share/netgen/part1.stl",
+      "path_type": "hardlink",
+      "sha256": "dcd928df68ae73ef41bd18cd784edc8973fb22ac11a3547d9acd83ec3d79c4a6",
+      "size_in_bytes": 99118
+    },
+    {
+      "_path": "Library/share/netgen/period.geo",
+      "path_type": "hardlink",
+      "sha256": "76db050fa3adedb9b56e0019df87d1030eec23e1396dfbffb2391d8f17a095dc",
+      "size_in_bytes": 670
+    },
+    {
+      "_path": "Library/share/netgen/py_tutorials/__pycache__/exportNeutral.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "128b27d93c283b5898264d78c26b3256178e867e1c43c88d7771ae504d58870e",
+      "size_in_bytes": 680
+    },
+    {
+      "_path": "Library/share/netgen/py_tutorials/__pycache__/mesh.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "c5f141175fd18ff7cc8d560fc5f0761960fa2fe2a7fb5c854e5296fe56099cf3",
+      "size_in_bytes": 435
+    },
+    {
+      "_path": "Library/share/netgen/py_tutorials/exportNeutral.py",
+      "path_type": "hardlink",
+      "sha256": "b57c7e9e5e639f19ba5e9fd9d891d48587fc39e1eddac76166717efb2aa27bad",
+      "size_in_bytes": 546
+    },
+    {
+      "_path": "Library/share/netgen/py_tutorials/mesh.py",
+      "path_type": "hardlink",
+      "sha256": "daf85a94b032b847c302e236f97d6652f2d7ca3f86144944224ce747a609ae1a",
+      "size_in_bytes": 286
+    },
+    {
+      "_path": "Library/share/netgen/py_tutorials/shaft.geo",
+      "path_type": "hardlink",
+      "sha256": "e43849fd33fcb4f65502d93c7ce27033aeb5d0f1a3923a264eb94a6c1f6d7788",
+      "size_in_bytes": 2287
+    },
+    {
+      "_path": "Library/share/netgen/revolution.geo",
+      "path_type": "hardlink",
+      "sha256": "35c55068ef5ca6962e5a1b96a379934922ffcb2545df6ea83538d13e68b13433",
+      "size_in_bytes": 189
+    },
+    {
+      "_path": "Library/share/netgen/screw.step",
+      "path_type": "hardlink",
+      "sha256": "4b3649a4f5c4f05c7a06a402a91fe2fd7e3cba1615520fbd8c62a62610ad3e69",
+      "size_in_bytes": 88552
+    },
+    {
+      "_path": "Library/share/netgen/sculpture.geo",
+      "path_type": "hardlink",
+      "sha256": "c3911c2430f682392cbfa75ace513e740ca8877d92accd44966da9e63624dc8c",
+      "size_in_bytes": 404
+    },
+    {
+      "_path": "Library/share/netgen/shaft.geo",
+      "path_type": "hardlink",
+      "sha256": "e43849fd33fcb4f65502d93c7ce27033aeb5d0f1a3923a264eb94a6c1f6d7788",
+      "size_in_bytes": 2287
+    },
+    {
+      "_path": "Library/share/netgen/shell.geo",
+      "path_type": "hardlink",
+      "sha256": "8420dfbcd8d70eb1e77aab13115e909ee50c935d42c9fa8098c46a61df71849a",
+      "size_in_bytes": 169
+    },
+    {
+      "_path": "Library/share/netgen/sphere.geo",
+      "path_type": "hardlink",
+      "sha256": "97cac8e412a1bbd514f1e48a23c9b68bb71315ffa8df46a5f27a954d778dbd76",
+      "size_in_bytes": 77
+    },
+    {
+      "_path": "Library/share/netgen/sphereincube.geo",
+      "path_type": "hardlink",
+      "sha256": "cae245351db9b758949d1195c3892ef2c01f3cb8290fc7b62fe6ab13dbb4260c",
+      "size_in_bytes": 414
+    },
+    {
+      "_path": "Library/share/netgen/square.in2d",
+      "path_type": "hardlink",
+      "sha256": "7a70074d7acc38cf803068e29445f248306fb3d9fc6269965c24b317b9569a33",
+      "size_in_bytes": 736
+    },
+    {
+      "_path": "Library/share/netgen/squarecircle.in2d",
+      "path_type": "hardlink",
+      "sha256": "13fce247a6421e0a8e1784e6a13f5888b1871810c978407484e00f30ac0621eb",
+      "size_in_bytes": 1121
+    },
+    {
+      "_path": "Library/share/netgen/squarehole.in2d",
+      "path_type": "hardlink",
+      "sha256": "e887f4a39d7dde24cc2253fe47020b75330b5820561f139b827583a764431b48",
+      "size_in_bytes": 1136
+    },
+    {
+      "_path": "Library/share/netgen/torus.geo",
+      "path_type": "hardlink",
+      "sha256": "4fd40c52a02292a7d1cc7b1248ec28866119b0d89581742f78f2e13ad4b8c8ab",
+      "size_in_bytes": 87
+    },
+    {
+      "_path": "Library/share/netgen/trafo.geo",
+      "path_type": "hardlink",
+      "sha256": "6566a9baeea856d28045e73871a70870ad5ebf084df05bffe2ac58a60425a892",
+      "size_in_bytes": 1515
+    },
+    {
+      "_path": "Library/share/netgen/twobricks.geo",
+      "path_type": "hardlink",
+      "sha256": "416c902935f96d02f44219c1c15ec1b465e6058862e165824ee844e1797df7dc",
+      "size_in_bytes": 426
+    },
+    {
+      "_path": "Library/share/netgen/twocubes.geo",
+      "path_type": "hardlink",
+      "sha256": "8cdf1113241b9537df32e3ce5b991679a6e08bee99897aca88135113c5425153",
+      "size_in_bytes": 442
+    },
+    {
+      "_path": "Library/share/netgen/twocyl.geo",
+      "path_type": "hardlink",
+      "sha256": "45cd69c52617e291ca5c3e53514d3ca173c869a3812e656bdfb8ee7692b7ecff",
+      "size_in_bytes": 315
+    }
+  ],
+  "paths_version": 1
+}

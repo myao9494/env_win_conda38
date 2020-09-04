@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "h6b34a1e_1009",
+  "build_number": 1009,
+  "depends": [
+    "boost-cpp >=1.72.0,<1.72.1.0a0",
+    "expat >=2.2.9,<2.3.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "name": "coin3d",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1597124920188,
+  "version": "4.0.0"
+}

@@ -1,0 +1,21 @@
+{
+  "arch": "x86_64",
+  "build": "nompi_py38ha551744_104",
+  "build_number": 104,
+  "depends": [
+    "hdf5 >=1.10.6,<1.10.7.0a0",
+    "numpy >=1.14.6,<2.0a0",
+    "pyreadline",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "six",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "h5py",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1595110930533,
+  "version": "2.10.0"
+}

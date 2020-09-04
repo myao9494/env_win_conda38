@@ -1,0 +1,42 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Fri Aug 28 11:07:55 2020
+# ------------------------------------------------
+
+package:
+    name: nodejs
+    version: 14.9.0
+source:
+    fn: node-v14.9.0.tar.gz
+    sha256: bcd3fc61739e7ac9a4b6103da3fe5f8c9e310b7b0f1b1f0200d5a4b5dd65d723
+    url: https://nodejs.org/dist/v14.9.0/node-v14.9.0-win-x64.zip
+build:
+    detect_binary_files_with_prefix: false
+    number: '0'
+    string: '0'
+requirements:
+    host:
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+    run:
+        - vs2015_runtime
+test:
+    commands:
+        - node -h
+        - node -v
+        - npm version
+        - npm install -h
+        - npm config get prefix -g
+about:
+    home: https://nodejs.org/
+    license: MIT
+    license_file: LICENSE
+    summary: a platform for easily building fast, scalable network applications
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - blink1073
+        - minrk
+        - msarahan
+        - pelson
+        - xhochy

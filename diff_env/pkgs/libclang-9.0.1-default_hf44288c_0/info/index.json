@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "default_hf44288c_0",
+  "build_number": 0,
+  "depends": [
+    "vc >=14.1,<15.0a0"
+  ],
+  "license": "NCSA",
+  "name": "libclang",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1578107867788,
+  "version": "9.0.1"
+}

@@ -1,0 +1,12 @@
+{
+  "zlib": "1.2",
+  "qt": "5.12",
+  "cxx_compiler": "vs2017",
+  "freetype": "2.9.1",
+  "boost_cpp": "1.72",
+  "hdf5": "1.10.6",
+  "occt": "7.4",
+  "vtk": "8.2.0",
+  "python": "3.8.* *_cpython",
+  "xerces_c": "3.2.2"
+}

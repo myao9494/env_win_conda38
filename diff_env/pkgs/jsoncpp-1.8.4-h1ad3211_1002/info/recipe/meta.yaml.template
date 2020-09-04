@@ -1,0 +1,57 @@
+{% set version = "1.8.4" %}
+
+package:
+  name: jsoncpp
+  version: {{ version }}
+
+source:
+  fn: jsoncpp-{{ version }}.tar.gz
+  url: https://github.com/open-source-parsers/jsoncpp/archive/{{ version }}.tar.gz
+  sha256: c49deac9e0933bcb7044f08516861a2d560988540b23de2ac1ad443b219afdb6
+  patches:
+    ###################################################################
+    #  Include upstreamed patch for VS 2008 support.                  #
+    #                                                                 #
+    #  xref: https://github.com/open-source-parsers/jsoncpp/pull/733  #
+    ###################################################################
+    - PR_733.patch
+
+build:
+  number: 1002
+  run_exports:
+    - {{ pin_subpackage('jsoncpp', max_pin='x.x') }}
+
+requirements:
+  build:
+    - {{ compiler("cxx") }}
+    - cmake
+    - make        # [unix]
+    - pkg-config  # [unix]
+    - python
+  host:
+    - msinttypes  # [win and vc==9]
+
+test:
+  commands:
+    # Verify headers are present.
+    - test -f "${PREFIX}/include/json/json.h"                       # [unix]
+    - if not exist %PREFIX%\\Library\\include\\json\\json.h exit 1  # [win]
+
+    # Verify pkg-config file is present.
+    - test -f "${PREFIX}/lib/pkgconfig/jsoncpp.pc"  # [unix]
+
+    # Verify libraries are present.
+    - test -f "${PREFIX}/lib/libjsoncpp_static.a"                                      # [unix]
+    - python -c "import ctypes; ctypes.cdll[r'${PREFIX}/lib/libjsoncpp${SHLIB_EXT}']"  # [unix]
+    - if not exist %PREFIX%\\Library\\lib\\jsoncpp.lib exit 1                          # [win]
+
+about:
+  home: https://github.com/open-source-parsers/jsoncpp
+  license: Public Domain/MIT
+  license_file: LICENSE
+  summary: A C++ library for interacting with JSON.
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - stuarteberg

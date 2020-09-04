@@ -1,0 +1,87 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Sat Jul 18 22:08:27 2020
+# ------------------------------------------------
+
+package:
+    name: h5py
+    version: 2.10.0
+source:
+    patches:
+        - ppc64le_test.patch
+        - remove_test.patch
+        - skip-failing-unicode-test.patch
+        - use-char-not-array-array.patch
+    sha256: 2a8369f74d079dbfe35aebbf56b565a5d2e7bea6d3cdba682b4d456128a23b5e
+    url: https://github.com/h5py/h5py/archive/2.10.0.tar.gz
+build:
+    number: '104'
+    string: nompi_py38ha551744_104
+requirements:
+    build:
+        - vs2017_win-64 19.16.27038 h2e3bad8_2
+        - vswhere 2.7.1 h21ff451_0
+    host:
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py38h32f6830_0
+        - cython 0.29.21 py38h7ae7562_0
+        - gettext 0.19.8.1 hb01d8f6_1002
+        - glib 2.65.0 he4de6d7_0
+        - hdf5 1.10.6 nompi_ha405e13_100
+        - intel-openmp 2020.1 216
+        - libblas 3.8.0 16_mkl
+        - libcblas 3.8.0 16_mkl
+        - libffi 3.2.1 h6538335_1007
+        - libiconv 1.15 hfa6e2cd_1006
+        - liblapack 3.8.0 16_mkl
+        - m2w64-gcc-libgfortran 5.3.0 6
+        - m2w64-gcc-libs 5.3.0 7
+        - m2w64-gcc-libs-core 5.3.0 7
+        - m2w64-gmp 6.1.0 2
+        - m2w64-libwinpthread-git 5.0.0.4634.697f757 2
+        - mkl 2020.1 216
+        - msys2-conda-epoch 20160418 1
+        - numpy 1.14.6 py38hc71023c_1201
+        - openssl 1.1.1g he774522_0
+        - pcre 8.44 h6538335_0
+        - pip 20.1.1 py_1
+        - pkg-config 0.29.2 h8cfccfd_1006
+        - pkgconfig 1.4.0 py38h32f6830_0
+        - python 3.8.2 h5fd99cc_7_cpython
+        - python_abi 3.8 1_cp38
+        - setuptools 49.2.0 py38h32f6830_0
+        - six 1.15.0 pyh9f0ad1d_0
+        - sqlite 3.32.3 he774522_1
+        - vc 14.1 h869be7e_1
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+        - wheel 0.34.2 py_1
+        - wincertstore 0.2 py38_1003
+        - zlib 1.2.11 h2fa13f4_1006
+    run:
+        - hdf5 >=1.10.6,<1.10.7.0a0
+        - numpy >=1.14.6,<2.0a0
+        - pyreadline
+        - python >=3.8,<3.9.0a0
+        - python_abi 3.8.* *_cp38
+        - six
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012
+test:
+    imports:
+        - h5py
+    requires:
+        - pytest
+about:
+    home: http://www.h5py.org/
+    license: BSD-3-Clause
+    license_file: licenses/license.txt
+    summary: Read and write HDF5 files from Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - minrk
+        - ocefpaf
+        - scopatz
+        - tacaswell

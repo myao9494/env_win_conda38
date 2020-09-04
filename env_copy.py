@@ -63,6 +63,7 @@ class env_copy_anaconda():
         self.diff_df = c
 
     def create_diff_file(self):
+        home_path = os.path.join(os.getcwd(),"diff_env")
         try:
             shutil.rmtree("diff_env")
         except:
@@ -71,25 +72,28 @@ class env_copy_anaconda():
         c=pd.read_csv("file_env_diff.csv", index_col=0)
         li=c["path"].values.tolist()
         for f_path_moto in li:
-            f_path_copy = f_path_moto.replace("Anaconda3","diff_env")
+            f_path_copy = f_path_moto.replace(r"C:\Users\mineo\Anaconda38",home_path)
             if not os.path.exists(os.path.dirname(f_path_copy)):
                 os.makedirs(os.path.dirname(f_path_copy))
-            shutil.copyfile(f_path_moto,f_path_copy)
+            try:
+                shutil.copyfile(f_path_moto,f_path_copy)
+            except:
+                print(f_path_moto)
             # print (f_path_moto,"OK")
-        if os.path.exists("diff_env"):
-            shutil.rmtree("diff_env")
-        folder_path = self.anaconda_dir.replace("Anaconda3","diff_env")
-        shutil.move(folder_path,os.getcwd())
+        # if os.path.exists("diff_env"):
+        #     shutil.rmtree("diff_env")
+        # folder_path = self.anaconda_dir.replace("Anaconda38","diff_env")
+        # shutil.move(folder_path,os.getcwd())
 
     def copy_to_anaconda3(self):
         c=pd.read_csv("file_env_diff.csv", index_col=0)
         li=c["path"].values.tolist()
-        folder_path = self.anaconda_dir.replace("anaconda3","diff_env")
+        folder_path = self.anaconda_dir.replace("Anaconda38","diff_env")
         home_path = os.path.join(os.getcwd(),"diff_env")
         # shutil.copytree("diff_env",folder_path)
         for f_path_moto in li:
-            f_path_copy = f_path_moto.replace(r"C:\Users\mineo\Anaconda3",self.anaconda_dir)
-            f_path_moto = f_path_moto.replace(r"C:\Users\mineo\Anaconda3",home_path)
+            f_path_copy = f_path_moto.replace(r"C:\Users\mineo\Anaconda38",self.anaconda_dir)
+            f_path_moto = f_path_moto.replace(r"C:\Users\mineo\Anaconda38",home_path)
             if not os.path.exists(os.path.dirname(f_path_copy)):
                 os.makedirs(os.path.dirname(f_path_copy))
             shutil.copyfile(f_path_moto,f_path_copy)

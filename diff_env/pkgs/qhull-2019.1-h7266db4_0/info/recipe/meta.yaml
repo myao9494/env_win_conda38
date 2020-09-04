@@ -1,0 +1,57 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Thu Aug 27 02:16:02 2020
+# ------------------------------------------------
+
+package:
+    name: qhull
+    version: '2019.1'
+source:
+    fn: 2019.1.tar.gz
+    sha256: cf7235b76244595a86b9407b906e3259502b744528318f2178155e5899d6cf9f
+    url: https://github.com/qhull/qhull/archive/2019.1.tar.gz
+build:
+    number: '0'
+    string: h7266db4_0
+requirements:
+    build:
+        - cmake 3.18.0 h33f27b4_0
+        - ninja 1.10.1 h6386701_0
+        - python 3.7.1 h9460c21_1003
+        - python_abi 3.7 1_cp37m
+        - vc 14.1 h869be7e_1
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+        - vs2017_win-64 19.16.27038 h2e3bad8_2
+        - vswhere 2.7.1 h21ff451_0
+    host:
+        - vc 14.1 h869be7e_1
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+    run:
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012
+test:
+    commands:
+        - if not exist %PREFIX%\\Library\\lib\\qhullcpp.lib exit 1
+        - if not exist %PREFIX%\\Library\\lib\\qhullstatic.lib exit 1
+        - if not exist %PREFIX%\\Library\\lib\\qhullstatic_r.lib exit 1
+        - if not exist %PREFIX%\\Library\\lib\\qhull.lib exit 1
+        - if not exist %PREFIX%\\Library\\bin\\qhull.dll exit 1
+        - if not exist %PREFIX%\\Library\\lib\\qhull_r.lib exit 1
+        - if not exist %PREFIX%\\Library\\bin\\qhull_r.dll exit 1
+        - if not exist %PREFIX%\\Library\\lib\\qhull_p.lib exit 1
+        - if not exist %PREFIX%\\Library\\bin\\qhull_p.dll exit 1
+        - rbox c P0 D2 | qvoronoi s o
+        - rbox c | qconvex FQ FV n | qhalf Fp
+        - rbox 1000 D3 | qhull C-1e-4 FO Ts
+about:
+    dev_url: https://github.com/qhull/qhull
+    doc_url: http://www.qhull.org/html
+    home: http://www.qhull.org/
+    license: Qhull
+    license_file: COPYING.txt
+    summary: Qhull computes the convex hull
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - sirokujira

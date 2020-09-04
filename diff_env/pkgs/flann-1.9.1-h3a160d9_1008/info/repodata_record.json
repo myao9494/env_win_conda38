@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "h3a160d9_1008",
+  "build_number": 1008,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "hdf5 >=1.10.6,<1.10.7.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "features": "",
+  "fn": "flann-1.9.1-h3a160d9_1008.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "f7c036e696120a1e39bbc859c3f093b9",
+  "name": "flann",
+  "platform": "win32",
+  "sha256": "af5fccbbcff1cbe64a81ca352ef02a9674e85d44f90cf2d2f6b1f3824d59d691",
+  "size": 5967904,
+  "subdir": "win-64",
+  "timestamp": 1588123451283,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/flann-1.9.1-h3a160d9_1008.tar.bz2",
+  "version": "1.9.1"
+}

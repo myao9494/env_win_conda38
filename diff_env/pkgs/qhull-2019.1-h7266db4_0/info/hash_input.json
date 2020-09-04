@@ -1,0 +1,4 @@
+{
+  "cxx_compiler": "vs2017",
+  "CMAKE_GENERATOR": "NMake Makefiles"
+}

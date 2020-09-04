@@ -1,0 +1,6 @@
+{
+  "boost_cpp": "1.72",
+  "c_compiler": "vs2017",
+  "cxx_compiler": "vs2017",
+  "expat": "2.2"
+}

@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "py38_1",
+  "build_number": 1,
+  "depends": [
+    "_anaconda_depends",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "license": "BSD",
+  "name": "anaconda",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1587071756435,
+  "version": "custom"
+}

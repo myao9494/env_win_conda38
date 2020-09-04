@@ -1,0 +1,150 @@
+{
+  "build": "h1ad3211_1002",
+  "build_number": 1002,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\mineo\\Anaconda38\\pkgs\\jsoncpp-1.8.4-h1ad3211_1002",
+  "features": "",
+  "files": [
+    "Library/bin/jsoncpp.dll",
+    "Library/include/json/allocator.h",
+    "Library/include/json/assertions.h",
+    "Library/include/json/autolink.h",
+    "Library/include/json/config.h",
+    "Library/include/json/features.h",
+    "Library/include/json/forwards.h",
+    "Library/include/json/json.h",
+    "Library/include/json/reader.h",
+    "Library/include/json/value.h",
+    "Library/include/json/version.h",
+    "Library/include/json/writer.h",
+    "Library/lib/jsoncpp.lib",
+    "Library/lib/pkgconfig/jsoncpp.pc",
+    ".nonadmin"
+  ],
+  "fn": "jsoncpp-1.8.4-h1ad3211_1002.tar.bz2",
+  "license": "Public Domain/MIT",
+  "link": {
+    "source": "C:\\Users\\mineo\\Anaconda38\\pkgs\\jsoncpp-1.8.4-h1ad3211_1002",
+    "type": 1
+  },
+  "md5": "3b5fb5e5bc83a9ffc1852a32e6da4693",
+  "name": "jsoncpp",
+  "package_tarball_full_path": "C:\\Users\\mineo\\Anaconda38\\pkgs\\jsoncpp-1.8.4-h1ad3211_1002.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/jsoncpp.dll",
+        "path_type": "hardlink",
+        "sha256": "1366f62a403b9b7110045dc75d1e46340d4c2a652a86560fd6b3a6faf38adad8",
+        "sha256_in_prefix": "1366f62a403b9b7110045dc75d1e46340d4c2a652a86560fd6b3a6faf38adad8",
+        "size_in_bytes": 217088
+      },
+      {
+        "_path": "Library/include/json/allocator.h",
+        "path_type": "hardlink",
+        "sha256": "f47a5d2fb2d106895577dbc721bbfd7c9e142a1380b054e94998d7a5a573060b",
+        "sha256_in_prefix": "f47a5d2fb2d106895577dbc721bbfd7c9e142a1380b054e94998d7a5a573060b",
+        "size_in_bytes": 2531
+      },
+      {
+        "_path": "Library/include/json/assertions.h",
+        "path_type": "hardlink",
+        "sha256": "26a9c0499534cc1e4fa2168255a0cadaf82fb587a4b3df6ed1eb218220b7e7e8",
+        "sha256_in_prefix": "26a9c0499534cc1e4fa2168255a0cadaf82fb587a4b3df6ed1eb218220b7e7e8",
+        "size_in_bytes": 2233
+      },
+      {
+        "_path": "Library/include/json/autolink.h",
+        "path_type": "hardlink",
+        "sha256": "f77dcb91b8264a57496190084b28b315deae421de2b00f90b6968649417b72ce",
+        "sha256_in_prefix": "f77dcb91b8264a57496190084b28b315deae421de2b00f90b6968649417b72ce",
+        "size_in_bytes": 686
+      },
+      {
+        "_path": "Library/include/json/config.h",
+        "path_type": "hardlink",
+        "sha256": "66786f3d738c794df197909f997e3e6f61f37801bd333ef156793d9a10fe9ff9",
+        "sha256_in_prefix": "66786f3d738c794df197909f997e3e6f61f37801bd333ef156793d9a10fe9ff9",
+        "size_in_bytes": 6654
+      },
+      {
+        "_path": "Library/include/json/features.h",
+        "path_type": "hardlink",
+        "sha256": "941184b5c5407bdf8175867c19b884d0db7fcd4a62a1705efd63656742ad8ddc",
+        "sha256_in_prefix": "941184b5c5407bdf8175867c19b884d0db7fcd4a62a1705efd63656742ad8ddc",
+        "size_in_bytes": 1784
+      },
+      {
+        "_path": "Library/include/json/forwards.h",
+        "path_type": "hardlink",
+        "sha256": "0957ac7b5178975a557e4642707622af171a9395cbccca25c80eb86c4d40ede6",
+        "sha256_in_prefix": "0957ac7b5178975a557e4642707622af171a9395cbccca25c80eb86c4d40ede6",
+        "size_in_bytes": 782
+      },
+      {
+        "_path": "Library/include/json/json.h",
+        "path_type": "hardlink",
+        "sha256": "6d028ecc5dd4f4eda35535b0ff699a1550300ba6901f1603205be632596c4849",
+        "sha256_in_prefix": "6d028ecc5dd4f4eda35535b0ff699a1550300ba6901f1603205be632596c4849",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "Library/include/json/reader.h",
+        "path_type": "hardlink",
+        "sha256": "7a7209153e8fd6cd99b23e6963938d3e27253150731a6f0b21c606631a03fa7c",
+        "sha256_in_prefix": "7a7209153e8fd6cd99b23e6963938d3e27253150731a6f0b21c606631a03fa7c",
+        "size_in_bytes": 13737
+      },
+      {
+        "_path": "Library/include/json/value.h",
+        "path_type": "hardlink",
+        "sha256": "8dbbef46431fc32b86db6c9ead1396cf6138e1d9e25cd9b9fce80e5137fd116e",
+        "sha256_in_prefix": "8dbbef46431fc32b86db6c9ead1396cf6138e1d9e25cd9b9fce80e5137fd116e",
+        "size_in_bytes": 28022
+      },
+      {
+        "_path": "Library/include/json/version.h",
+        "path_type": "hardlink",
+        "sha256": "264832731704fd0878758d8cc0879dd86f924da41052993fe619ab068a0b608e",
+        "sha256_in_prefix": "264832731704fd0878758d8cc0879dd86f924da41052993fe619ab068a0b608e",
+        "size_in_bytes": 722
+      },
+      {
+        "_path": "Library/include/json/writer.h",
+        "path_type": "hardlink",
+        "sha256": "7b0af26501c77f09ba0ab7678489d3652ba94b7a813c303e4914319f0697dc04",
+        "sha256_in_prefix": "7b0af26501c77f09ba0ab7678489d3652ba94b7a813c303e4914319f0697dc04",
+        "size_in_bytes": 11910
+      },
+      {
+        "_path": "Library/lib/jsoncpp.lib",
+        "path_type": "hardlink",
+        "sha256": "5642453d71118441f2989adba51ab6b5eff3721c2e4c1783a54a7dd5f8aa44a8",
+        "sha256_in_prefix": "5642453d71118441f2989adba51ab6b5eff3721c2e4c1783a54a7dd5f8aa44a8",
+        "size_in_bytes": 132354
+      },
+      {
+        "_path": "Library/lib/pkgconfig/jsoncpp.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/jsoncpp_1572448969758/_h_env",
+        "sha256": "5136dac502b004b3f50153c45f44179ff34707e3c29b85f453bed550003a1235",
+        "sha256_in_prefix": "9883c3fd85aeafdc9fb4993628c509ffd46121b35c0d0a63ad73bf7297b68bf9",
+        "size_in_bytes": 314
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e72d3b01469ed0ab0a27796e97c3fd74b544b8b2196de253e84611456ad7aea8",
+  "size": 121086,
+  "subdir": "win-64",
+  "timestamp": 1572449231439,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/jsoncpp-1.8.4-h1ad3211_1002.tar.bz2",
+  "version": "1.8.4"
+}

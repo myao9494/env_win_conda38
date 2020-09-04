@@ -1,0 +1,7 @@
+Library/bin/pthreadVSE2.dll
+Library/include/pthread.h
+Library/include/sched.h
+Library/include/semaphore.h
+Library/lib/pthread.lib
+Library/lib/pthreads.lib
+Library/lib/pthreads_static.lib

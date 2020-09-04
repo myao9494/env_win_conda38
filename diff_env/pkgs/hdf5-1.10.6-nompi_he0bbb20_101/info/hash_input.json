@@ -1,0 +1,7 @@
+{
+  "zlib": "1.2",
+  "mpi": "nompi",
+  "vc": "14",
+  "cxx_compiler": "vs2017",
+  "c_compiler": "vs2017"
+}

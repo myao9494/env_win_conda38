@@ -1,0 +1,7 @@
+{
+  "c_compiler": "vs2015",
+  "libxml2": "2.9",
+  "qt": "5.12",
+  "cxx_compiler": "vs2015",
+  "vc": "14"
+}

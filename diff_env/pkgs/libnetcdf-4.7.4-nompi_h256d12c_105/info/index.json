@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "nompi_h256d12c_105",
+  "build_number": 105,
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "curl >=7.71.1,<8.0a0",
+    "hdf4 >=4.2.13,<4.3.0a0",
+    "hdf5 * nompi_*",
+    "hdf5 >=1.10.6,<1.10.7.0a0",
+    "jpeg >=9d,<10a",
+    "libssh2",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "license": "MIT",
+  "name": "libnetcdf",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1595451959566,
+  "version": "4.7.4"
+}

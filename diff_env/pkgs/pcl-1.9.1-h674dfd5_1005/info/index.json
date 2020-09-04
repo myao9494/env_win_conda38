@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "h674dfd5_1005",
+  "build_number": 1005,
+  "depends": [
+    "boost-cpp >=1.72.0,<1.72.1.0a0",
+    "flann >=1.9.1,<1.9.2.0a0",
+    "qhull",
+    "vc >=14.1,<15.0a0"
+  ],
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "name": "pcl",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1582298243944,
+  "version": "1.9.1"
+}

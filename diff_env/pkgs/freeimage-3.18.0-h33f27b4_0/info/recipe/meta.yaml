@@ -1,0 +1,47 @@
+# This file created by conda-build 3.18.9
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Fri Oct 11 06:58:25 2019
+# ------------------------------------------------
+
+package:
+    name: freeimage
+    version: 3.18.0
+source:
+    fn: FreeImage3180.zip
+    sha256: f41379682f9ada94ea7b34fe86bf9ee00935a3147be41b6569c9605a53e438fd
+    url: http://downloads.sourceforge.net/freeimage/FreeImage3180.zip
+build:
+    number: '0'
+    run_exports:
+        - freeimage >=3.18.0,<3.19.0a0
+    string: h33f27b4_0
+requirements:
+    build:
+        - vs2017_win-64 19.15.26726 hb4ce483_4
+    host:
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_0
+    run:
+        - vc >=14.1,<15.0a0
+test:
+    commands:
+        - python run_test.py
+    requires:
+        - python
+about:
+    home: http://freeimage.sourceforge.net/
+    license: GPLv2 GPLv3 FreeImage
+    license_file:
+        - license-fi.txt
+        - license-gplv2.txt
+        - license-gplv3.txt
+    summary: Helps provide support for many common image formats (PNG, JPEG, TIFF,
+        BMP and others).
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - almarklein
+        - jakirkham
+        - msarahan
+        - seanyen

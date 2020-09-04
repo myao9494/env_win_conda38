@@ -1,0 +1,105 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Tue Nov 12 16:27:49 2019
+# ------------------------------------------------
+
+package:
+    name: pyqt
+    version: 5.12.3
+source:
+    -   folder: pyqt5
+        patches:
+            - 0003-configure.patch
+            - 0004-configure-winbat.patch
+            - py2_segfault.diff
+            - qt5_dll.diff
+        sha1: f442a876794947a24474cf85eb02abd60f00f642
+        url: https://www.riverbankcomputing.com/static/Downloads/PyQt5/5.12.3/PyQt5_gpl-5.12.3.tar.gz
+    -   folder: sip
+        patches:
+            - 0001-Do-not-override-CC-CXX-LINK-in-sipgen-Makefile.patch
+        sha1: d001eb00f6dae26a952770e805b1519f61cae77d
+        url: https://www.riverbankcomputing.com/static/Downloads/sip/4.19.18/sip-4.19.18.tar.gz
+    -   folder: pyqtwebengine
+        sha1: 737acf93ecf39e5e2136e094a8b0a9ffa47bd2de
+        url: https://www.riverbankcomputing.com/static/Downloads/PyQtWebEngine/5.12.1/PyQtWebEngine_gpl-5.12.1.tar.gz
+build:
+    number: '1'
+    run_exports: pyqt >=5.12.3,<5.13.0a0
+    string: py38h6538335_1
+requirements:
+    build:
+        - jom 1.1.3 0
+        - vs2015_win-64 14.0.25420 h55c1224_11
+    host:
+        - ca-certificates 2019.9.11 hecc5488_0
+        - icu 64.2 he025d50_1
+        - jpeg 9c hfa6e2cd_1001
+        - libclang 9.0.0 default_hf44288c_4
+        - libpng 1.6.37 h7602738_0
+        - openssl 1.1.1d hfa6e2cd_0
+        - python 3.8.0 hc9e8b01_3
+        - qt 5.12.5 h7ef1ec2_0
+        - sqlite 3.30.1 hfa6e2cd_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_0
+        - zlib 1.2.11 h2fa13f4_1006
+    run:
+        - python >=3.8,<3.9.0a0
+        - qt >=5.12.5,<5.13.0a0
+        - vc >=14,<15.0a0
+test:
+    files:
+        - pyqt_test.py
+    imports:
+        - PyQt5.QtCore
+        - PyQt5.QtGui
+        - PyQt5.QtHelp
+        - PyQt5.QtMultimedia
+        - PyQt5.QtMultimediaWidgets
+        - PyQt5.QtNetwork
+        - PyQt5.QtOpenGL
+        - PyQt5.QtPrintSupport
+        - PyQt5.QtQml
+        - PyQt5.QtQuick
+        - PyQt5.QtSvg
+        - PyQt5.QtTest
+        - PyQt5.QtWebChannel
+        - PyQt5.QtWebEngine
+        - PyQt5.QtWebEngineCore
+        - PyQt5.QtWebEngineWidgets
+        - PyQt5.QtWebSockets
+        - PyQt5.QtWidgets
+        - PyQt5.QtXml
+        - PyQt5.QtXmlPatterns
+        - PyQt5.sip
+about:
+    description: '"PyQt is a set of Python v2 and v3 bindings for The Qt Company''s
+        Qt
+
+        application framework and runs on all platforms supported by Qt including
+
+        Windows, MacOS/X and Linux. PyQt5 supports Qt v5. PyQt4 supports Qt v4 and
+
+        will build against Qt v5. The bindings are implemented as a set of Python
+
+        modules and contain over 1,000 classes."
+
+        '
+    dev_url: https://github.com/pyqt
+    doc_url: https://www.riverbankcomputing.com/software/pyqt/
+    home: http://www.riverbankcomputing.co.uk/software/pyqt
+    license: Commercial, GPL-2.0, GPL-3.0
+    license_family: GPL
+    license_file: pyqt5/LICENSE
+    summary: Python binding of the cross-platform GUI toolkit Qt.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - gillins
+        - jschueller
+        - mingwandroid
+        - msarahan
+        - ocefpaf

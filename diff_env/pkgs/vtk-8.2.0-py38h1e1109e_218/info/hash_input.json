@@ -1,0 +1,19 @@
+{
+  "VTK_WITH_OSMESA": "False",
+  "hdf5": "1.10.6",
+  "libpng": "1.6",
+  "libxml2": "2.9",
+  "boost_cpp": "1.72",
+  "expat": "2.2",
+  "libnetcdf": "4.7.4",
+  "tk": "8.6",
+  "freetype": "2.9.1",
+  "cxx_compiler": "vs2017",
+  "python": "3.8.* *_cpython",
+  "lz4_c": "1.9.2",
+  "libtiff": "4.1.0",
+  "zlib": "1.2",
+  "jpeg": "9",
+  "jsoncpp": "1.8.4",
+  "vtk": "8.2.0"
+}

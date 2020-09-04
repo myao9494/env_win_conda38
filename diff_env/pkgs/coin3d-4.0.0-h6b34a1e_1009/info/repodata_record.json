@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "h6b34a1e_1009",
+  "build_number": 1009,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "boost-cpp >=1.72.0,<1.72.1.0a0",
+    "expat >=2.2.9,<2.3.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "features": "",
+  "fn": "coin3d-4.0.0-h6b34a1e_1009.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "0646e4aae3d14ad3a44faf5092a2a1a3",
+  "name": "coin3d",
+  "platform": "win32",
+  "sha256": "e064ca234d2515a65276d6db85d3847b62209bbd77115d6e0a39b3ee2249f94b",
+  "size": 3598192,
+  "subdir": "win-64",
+  "timestamp": 1597124920188,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/coin3d-4.0.0-h6b34a1e_1009.tar.bz2",
+  "version": "4.0.0"
+}

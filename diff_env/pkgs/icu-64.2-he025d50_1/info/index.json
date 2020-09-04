@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "he025d50_1",
+  "build_number": 1,
+  "depends": [
+    "vc >=14.1,<15.0a0"
+  ],
+  "license": "MIT",
+  "name": "icu",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1566795731346,
+  "version": "64.2"
+}

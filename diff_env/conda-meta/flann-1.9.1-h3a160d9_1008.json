@@ -1,0 +1,481 @@
+{
+  "build": "h3a160d9_1008",
+  "build_number": 1008,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "hdf5 >=1.10.6,<1.10.7.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "extracted_package_dir": "C:\\Users\\mineo\\Anaconda38\\pkgs\\flann-1.9.1-h3a160d9_1008",
+  "features": "",
+  "files": [
+    "Library/bin/flann.dll",
+    "Library/bin/flann_cpp.dll",
+    "Library/include/flann/algorithms/all_indices.h",
+    "Library/include/flann/algorithms/autotuned_index.h",
+    "Library/include/flann/algorithms/center_chooser.h",
+    "Library/include/flann/algorithms/composite_index.h",
+    "Library/include/flann/algorithms/dist.h",
+    "Library/include/flann/algorithms/hierarchical_clustering_index.h",
+    "Library/include/flann/algorithms/kdtree_cuda_3d_index.h",
+    "Library/include/flann/algorithms/kdtree_cuda_builder.h",
+    "Library/include/flann/algorithms/kdtree_index.h",
+    "Library/include/flann/algorithms/kdtree_single_index.h",
+    "Library/include/flann/algorithms/kmeans_index.h",
+    "Library/include/flann/algorithms/linear_index.h",
+    "Library/include/flann/algorithms/lsh_index.h",
+    "Library/include/flann/algorithms/nn_index.h",
+    "Library/include/flann/config.h",
+    "Library/include/flann/defines.h",
+    "Library/include/flann/ext/lz4.h",
+    "Library/include/flann/ext/lz4hc.h",
+    "Library/include/flann/flann.h",
+    "Library/include/flann/flann.hpp",
+    "Library/include/flann/general.h",
+    "Library/include/flann/io/hdf5.h",
+    "Library/include/flann/mpi/client.h",
+    "Library/include/flann/mpi/index.h",
+    "Library/include/flann/mpi/matrix.h",
+    "Library/include/flann/mpi/queries.h",
+    "Library/include/flann/mpi/server.h",
+    "Library/include/flann/nn/ground_truth.h",
+    "Library/include/flann/nn/index_testing.h",
+    "Library/include/flann/nn/simplex_downhill.h",
+    "Library/include/flann/util/allocator.h",
+    "Library/include/flann/util/any.h",
+    "Library/include/flann/util/cuda/heap.h",
+    "Library/include/flann/util/cuda/result_set.h",
+    "Library/include/flann/util/cutil_math.h",
+    "Library/include/flann/util/dynamic_bitset.h",
+    "Library/include/flann/util/heap.h",
+    "Library/include/flann/util/logger.h",
+    "Library/include/flann/util/lsh_table.h",
+    "Library/include/flann/util/matrix.h",
+    "Library/include/flann/util/object_factory.h",
+    "Library/include/flann/util/params.h",
+    "Library/include/flann/util/random.h",
+    "Library/include/flann/util/result_set.h",
+    "Library/include/flann/util/sampling.h",
+    "Library/include/flann/util/saving.h",
+    "Library/include/flann/util/serialization.h",
+    "Library/include/flann/util/timer.h",
+    "Library/lib/flann.lib",
+    "Library/lib/flann_cpp.lib",
+    "Library/lib/flann_cpp_s.lib",
+    "Library/lib/flann_s.lib",
+    "Library/lib/pkgconfig/flann.pc",
+    ".nonadmin"
+  ],
+  "fn": "flann-1.9.1-h3a160d9_1008.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\mineo\\Anaconda38\\pkgs\\flann-1.9.1-h3a160d9_1008",
+    "type": 1
+  },
+  "md5": "f7c036e696120a1e39bbc859c3f093b9",
+  "name": "flann",
+  "package_tarball_full_path": "C:\\Users\\mineo\\Anaconda38\\pkgs\\flann-1.9.1-h3a160d9_1008.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/flann.dll",
+        "path_type": "hardlink",
+        "sha256": "913058d26303836533cdb925a75911b56f2126ddbc5c62cf35331a57afb0aa14",
+        "sha256_in_prefix": "913058d26303836533cdb925a75911b56f2126ddbc5c62cf35331a57afb0aa14",
+        "size_in_bytes": 11291136
+      },
+      {
+        "_path": "Library/bin/flann_cpp.dll",
+        "path_type": "hardlink",
+        "sha256": "eb02693ffbfdc5d8da626ef38b3f011d807bd0cd631aeced82b574cabe405fa4",
+        "sha256_in_prefix": "eb02693ffbfdc5d8da626ef38b3f011d807bd0cd631aeced82b574cabe405fa4",
+        "size_in_bytes": 55296
+      },
+      {
+        "_path": "Library/include/flann/algorithms/all_indices.h",
+        "path_type": "hardlink",
+        "sha256": "63b0636d66f43a23c46108c395b3626c3b433972abfda7cf3a7764976aea0022",
+        "sha256_in_prefix": "63b0636d66f43a23c46108c395b3626c3b433972abfda7cf3a7764976aea0022",
+        "size_in_bytes": 6799
+      },
+      {
+        "_path": "Library/include/flann/algorithms/autotuned_index.h",
+        "path_type": "hardlink",
+        "sha256": "79f3820c45b082b9fa67d186e7fed6d86ae793cfd964078f19f30eff2238800e",
+        "sha256_in_prefix": "79f3820c45b082b9fa67d186e7fed6d86ae793cfd964078f19f30eff2238800e",
+        "size_in_bytes": 26390
+      },
+      {
+        "_path": "Library/include/flann/algorithms/center_chooser.h",
+        "path_type": "hardlink",
+        "sha256": "81090bf4cb7e3d15911c804d5d093ceefd83a987e43a225cbb7d70fdc9bfb3dd",
+        "sha256_in_prefix": "81090bf4cb7e3d15911c804d5d093ceefd83a987e43a225cbb7d70fdc9bfb3dd",
+        "size_in_bytes": 12523
+      },
+      {
+        "_path": "Library/include/flann/algorithms/composite_index.h",
+        "path_type": "hardlink",
+        "sha256": "d05349240d695638f37738da7655b63f63b8477f16b0334c0aff9949e4efcd41",
+        "sha256_in_prefix": "d05349240d695638f37738da7655b63f63b8477f16b0334c0aff9949e4efcd41",
+        "size_in_bytes": 7118
+      },
+      {
+        "_path": "Library/include/flann/algorithms/dist.h",
+        "path_type": "hardlink",
+        "sha256": "4afcc81ff4ecedb2098306d5941456504e56bb0f7119be64de2a9b9f56a972d0",
+        "sha256_in_prefix": "4afcc81ff4ecedb2098306d5941456504e56bb0f7119be64de2a9b9f56a972d0",
+        "size_in_bytes": 26081
+      },
+      {
+        "_path": "Library/include/flann/algorithms/hierarchical_clustering_index.h",
+        "path_type": "hardlink",
+        "sha256": "95cbe7cb77c2469089ee68a209957836807efb3d9bcf306b9d0906ccbad4d97d",
+        "sha256_in_prefix": "95cbe7cb77c2469089ee68a209957836807efb3d9bcf306b9d0906ccbad4d97d",
+        "size_in_bytes": 21319
+      },
+      {
+        "_path": "Library/include/flann/algorithms/kdtree_cuda_3d_index.h",
+        "path_type": "hardlink",
+        "sha256": "5fa5560f9c8cf0cc7e23c63b2fb52c39e725f811b841e9f75f6735fa78b85e81",
+        "sha256_in_prefix": "5fa5560f9c8cf0cc7e23c63b2fb52c39e725f811b841e9f75f6735fa78b85e81",
+        "size_in_bytes": 10444
+      },
+      {
+        "_path": "Library/include/flann/algorithms/kdtree_cuda_builder.h",
+        "path_type": "hardlink",
+        "sha256": "79d22e54b4af115221c052d7acf2f26f344ca69fa87eefa0c46ec3d3956b4747",
+        "sha256_in_prefix": "79d22e54b4af115221c052d7acf2f26f344ca69fa87eefa0c46ec3d3956b4747",
+        "size_in_bytes": 29646
+      },
+      {
+        "_path": "Library/include/flann/algorithms/kdtree_index.h",
+        "path_type": "hardlink",
+        "sha256": "6a33d911319284727f87a597dfb3f2d96e03df2ae7bb8301b18445a18327181b",
+        "sha256_in_prefix": "6a33d911319284727f87a597dfb3f2d96e03df2ae7bb8301b18445a18327181b",
+        "size_in_bytes": 24225
+      },
+      {
+        "_path": "Library/include/flann/algorithms/kdtree_single_index.h",
+        "path_type": "hardlink",
+        "sha256": "908fc78d108b9cd55c4d393bf9ca1ebaef92c9dad63620cac8d9c295b6853d5c",
+        "sha256_in_prefix": "908fc78d108b9cd55c4d393bf9ca1ebaef92c9dad63620cac8d9c295b6853d5c",
+        "size_in_bytes": 21535
+      },
+      {
+        "_path": "Library/include/flann/algorithms/kmeans_index.h",
+        "path_type": "hardlink",
+        "sha256": "b4dd6b690b6908145b9c1f52180eaa181f7c4a1e9e8e277e934db42294647950",
+        "sha256_in_prefix": "b4dd6b690b6908145b9c1f52180eaa181f7c4a1e9e8e277e934db42294647950",
+        "size_in_bytes": 33192
+      },
+      {
+        "_path": "Library/include/flann/algorithms/linear_index.h",
+        "path_type": "hardlink",
+        "sha256": "3ad475d16bc3c40ddd7f119d4102a68eb633ee0165f9b561ba40dc9c16ebf802",
+        "sha256_in_prefix": "3ad475d16bc3c40ddd7f119d4102a68eb633ee0165f9b561ba40dc9c16ebf802",
+        "size_in_bytes": 4371
+      },
+      {
+        "_path": "Library/include/flann/algorithms/lsh_index.h",
+        "path_type": "hardlink",
+        "sha256": "9363e835cbdfdc97a5229909dd753a071a1d7f686b1b5dfb661712e29fa4a9e2",
+        "sha256_in_prefix": "9363e835cbdfdc97a5229909dd753a071a1d7f686b1b5dfb661712e29fa4a9e2",
+        "size_in_bytes": 20234
+      },
+      {
+        "_path": "Library/include/flann/algorithms/nn_index.h",
+        "path_type": "hardlink",
+        "sha256": "6fac5c8247d0b831ed5adf7983cbd0da75fd11848c2966b2df752195b04f5b99",
+        "sha256_in_prefix": "6fac5c8247d0b831ed5adf7983cbd0da75fd11848c2966b2df752195b04f5b99",
+        "size_in_bytes": 25872
+      },
+      {
+        "_path": "Library/include/flann/config.h",
+        "path_type": "hardlink",
+        "sha256": "c2472a911a9be736dd028461aaec0e55b23b866b3275bb24b39cc25c93e6c06a",
+        "sha256_in_prefix": "c2472a911a9be736dd028461aaec0e55b23b866b3275bb24b39cc25c93e6c06a",
+        "size_in_bytes": 1805
+      },
+      {
+        "_path": "Library/include/flann/defines.h",
+        "path_type": "hardlink",
+        "sha256": "f5dadbdda62dcb5601239172a8c0df58ba2f2626f79439c7b5dc0586f8342ae0",
+        "sha256_in_prefix": "f5dadbdda62dcb5601239172a8c0df58ba2f2626f79439c7b5dc0586f8342ae0",
+        "size_in_bytes": 4333
+      },
+      {
+        "_path": "Library/include/flann/ext/lz4.h",
+        "path_type": "hardlink",
+        "sha256": "ee1cc5ab90016e75d62cfc21c42f029f7f495de5cc37b72eca20414b7e32562e",
+        "sha256_in_prefix": "ee1cc5ab90016e75d62cfc21c42f029f7f495de5cc37b72eca20414b7e32562e",
+        "size_in_bytes": 18830
+      },
+      {
+        "_path": "Library/include/flann/ext/lz4hc.h",
+        "path_type": "hardlink",
+        "sha256": "06482c03dd67b87abb610edbb238b0b413551eb15522c399c339808b9bd0159e",
+        "sha256_in_prefix": "06482c03dd67b87abb610edbb238b0b413551eb15522c399c339808b9bd0159e",
+        "size_in_bytes": 9618
+      },
+      {
+        "_path": "Library/include/flann/flann.h",
+        "path_type": "hardlink",
+        "sha256": "2b857f2f64d6fedda990fae967f1ffd68d3b92656b061c474434c6165268b2d5",
+        "sha256_in_prefix": "2b857f2f64d6fedda990fae967f1ffd68d3b92656b061c474434c6165268b2d5",
+        "size_in_bytes": 28980
+      },
+      {
+        "_path": "Library/include/flann/flann.hpp",
+        "path_type": "hardlink",
+        "sha256": "48644bcca29eef6352d9a37a7beaf2210cd470de81b4c229f254b9ab958f152f",
+        "sha256_in_prefix": "48644bcca29eef6352d9a37a7beaf2210cd470de81b4c229f254b9ab958f152f",
+        "size_in_bytes": 13647
+      },
+      {
+        "_path": "Library/include/flann/general.h",
+        "path_type": "hardlink",
+        "sha256": "0eb8273890015f85cf9c9838bcf6a02bcb055aa51a1f095f52a8531631dc5f69",
+        "sha256_in_prefix": "0eb8273890015f85cf9c9838bcf6a02bcb055aa51a1f095f52a8531631dc5f69",
+        "size_in_bytes": 5120
+      },
+      {
+        "_path": "Library/include/flann/io/hdf5.h",
+        "path_type": "hardlink",
+        "sha256": "24c9179c5439f43a50fdd406d9304b8c140822058ba288e35fd5cacfa0803851",
+        "sha256_in_prefix": "24c9179c5439f43a50fdd406d9304b8c140822058ba288e35fd5cacfa0803851",
+        "size_in_bytes": 7354
+      },
+      {
+        "_path": "Library/include/flann/mpi/client.h",
+        "path_type": "hardlink",
+        "sha256": "2f141a54351d2536c72b4f595432a8598a9e9a58c26f22b88459493dfe485e76",
+        "sha256_in_prefix": "2f141a54351d2536c72b4f595432a8598a9e9a58c26f22b88459493dfe485e76",
+        "size_in_bytes": 2928
+      },
+      {
+        "_path": "Library/include/flann/mpi/index.h",
+        "path_type": "hardlink",
+        "sha256": "d07ebacc25edbe10d8fe1df11ac57a81b94e5ad476366793825fd12d1e65accf",
+        "sha256_in_prefix": "d07ebacc25edbe10d8fe1df11ac57a81b94e5ad476366793825fd12d1e65accf",
+        "size_in_bytes": 9336
+      },
+      {
+        "_path": "Library/include/flann/mpi/matrix.h",
+        "path_type": "hardlink",
+        "sha256": "11d73a3bea627ab29bc21e5bddccab52f4ec7dc1f196e32a2cbefd0b607bbc2d",
+        "sha256_in_prefix": "11d73a3bea627ab29bc21e5bddccab52f4ec7dc1f196e32a2cbefd0b607bbc2d",
+        "size_in_bytes": 2208
+      },
+      {
+        "_path": "Library/include/flann/mpi/queries.h",
+        "path_type": "hardlink",
+        "sha256": "3db88586ce3ae0a715e0596c0604b8efef7833c88b6c9fe75352e6fad9501561",
+        "sha256_in_prefix": "3db88586ce3ae0a715e0596c0604b8efef7833c88b6c9fe75352e6fad9501561",
+        "size_in_bytes": 3049
+      },
+      {
+        "_path": "Library/include/flann/mpi/server.h",
+        "path_type": "hardlink",
+        "sha256": "d4263cb2342f2d6415491d54190128cab84a61e7771b568cb5da75290b87aecb",
+        "sha256_in_prefix": "d4263cb2342f2d6415491d54190128cab84a61e7771b568cb5da75290b87aecb",
+        "size_in_bytes": 4553
+      },
+      {
+        "_path": "Library/include/flann/nn/ground_truth.h",
+        "path_type": "hardlink",
+        "sha256": "2ced2871e351592f8320f7a71f3a7cbb13d23965b597baeeb48801f6105058ef",
+        "sha256_in_prefix": "2ced2871e351592f8320f7a71f3a7cbb13d23965b597baeeb48801f6105058ef",
+        "size_in_bytes": 3412
+      },
+      {
+        "_path": "Library/include/flann/nn/index_testing.h",
+        "path_type": "hardlink",
+        "sha256": "49de44f46dec7df6fcfac63cbf74a529f67e55a51a6f6532b778b8dd18672e54",
+        "sha256_in_prefix": "49de44f46dec7df6fcfac63cbf74a529f67e55a51a6f6532b778b8dd18672e54",
+        "size_in_bytes": 11041
+      },
+      {
+        "_path": "Library/include/flann/nn/simplex_downhill.h",
+        "path_type": "hardlink",
+        "sha256": "607008624b74ee089a11a983e2f73b468a87740dcb8b5f6f40a39bad864a33d9",
+        "sha256_in_prefix": "607008624b74ee089a11a983e2f73b468a87740dcb8b5f6f40a39bad864a33d9",
+        "size_in_bytes": 5726
+      },
+      {
+        "_path": "Library/include/flann/util/allocator.h",
+        "path_type": "hardlink",
+        "sha256": "fd207e14a140d6b35b645ff0ebb104fcb217ecdb2f5dbd62acfb4ca195e3bf68",
+        "sha256_in_prefix": "fd207e14a140d6b35b645ff0ebb104fcb217ecdb2f5dbd62acfb4ca195e3bf68",
+        "size_in_bytes": 6398
+      },
+      {
+        "_path": "Library/include/flann/util/any.h",
+        "path_type": "hardlink",
+        "sha256": "665846a7453734928bfa3d81ef385d7eab87190cada121696c3164bb856a7e6b",
+        "sha256_in_prefix": "665846a7453734928bfa3d81ef385d7eab87190cada121696c3164bb856a7e6b",
+        "size_in_bytes": 7406
+      },
+      {
+        "_path": "Library/include/flann/util/cuda/heap.h",
+        "path_type": "hardlink",
+        "sha256": "28e612320d495da8419356646bdd68e519f25584088193114dcbba10c72de4e9",
+        "sha256_in_prefix": "28e612320d495da8419356646bdd68e519f25584088193114dcbba10c72de4e9",
+        "size_in_bytes": 4903
+      },
+      {
+        "_path": "Library/include/flann/util/cuda/result_set.h",
+        "path_type": "hardlink",
+        "sha256": "a5f19b5fbaf116836f929fb964bf21ef2b9b80b3ae3100b221dc641e7ffc3bc8",
+        "sha256_in_prefix": "a5f19b5fbaf116836f929fb964bf21ef2b9b80b3ae3100b221dc641e7ffc3bc8",
+        "size_in_bytes": 15962
+      },
+      {
+        "_path": "Library/include/flann/util/cutil_math.h",
+        "path_type": "hardlink",
+        "sha256": "93e1a6e824997c8d465d7faba86f8f09c1d003bbb492dacf7c771a1fec57f1d8",
+        "sha256_in_prefix": "93e1a6e824997c8d465d7faba86f8f09c1d003bbb492dacf7c771a1fec57f1d8",
+        "size_in_bytes": 36730
+      },
+      {
+        "_path": "Library/include/flann/util/dynamic_bitset.h",
+        "path_type": "hardlink",
+        "sha256": "a17373751d61cc2b2242ad7522c88d3f7cc5cb75166dcd1ef88f738db9be4019",
+        "sha256_in_prefix": "a17373751d61cc2b2242ad7522c88d3f7cc5cb75166dcd1ef88f738db9be4019",
+        "size_in_bytes": 4671
+      },
+      {
+        "_path": "Library/include/flann/util/heap.h",
+        "path_type": "hardlink",
+        "sha256": "13aa11f58c13e2ab626b502fa825e5403f84046c2e40fa2586341a96192e14b6",
+        "sha256_in_prefix": "13aa11f58c13e2ab626b502fa825e5403f84046c2e40fa2586341a96192e14b6",
+        "size_in_bytes": 10029
+      },
+      {
+        "_path": "Library/include/flann/util/logger.h",
+        "path_type": "hardlink",
+        "sha256": "dc1e01cff7cda21b6ffbd09764066d12d55b49a73da89baa8203a06de127b267",
+        "sha256_in_prefix": "dc1e01cff7cda21b6ffbd09764066d12d55b49a73da89baa8203a06de127b267",
+        "size_in_bytes": 3899
+      },
+      {
+        "_path": "Library/include/flann/util/lsh_table.h",
+        "path_type": "hardlink",
+        "sha256": "1be146dc1cd09c6f6d8af5dea474cee1e2f5b47bf0fc449cf24c58152ea3e240",
+        "sha256_in_prefix": "1be146dc1cd09c6f6d8af5dea474cee1e2f5b47bf0fc449cf24c58152ea3e240",
+        "size_in_bytes": 17754
+      },
+      {
+        "_path": "Library/include/flann/util/matrix.h",
+        "path_type": "hardlink",
+        "sha256": "75d63762f0a689b7a6dc442766b894db85715c0446ad36b310bb780f4ce5d76c",
+        "sha256_in_prefix": "75d63762f0a689b7a6dc442766b894db85715c0446ad36b310bb780f4ce5d76c",
+        "size_in_bytes": 3773
+      },
+      {
+        "_path": "Library/include/flann/util/object_factory.h",
+        "path_type": "hardlink",
+        "sha256": "36065c458c9eec409cdcd3ff1f687f6b43f29cc002baac69610a6f0534543e7a",
+        "sha256_in_prefix": "36065c458c9eec409cdcd3ff1f687f6b43f29cc002baac69610a6f0534543e7a",
+        "size_in_bytes": 2875
+      },
+      {
+        "_path": "Library/include/flann/util/params.h",
+        "path_type": "hardlink",
+        "sha256": "d3072b7239f98cbab7a38cba5f9ab09dd05b763287ea29c149c69bf3b9026395",
+        "sha256_in_prefix": "d3072b7239f98cbab7a38cba5f9ab09dd05b763287ea29c149c69bf3b9026395",
+        "size_in_bytes": 4297
+      },
+      {
+        "_path": "Library/include/flann/util/random.h",
+        "path_type": "hardlink",
+        "sha256": "c5501765a3cf650739c799be5e5aef81263cb1e5acb7bc4fdc5f5d5d2a059a5d",
+        "sha256_in_prefix": "c5501765a3cf650739c799be5e5aef81263cb1e5acb7bc4fdc5f5d5d2a059a5d",
+        "size_in_bytes": 3850
+      },
+      {
+        "_path": "Library/include/flann/util/result_set.h",
+        "path_type": "hardlink",
+        "sha256": "fde684ba45ecc5e1fe1aef07c8934955a79455518880aba60c4c646b7f67c7aa",
+        "sha256_in_prefix": "fde684ba45ecc5e1fe1aef07c8934955a79455518880aba60c4c646b7f67c7aa",
+        "size_in_bytes": 24047
+      },
+      {
+        "_path": "Library/include/flann/util/sampling.h",
+        "path_type": "hardlink",
+        "sha256": "4313f92ce892e357fa2fd49e0b86a843e1da27d3ffb93253547cd6e743dbf147",
+        "sha256_in_prefix": "4313f92ce892e357fa2fd49e0b86a843e1da27d3ffb93253547cd6e743dbf147",
+        "size_in_bytes": 2596
+      },
+      {
+        "_path": "Library/include/flann/util/saving.h",
+        "path_type": "hardlink",
+        "sha256": "8fb4395d453108d77de9e666d871907d92455903a1644696038c8586ccb6cef9",
+        "sha256_in_prefix": "8fb4395d453108d77de9e666d871907d92455903a1644696038c8586ccb6cef9",
+        "size_in_bytes": 3827
+      },
+      {
+        "_path": "Library/include/flann/util/serialization.h",
+        "path_type": "hardlink",
+        "sha256": "8a57e9a8a19550d06f054685936db10a17046b49075cebe262a440e992637aee",
+        "sha256_in_prefix": "8a57e9a8a19550d06f054685936db10a17046b49075cebe262a440e992637aee",
+        "size_in_bytes": 20402
+      },
+      {
+        "_path": "Library/include/flann/util/timer.h",
+        "path_type": "hardlink",
+        "sha256": "c95336fe5f573c9411bbd8ec4691521fae5b5e05ce3095c3fcc414db20058361",
+        "sha256_in_prefix": "c95336fe5f573c9411bbd8ec4691521fae5b5e05ce3095c3fcc414db20058361",
+        "size_in_bytes": 2458
+      },
+      {
+        "_path": "Library/lib/flann.lib",
+        "path_type": "hardlink",
+        "sha256": "6cc9cd3d57e60da07e75585067bcebf60c22adde71b2f61cb1a332ce27632c9b",
+        "sha256_in_prefix": "6cc9cd3d57e60da07e75585067bcebf60c22adde71b2f61cb1a332ce27632c9b",
+        "size_in_bytes": 45008710
+      },
+      {
+        "_path": "Library/lib/flann_cpp.lib",
+        "path_type": "hardlink",
+        "sha256": "574a0f641d1a8acc80603f5ddd8fa71537732e12e0c870979ffb2332bd0a2892",
+        "sha256_in_prefix": "574a0f641d1a8acc80603f5ddd8fa71537732e12e0c870979ffb2332bd0a2892",
+        "size_in_bytes": 19926
+      },
+      {
+        "_path": "Library/lib/flann_cpp_s.lib",
+        "path_type": "hardlink",
+        "sha256": "2226971533b5a728d4f9f0a628efbaede4cd867a4832191981b1f39b1548cdcb",
+        "sha256_in_prefix": "2226971533b5a728d4f9f0a628efbaede4cd867a4832191981b1f39b1548cdcb",
+        "size_in_bytes": 115690
+      },
+      {
+        "_path": "Library/lib/flann_s.lib",
+        "path_type": "hardlink",
+        "sha256": "c338d923864365f86e65a03a8cfecfb0ebbab43ee33c934c832d6f3a2864d082",
+        "sha256_in_prefix": "c338d923864365f86e65a03a8cfecfb0ebbab43ee33c934c832d6f3a2864d082",
+        "size_in_bytes": 61658848
+      },
+      {
+        "_path": "Library/lib/pkgconfig/flann.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/flann_1588122799408/_h_env",
+        "sha256": "41d4012490514ce577eb95bee839c05b1a3cf502d0964f89d2e47e9918365e8a",
+        "sha256_in_prefix": "ef02735d7b9b8333f32e45adcdd55b5e29720c0df70ae03f618bc4eb3eeea3d8",
+        "size_in_bytes": 341
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "af5fccbbcff1cbe64a81ca352ef02a9674e85d44f90cf2d2f6b1f3824d59d691",
+  "size": 5967904,
+  "subdir": "win-64",
+  "timestamp": 1588123451283,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/flann-1.9.1-h3a160d9_1008.tar.bz2",
+  "version": "1.9.1"
+}
