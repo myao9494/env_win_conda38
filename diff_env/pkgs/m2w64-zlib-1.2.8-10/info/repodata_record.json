@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "10",
+  "build_number": 10,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-bzip2",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "features": "",
+  "fn": "m2w64-zlib-1.2.8-10.tar.bz2",
+  "license": "ZLIB",
+  "md5": "0485dc8f4d06b8f59d1a280059b11cb9",
+  "name": "m2w64-zlib",
+  "platform": "win32",
+  "sha256": "c72049bf092511d6d9449a19257c7b5287de991b5806a33a9d6734cb507f3b79",
+  "size": 201984,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-zlib-1.2.8-10.tar.bz2",
+  "version": "1.2.8"
+}

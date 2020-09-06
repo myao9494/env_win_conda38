@@ -1,0 +1,7 @@
+{
+    "uninstalled_core_extensions": [
+        "jupyterlab-nvdashboard",
+        "@kiteco/jupyterlab-kite",
+        "@krassowski/jupyterlab-lsp"
+    ]
+}

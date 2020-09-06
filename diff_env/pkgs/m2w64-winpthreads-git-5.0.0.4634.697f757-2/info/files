@@ -1,0 +1,13 @@
+Library/mingw-w64/share/licenses/winpthreads/COPYING
+Library/mingw-w64/x86_64-w64-mingw32/lib/libpthread.dll.a
+Library/mingw-w64/x86_64-w64-mingw32/lib/libpthread.a
+Library/mingw-w64/x86_64-w64-mingw32/include/sched.h
+Library/mingw-w64/x86_64-w64-mingw32/include/pthread.h
+Library/mingw-w64/x86_64-w64-mingw32/include/pthread_time.h
+Library/mingw-w64/x86_64-w64-mingw32/lib/libwinpthread.dll.a
+Library/mingw-w64/x86_64-w64-mingw32/include/pthread_signal.h
+Library/mingw-w64/x86_64-w64-mingw32/include/pthread_compat.h
+Library/mingw-w64/x86_64-w64-mingw32/include/semaphore.h
+Library/mingw-w64/x86_64-w64-mingw32/include/pthread_unistd.h
+Library/mingw-w64/x86_64-w64-mingw32/lib/libwinpthread.a
+Library/mingw-w64/share/licenses/winpthreads/mingw-w64-libraries/winpthreads/COPYING

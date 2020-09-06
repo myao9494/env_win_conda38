@@ -1,9 +1,0 @@
-{
-  "c_compiler": "vs2017",
-  "zlib": "1.2",
-  "cxx_compiler": "vs2017",
-  "python": "3.8.* *_cpython",
-  "bzip2": "1",
-  "numpy": "1.14",
-  "hdf5": "1.10.6"
-}

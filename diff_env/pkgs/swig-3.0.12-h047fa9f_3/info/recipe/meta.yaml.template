@@ -1,0 +1,55 @@
+{% set version = "3.0.12" %}
+
+package:
+  name: swig
+  version: {{ version }}
+
+source:
+  fn: swig-{{ version }}.tar.gz  # [unix]
+  url: http://prdownloads.sourceforge.net/swig/swig-{{ version }}.tar.gz  # [unix]
+  sha256: 7cf9f447ae7ed1c51722efc45e7f14418d15d7a1e143ac9f09a668999f4fc94d  # [unix]
+  fn: swigwin-{{ version }}.zip  # [win]
+  url: http://prdownloads.sourceforge.net/swig/swigwin-{{ version }}.zip  # [win]
+  sha256: 21ce6cbe297a56b697ef6e7e92a83e75ca41dedc87e48282ab444591986c35f5  # [win]
+
+build:
+  number: 3
+  detect_binary_files_with_prefix: True  # [unix]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - bison # [unix]
+    - pcre  # [unix]
+  run:      # [unix]
+    - pcre  # [unix]
+
+test:
+  commands:
+    - swig -help
+
+about:
+  home: http://www.swig.org/
+  license: GPL 3
+  license_file: LICENSE
+  license_family: GPL
+  summary: C/C++ parser code generator
+  description: |
+    SWIG is an interface compiler that connects programs written in C and C++
+    with scripting languages such as Perl, Python, Ruby, and Tcl. It works by
+    taking the declarations found in C/C++ header files and using them to
+    generate the wrapper code that scripting languages need to access the
+    underlying C/C++ code. In addition, SWIG provides a variety of
+    customization features that let you tailor the wrapping process to suit
+    your application.
+  dev_url: https://github.com/swig/swig
+  doc_url: http://www.swig.org/Doc3.0/index.html
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - jschueller
+    - mingwandroid
+    - msarahan
+    - ocefpaf

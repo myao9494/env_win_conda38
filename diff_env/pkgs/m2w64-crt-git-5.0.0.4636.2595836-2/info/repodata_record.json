@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-headers-git",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "features": "",
+  "fn": "m2w64-crt-git-5.0.0.4636.2595836-2.tar.bz2",
+  "license": "custom",
+  "md5": "7bc2c518106ee6caf405d80b792261f0",
+  "name": "m2w64-crt-git",
+  "platform": "win32",
+  "sha256": "f16379147a545a2860d7e74cff852338a6aab19571e76cfe1a177bbffef296a8",
+  "size": 3554119,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-crt-git-5.0.0.4636.2595836-2.tar.bz2",
+  "version": "5.0.0.4636.2595836"
+}

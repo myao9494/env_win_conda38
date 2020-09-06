@@ -1,0 +1,38 @@
+{
+  "arch": null,
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "constrains": [
+    "scikit-image",
+    "msgpack-python",
+    "requests",
+    "pycollada",
+    "shapely",
+    "colorlog",
+    "meshio",
+    "setuptools",
+    "sympy",
+    "jsonschema",
+    "lxml",
+    "xxhash",
+    "rtree",
+    "pyglet",
+    "triangle",
+    "psutil",
+    "networkx",
+    "scipy",
+    "pillow",
+    "chardet"
+  ],
+  "depends": [
+    "numpy",
+    "python"
+  ],
+  "license": "MIT",
+  "name": "trimesh",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1599079056125,
+  "version": "3.8.5"
+}

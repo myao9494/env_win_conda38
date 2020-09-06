@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "msys2-conda-epoch >=20160418"
+  ],
+  "features": "",
+  "fn": "m2w64-headers-git-5.0.0.4636.c0ad18a-2.tar.bz2",
+  "license": "custom",
+  "md5": "370a562fd1abc5a92a432bc7835fa650",
+  "name": "m2w64-headers-git",
+  "platform": "win32",
+  "sha256": "9a99c53e40055b094743080bb22dbe43fe6af3e9439ad02e26a106355dcdda42",
+  "size": 5892787,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-headers-git-5.0.0.4636.c0ad18a-2.tar.bz2",
+  "version": "5.0.0.4636.c0ad18a"
+}

@@ -1,0 +1,123 @@
+{
+  "name": "@krassowski/jupyterlab-lsp",
+  "version": "2.0.0",
+  "description": "Language Server Protocol integration for JupyterLab",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension",
+    "lsp",
+    "language-server-protocol",
+    "intellisense",
+    "code-intelligence",
+    "linting"
+  ],
+  "homepage": "https://github.com/krassowski/jupyterlab-lsp",
+  "bugs": {
+    "url": "https://github.com/krassowski/jupyterlab-lsp/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": "Michał Krassowski",
+  "files": [
+    "{lib,style,schema,src}/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf,css,json,ts,tsx,txt,md}"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krassowski/jupyterlab-lsp.git"
+  },
+  "scripts": {
+    "build": "jlpm build:schema && tsc -b",
+    "build:schema": "jlpm build:schema-backend && jlpm build:schema-completion && jlpm build:schema-hover && jlpm build:schema-diagnostics && jlpm build:schema-syntax_highlighting",
+    "build:schema-backend": "json2ts ../../py_src/jupyter_lsp/schema/schema.json --unreachableDefinitions | prettier --stdin-filepath _schema.d.ts > src/_schema.d.ts",
+    "build:schema-completion": "json2ts schema/completion.json | prettier --stdin-filepath _completion.d.ts > src/_completion.d.ts",
+    "build:schema-hover": "json2ts schema/hover.json | prettier --stdin-filepath _hover.d.ts > src/_hover.d.ts",
+    "build:schema-diagnostics": "json2ts schema/diagnostics.json | prettier --stdin-filepath _diagnostics.d.ts > src/_diagnostics.d.ts",
+    "build:schema-syntax_highlighting": "json2ts schema/syntax_highlighting.json | prettier --stdin-filepath _syntax_highlighting.d.ts > src/_syntax_highlighting.d.ts",
+    "bundle": "npm pack .",
+    "clean": "rimraf lib",
+    "lab:link": "jupyter labextension link . --no-build",
+    "test": "jlpm jest --coverage --coverageReporters=cobertura --coverageReporters=html --coverageReporters=text-summary"
+  },
+  "dependencies": {
+    "@krassowski/jupyterlab_go_to_definition": "~1.0.0",
+    "lodash.mergewith": "^4.6.1",
+    "lsp-ws-connection": "~0.5.0",
+    "@krassowski/completion-theme": "~2.0.0",
+    "@krassowski/theme-vscode": "~2.0.0",
+    "@krassowski/theme-material": "~2.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.3",
+    "@jupyterlab/application": "~2.2.0",
+    "@jupyterlab/apputils": "~2.2.0",
+    "@jupyterlab/cells": "~2.2.0",
+    "@jupyterlab/codeeditor": "~2.2.0",
+    "@jupyterlab/codemirror": "~2.2.0",
+    "@jupyterlab/completer": "~2.2.0",
+    "@jupyterlab/coreutils": "~4.2.0",
+    "@jupyterlab/docmanager": "~2.2.0",
+    "@jupyterlab/docregistry": "~2.2.0",
+    "@jupyterlab/fileeditor": "~2.2.0",
+    "@jupyterlab/notebook": "~2.2.0",
+    "@jupyterlab/rendermime": "~2.2.0",
+    "@jupyterlab/services": "~5.2.0",
+    "@jupyterlab/statusbar": "~2.2.0",
+    "@jupyterlab/testutils": "~2.2.0",
+    "@jupyterlab/tooltip": "~2.2.0",
+    "@lumino/algorithm": "*",
+    "@lumino/widgets": "*",
+    "@types/chai": "^4.1.7",
+    "@types/codemirror": "^0.0.74",
+    "@types/events": "^3.0.0",
+    "@types/jest": "^23.3.11",
+    "@types/lodash.mergewith": "^4.6.1",
+    "chai": "^4.2.0",
+    "codemirror": "*",
+    "events": "^3.0.0",
+    "jest": "^24.7.1",
+    "jest-junit": "^8.0.0",
+    "json-schema-to-typescript": "^8.0.0",
+    "react": "*",
+    "rimraf": "~2.6.2",
+    "ts-jest": "^24.0.2",
+    "typescript": "~3.9.5"
+  },
+  "peerDependencies": {
+    "@jupyterlab/application": "~2.2.0",
+    "@jupyterlab/apputils": "~2.2.0",
+    "@jupyterlab/cells": "~2.2.0",
+    "@jupyterlab/codeeditor": "~2.2.0",
+    "@jupyterlab/codemirror": "~2.2.0",
+    "@jupyterlab/completer": "~2.2.0",
+    "@jupyterlab/coreutils": "~4.2.0",
+    "@jupyterlab/docmanager": "~2.2.0",
+    "@jupyterlab/docregistry": "~2.2.0",
+    "@jupyterlab/fileeditor": "~2.2.0",
+    "@jupyterlab/notebook": "~2.2.0",
+    "@jupyterlab/rendermime": "~2.2.0",
+    "@jupyterlab/services": "~5.2.0",
+    "@jupyterlab/statusbar": "~2.2.0",
+    "@jupyterlab/tooltip": "~2.2.0",
+    "@jupyterlab/ui-components": "~2.2.0",
+    "@lumino/algorithm": "*",
+    "@lumino/widgets": "*",
+    "codemirror": "*",
+    "react": "*"
+  },
+  "jupyterlab": {
+    "extension": true,
+    "discovery": {
+      "server": {
+        "base": {
+          "name": "jupyter-lsp"
+        },
+        "managers": [
+          "pip"
+        ]
+      }
+    },
+    "schemaDir": "schema"
+  }
+}

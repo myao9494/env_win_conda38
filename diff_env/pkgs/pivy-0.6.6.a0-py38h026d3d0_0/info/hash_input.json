@@ -1,5 +1,0 @@
-{
-  "qt": "5.12",
-  "cxx_compiler": "vs2017",
-  "python": "3.8.* *_cpython"
-}

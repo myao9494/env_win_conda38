@@ -1,0 +1,11 @@
+{
+  "paths": [
+    {
+      "_path": "Library/mingw-w64/x86_64-w64-mingw32/lib/default-manifest.o",
+      "path_type": "hardlink",
+      "sha256": "d2a37dc06a868339fb0e6dcddebfae1656bd7e9e62ea1c70df4458e195ef7783",
+      "size_in_bytes": 1348
+    }
+  ],
+  "paths_version": 1
+}

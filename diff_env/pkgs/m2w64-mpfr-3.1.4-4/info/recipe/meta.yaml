@@ -1,0 +1,41 @@
+# This file created by conda-build 0+unknown
+# meta.yaml template originally from:
+# C:\Users\ray\conda\conda-recipes\msys2\m2w64-mpfr, last modified Mon Dec 19 13:49:40 2016
+# ------------------------------------------------
+
+package:
+    name: m2w64-mpfr
+    version: 3.1.4
+source:
+    md5: 06d49f95455f3d0deb631c7ee76e07eb
+    url: http://msys2-sources.continuum.io/msys2-sources/mingw/sources/mingw-w64-mpfr-3.1.4-3.src.tar.gz
+build:
+    number: '4'
+    string: '4'
+requirements:
+    build: []
+    run:
+        - msys2-conda-epoch >=20160418
+        - m2w64-gmp
+about:
+    home: http://www.mpfr.org/
+    license: LGPL
+    summary: Multiple-precision floating-point library (mingw-w64)
+extra:
+    msys2-binaries:
+        win-32:
+            md5: cdf8873c68d54a770c7fac0cf83cc1d8
+            mv-dsts:
+                - Library/mingw-w64
+            mv-srcs:
+                - mingw32
+            srcpkg: mingw32/mingw-w64-i686-mpfr
+            url: http://msys2-sources.continuum.io/msys2-sources/mingw/i686/mingw-w64-i686-mpfr-3.1.4-3-any.pkg.tar.xz
+        win-64:
+            md5: 6c09715e7c848303c002d0a0285a5f80
+            mv-dsts:
+                - Library/mingw-w64
+            mv-srcs:
+                - mingw64
+            srcpkg: mingw64/mingw-w64-x86_64-mpfr
+            url: http://msys2-sources.continuum.io/msys2-sources/mingw/x86_64/mingw-w64-x86_64-mpfr-3.1.4-3-any.pkg.tar.xz
